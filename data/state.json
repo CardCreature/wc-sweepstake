@@ -1,0 +1,65 @@
+{
+  "processedFixtures": [
+    1489369
+  ],
+  "claims": {},
+  "candidates": {},
+  "playerAges": {
+    "2887": 34,
+    "35532": 28
+  },
+  "missedPens": [],
+  "ownGoalScorers": [],
+  "goals": [
+    {
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "teamId": 16,
+      "teamName": "Mexico",
+      "player": "J. Quinones",
+      "minute": "9'",
+      "elapsed": 9,
+      "extra": 0,
+      "sortKey": "2026-06-11T19:00:00+00:00|009|009"
+    },
+    {
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "teamId": 16,
+      "teamName": "Mexico",
+      "player": "R. Jimenez",
+      "minute": "67'",
+      "elapsed": 67,
+      "extra": 0,
+      "sortKey": "2026-06-11T19:00:00+00:00|067|067"
+    }
+  ],
+  "long": {
+    "nice_to_see_you": {
+      "score": 56,
+      "unit": "min",
+      "team": "South Africa",
+      "detail": "L. Foster off 56' (Mexico v South Africa)",
+      "value": 56,
+      "display": "56'"
+    },
+    "blink": {
+      "score": 9,
+      "unit": "min",
+      "team": "Mexico",
+      "detail": "J. Quinones 9' (Mexico v South Africa)",
+      "value": 9,
+      "display": "9'"
+    },
+    "better_late": {
+      "score": -6700,
+      "unit": "min",
+      "team": "Mexico",
+      "detail": "R. Jimenez 67' (Mexico v South Africa)",
+      "value": 6700,
+      "display": "67'"
+    }
+  },
+  "ownGoalInvolvement": {},
+  "tournamentComplete": false
+}
