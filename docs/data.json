@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T22:11:47.184Z",
+  "updatedAt": "2026-06-11T22:25:17.688Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -81,9 +81,16 @@
       "emoji": "👴",
       "name": "The Streets Won't Forget",
       "desc": "First scorer aged 35 or over.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "streets",
+        "team": "Mexico",
+        "detail": "R. Jimenez scored aged 35+ vs South Africa",
+        "match": "Mexico v South Africa",
+        "awardedBy": "Tom's ruling",
+        "claimedAt": "2026-06-11T22:25:17.679Z"
+      },
+      "owner": "Neil",
       "leader": null
     },
     {
@@ -117,9 +124,16 @@
       "emoji": "📺",
       "name": "Check Complete",
       "desc": "First player sent off after a VAR review.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "check_complete",
+        "team": "South Africa",
+        "detail": "Player sent off after VAR review vs Mexico",
+        "match": "Mexico v South Africa",
+        "awardedBy": "Tom's ruling",
+        "claimedAt": "2026-06-11T22:25:17.680Z"
+      },
+      "owner": "Nick Lunn",
       "leader": null
     },
     {
@@ -372,7 +386,32 @@
       }
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Player sent off after VAR review vs Mexico",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-11T22:25:17.680Z",
+      "name": "Check Complete",
+      "emoji": "📺",
+      "kind": "first",
+      "owner": "Nick Lunn"
+    },
+    {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-11T22:25:17.679Z",
+      "name": "The Streets Won't Forget",
+      "emoji": "👴",
+      "kind": "first",
+      "owner": "Neil"
+    }
+  ],
   "pending": [],
   "butterfly": {
     "potValue": 0,
@@ -479,8 +518,8 @@
         "Mexico",
         "Scotland"
       ],
-      "winnings": 0,
-      "achievements": 0
+      "winnings": 10,
+      "achievements": 1
     },
     {
       "person": "Nick Lunn",
@@ -488,8 +527,8 @@
         "South Africa",
         "Sweden"
       ],
-      "winnings": 0,
-      "achievements": 0
+      "winnings": 10,
+      "achievements": 1
     },
     {
       "person": "Kelsey",

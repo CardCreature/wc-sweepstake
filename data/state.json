@@ -2,7 +2,24 @@
   "processedFixtures": [
     1489369
   ],
-  "claims": {},
+  "claims": {
+    "streets": {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-11T22:25:17.679Z"
+    },
+    "check_complete": {
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Player sent off after VAR review vs Mexico",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-11T22:25:17.680Z"
+    }
+  },
   "candidates": {},
   "playerAges": {
     "2887": 34,
