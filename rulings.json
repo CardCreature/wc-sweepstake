@@ -1,0 +1,71 @@
+# World Cup 2026 Sweepstake Tracker
+
+Automated achievement tracking for the sweepstake. Runs entirely on a free
+GitHub repo — no Firebase, no servers. A scheduled GitHub Action pulls match
+data from API-Football every 30 minutes, runs the 30 achievement rules,
+updates the Butterfly Effect pot, and publishes a live dashboard on GitHub Pages.
+
+## Setup (about 10 minutes)
+
+1. **Get an API key** — free account at https://dashboard.api-football.com
+   (100 requests/day; this engine uses roughly 5–15 per day).
+2. **Create a new GitHub repo** (public, so Pages is free) and push these files.
+3. **Add the secret** — repo → Settings → Secrets and variables → Actions →
+   New repository secret → name `API_FOOTBALL_KEY`, value = your key.
+4. **Allow the bot to commit** — Settings → Actions → General →
+   Workflow permissions → "Read and write permissions".
+5. **Enable Pages** — Settings → Pages → Source: "Deploy from a branch" →
+   branch `main`, folder `/docs`.
+6. **First run** — Actions tab → "Update sweepstake" → Run workflow.
+   This populates `config/participants.json` with the 48 team names.
+7. **Assign punters** — edit `config/participants.json`, put a name against
+   each team. Committing a config change triggers an immediate re-run.
+8. Share the Pages URL (`https://<you>.github.io/<repo>/`) with the group. Done.
+
+## How rulings work (Tom's bit)
+
+Some prizes can't be fully verified from data (card *reasons*, shot distance,
+VAR review length, woodwork). The engine flags **candidates** and shows them
+under "Awaiting Tom's Ruling" on the dashboard, each with a `key`.
+
+Edit `config/rulings.json` (the GitHub mobile app works fine for this):
+
+```json
+{
+  "confirm": ["leadership|12345|England"],
+  "reject":  ["beach|12346|Brazil"],
+  "manualClaims": {
+    "welly":       { "team": "Brazil", "detail": "38-yard screamer", "match": "Brazil v Morocco" },
+    "computer_no": { "team": "France", "detail": "4m12s VAR review vs Senegal" }
+  }
+}
+```
+
+Commit → the Action re-runs → the dashboard updates. Fully manual prizes:
+`welly` (35+ yards) and `computer_no` (longest VAR) — claim via `manualClaims`.
+
+For **Giant Killer**, fill `fifaRankings` in `participants.json` before the
+knockouts, e.g. `"fifaRankings": { "England": 4, "Jordan": 64 }`.
+
+## What's automated vs flagged
+
+- **Fully automatic (~20):** possession/shot-count wins, 5+ yellows, second
+  yellows, stoppage-time sandwich, hat-tricks, defender braces, 35+ scorers
+  (age looked up per scorer), comebacks, lead changes, 7-goal games, sub
+  booked/sub subbed off, redemption arc, own-goal redemption, fastest/latest
+  goal, earliest sub, own-goal counts, the entire Butterfly Effect pot.
+- **Flagged for ruling:** dissent bookings, shirt removals, coach red cards,
+  VAR-related reds, Great Escape, woodwork checks.
+- **Manual only:** 35-yard goals, longest VAR review.
+
+## Notes & quirks
+
+- The pot value shown mid-tournament only counts achievements already dead
+  (all candidates rejected). Final pot is settled after the final.
+- Butterfly alphabetical order uses API team names (e.g. "USA" not "United
+  States") — announce the order to the group early to avoid arguments.
+  It's listed in `docs/data.json` under `butterfly.teamOrder`.
+- Own-goal attribution in feeds is occasionally odd in the first minutes of
+  a match; everything self-corrects once the match finishes.
+- Live matches are re-checked every run; finished matches are scored once.
+- If the Action ever fails, the Actions tab shows the error; re-run manually.
