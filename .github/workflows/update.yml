@@ -1,0 +1,30 @@
+name: Update sweepstake
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 mins; tighten/loosen as you like
+  workflow_dispatch:          # manual "Run workflow" button
+  push:
+    paths:
+      - "config/**"           # re-runs instantly when Tom edits rulings
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run engine
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node src/update.js
+      - name: Commit results
+        run: |
+          git config user.name "sweepstake-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase
+          git add data docs config/participants.json
+          git diff --cached --quiet || git commit -m "Sweepstake update $(date -u +'%Y-%m-%d %H:%M')"
+          git push
