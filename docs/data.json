@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T21:49:59.722Z",
+  "updatedAt": "2026-06-11T22:11:47.184Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -472,7 +472,273 @@
       "Uzbekistan"
     ]
   },
-  "leaderboard": [],
+  "leaderboard": [
+    {
+      "person": "Neil",
+      "teams": [
+        "Mexico",
+        "Scotland"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Nick Lunn",
+      "teams": [
+        "South Africa",
+        "Sweden"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Kelsey",
+      "teams": [
+        "South Korea"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Luke",
+      "teams": [
+        "Czech Republic",
+        "Qatar"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Becky",
+      "teams": [
+        "Canada",
+        "Spain"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Jan",
+      "teams": [
+        "Bosnia & Herzegovina",
+        "Netherlands"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Kate",
+      "teams": [
+        "USA",
+        "Argentina"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Ant",
+      "teams": [
+        "Paraguay",
+        "Saudi Arabia"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Billy",
+      "teams": [
+        "Switzerland",
+        "Croatia"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Gail",
+      "teams": [
+        "Brazil",
+        "Haiti"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Emma G",
+      "teams": [
+        "Morocco"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Josh",
+      "teams": [
+        "Australia"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Will",
+      "teams": [
+        "Türkiye",
+        "Iran"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Michelle Jackson",
+      "teams": [
+        "Germany",
+        "Uzbekistan"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Alan",
+      "teams": [
+        "Curaçao",
+        "Senegal"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "John",
+      "teams": [
+        "Japan",
+        "Ghana"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Vicki",
+      "teams": [
+        "Ivory Coast"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Steve",
+      "teams": [
+        "Ecuador"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Nick",
+      "teams": [
+        "Tunisia",
+        "France"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Wendy",
+      "teams": [
+        "Cape Verde Islands"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Baby",
+      "teams": [
+        "Belgium"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Emma C",
+      "teams": [
+        "Egypt"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Meg",
+      "teams": [
+        "Uruguay"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Daisy",
+      "teams": [
+        "New Zealand"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Tom",
+      "teams": [
+        "Iraq",
+        "Congo DR"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Bloss",
+      "teams": [
+        "Norway",
+        "Jordan"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Mark",
+      "teams": [
+        "Algeria"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Michelle C",
+      "teams": [
+        "Austria"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Lo",
+      "teams": [
+        "Portugal",
+        "Colombia"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Natalie",
+      "teams": [
+        "England"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Chris",
+      "teams": [
+        "Panama"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    }
+  ],
   "upcoming": [
     {
       "match": "South Korea v Czech Republic",
