@@ -19,7 +19,7 @@ jobs:
       - name: Run engine
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: node src/update.js
+        run: node update.js
       - name: Commit results
         run: |
           git config user.name "sweepstake-bot"
