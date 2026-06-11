@@ -11,7 +11,7 @@ const path = require("path");
 
 const API = "https://v3.football.api-sports.io";
 const LEAGUE = 1; // FIFA World Cup
-const SEASON = 2022;
+const SEASON = 2026;
 const KEY = process.env.API_FOOTBALL_KEY;
 
 const ROOT = path.join(__dirname, "..");
