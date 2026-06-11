@@ -1,6 +1,0 @@
-{
-  "_help": "Tom's control panel. 'confirm'/'reject' take candidate keys from the Pending Rulings section of the dashboard (or data/state.json). 'manualClaims' lets you award anything directly, e.g. the 35-yard screamer or longest VAR review.",
-  "confirm": [],
-  "reject": [],
-  "manualClaims": {}
-}
