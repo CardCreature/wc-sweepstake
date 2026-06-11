@@ -1,7 +1,7 @@
 name: Update sweepstake
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 mins; tighten/loosen as you like
+    - cron: "*/10 * * * *"   # every 30 mins; tighten/loosen as you like
   workflow_dispatch:          # manual "Run workflow" button
   push:
     paths:
