@@ -1,0 +1,5 @@
+{
+  "_help": "Put each person's name against their team. Teams auto-populate from the API on the first run - add any missing ones using the exact API spelling. fifaRankings is only needed for the Giant Killer prize (fill in before the knockouts).",
+  "teams": {},
+  "fifaRankings": {}
+}
