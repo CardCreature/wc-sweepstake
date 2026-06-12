@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T14:30:32.127Z",
+  "updatedAt": "2026-06-12T14:38:36.865Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -415,20 +415,7 @@
       "owner": "Nick Lunn"
     }
   ],
-  "pending": [
-    {
-      "key": "check_complete|1489369|South Africa",
-      "achievementId": "check_complete",
-      "team": "South Africa",
-      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
-      "match": "Mexico v South Africa",
-      "fixtureId": 1489369,
-      "date": "2026-06-11T19:00:00+00:00",
-      "status": "pending",
-      "name": "Check Complete",
-      "emoji": "📺"
-    }
-  ],
+  "pending": [],
   "butterfly": {
     "potValue": 0,
     "potItems": [],
