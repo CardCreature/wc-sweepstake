@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T14:10:37.955Z",
+  "updatedAt": "2026-06-12T14:30:32.127Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -88,7 +88,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-11T22:25:17.679Z"
+        "claimedAt": "2026-06-12T14:30:32.126Z"
       },
       "owner": "Neil",
       "leader": null
@@ -131,7 +131,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-11T22:25:17.680Z"
+        "claimedAt": "2026-06-12T14:30:32.126Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -340,7 +340,7 @@
       "owner": null,
       "leader": {
         "team": "Mexico",
-        "detail": "J. Quinones 9' (Mexico v South Africa)"
+        "detail": "Julián Quiñones 9' (Mexico v South Africa)"
       }
     },
     {
@@ -361,14 +361,17 @@
     {
       "id": "computer_no",
       "kind": "long",
-      "mode": "manual",
+      "mode": "auto",
       "emoji": "🖥️",
       "name": "Computer Says No",
-      "desc": "Longest VAR review. (Tom times them — sorry Tom.)",
+      "desc": "Team with the most goals chalked off by VAR.",
       "status": "open",
       "claim": null,
       "owner": null,
-      "leader": null
+      "leader": {
+        "team": "Czech Republic",
+        "detail": "1 goal(s) chalked off so far"
+      }
     },
     {
       "id": "nice_to_see_you",
@@ -382,37 +385,50 @@
       "owner": null,
       "leader": {
         "team": "South Africa",
-        "detail": "L. Foster off 56' (Mexico v South Africa)"
+        "detail": "Lyle Foster off 56' (Mexico v South Africa)"
       }
     }
   ],
   "claims": [
-    {
-      "achievementId": "check_complete",
-      "team": "South Africa",
-      "detail": "Player sent off after VAR review vs Mexico",
-      "match": "Mexico v South Africa",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-11T22:25:17.680Z",
-      "name": "Check Complete",
-      "emoji": "📺",
-      "kind": "first",
-      "owner": "Nick Lunn"
-    },
     {
       "achievementId": "streets",
       "team": "Mexico",
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-11T22:25:17.679Z",
+      "claimedAt": "2026-06-12T14:30:32.126Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
       "owner": "Neil"
+    },
+    {
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Player sent off after VAR review vs Mexico",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-12T14:30:32.126Z",
+      "name": "Check Complete",
+      "emoji": "📺",
+      "kind": "first",
+      "owner": "Nick Lunn"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "check_complete|1489369|South Africa",
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+      "match": "Mexico v South Africa",
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "status": "pending",
+      "name": "Check Complete",
+      "emoji": "📺"
+    }
+  ],
   "butterfly": {
     "potValue": 0,
     "potItems": [],
@@ -477,7 +493,7 @@
         "date": "2026-06-11T19:00:00+00:00",
         "teamId": 16,
         "teamName": "Mexico",
-        "player": "R. Jimenez",
+        "player": "Raúl Jiménez",
         "minute": "67'",
         "elapsed": 67,
         "extra": 0,
@@ -490,7 +506,7 @@
         "date": "2026-06-11T19:00:00+00:00",
         "teamId": 16,
         "teamName": "Mexico",
-        "player": "J. Quinones",
+        "player": "Julián Quiñones",
         "minute": "9'",
         "elapsed": 9,
         "extra": 0,

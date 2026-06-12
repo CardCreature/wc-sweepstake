@@ -1,0 +1,139 @@
+{
+  "processedFixtures": [
+    1489369,
+    1538999
+  ],
+  "claims": {
+    "streets": {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-12T14:30:32.126Z"
+    },
+    "check_complete": {
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Player sent off after VAR review vs Mexico",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-12T14:30:32.126Z"
+    }
+  },
+  "candidates": {
+    "check_complete|1489369|South Africa": {
+      "key": "check_complete|1489369|South Africa",
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+      "match": "Mexico v South Africa",
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "status": "pending"
+    }
+  },
+  "playerAges": {
+    "2887": 34,
+    "2901": 29,
+    "34710": 24,
+    "35532": 28,
+    "66407": 26
+  },
+  "missedPens": [],
+  "ownGoalScorers": [],
+  "goals": [
+    {
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "teamId": 16,
+      "teamName": "Mexico",
+      "player": "Julián Quiñones",
+      "minute": "9'",
+      "elapsed": 9,
+      "extra": 0,
+      "sortKey": "2026-06-11T19:00:00+00:00|009|009"
+    },
+    {
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "teamId": 16,
+      "teamName": "Mexico",
+      "player": "Raúl Jiménez",
+      "minute": "67'",
+      "elapsed": 67,
+      "extra": 0,
+      "sortKey": "2026-06-11T19:00:00+00:00|067|067"
+    },
+    {
+      "fixtureId": 1538999,
+      "date": "2026-06-12T02:00:00+00:00",
+      "teamId": 770,
+      "teamName": "Czech Republic",
+      "player": "L. Krejci",
+      "minute": "59'",
+      "elapsed": 59,
+      "extra": 0,
+      "sortKey": "2026-06-12T02:00:00+00:00|059|059"
+    },
+    {
+      "fixtureId": 1538999,
+      "date": "2026-06-12T02:00:00+00:00",
+      "teamId": 17,
+      "teamName": "South Korea",
+      "player": "Hwang In-Beom",
+      "minute": "67'",
+      "elapsed": 67,
+      "extra": 0,
+      "sortKey": "2026-06-12T02:00:00+00:00|067|067"
+    },
+    {
+      "fixtureId": 1538999,
+      "date": "2026-06-12T02:00:00+00:00",
+      "teamId": 17,
+      "teamName": "South Korea",
+      "player": "Oh Hyeon-Gyu",
+      "minute": "80'",
+      "elapsed": 80,
+      "extra": 0,
+      "sortKey": "2026-06-12T02:00:00+00:00|080|080"
+    }
+  ],
+  "long": {
+    "nice_to_see_you": {
+      "score": 56,
+      "unit": "min",
+      "team": "South Africa",
+      "detail": "Lyle Foster off 56' (Mexico v South Africa)",
+      "value": 56,
+      "display": "56'"
+    },
+    "blink": {
+      "score": 9,
+      "unit": "min",
+      "team": "Mexico",
+      "detail": "Julián Quiñones 9' (Mexico v South Africa)",
+      "value": 9,
+      "display": "9'"
+    },
+    "better_late": {
+      "score": -8000,
+      "unit": "min",
+      "team": "South Korea",
+      "detail": "Oh Hyeon-Gyu 80' (South Korea v Czech Republic)",
+      "value": 8000,
+      "display": "80'"
+    },
+    "computer_no": {
+      "score": -1,
+      "team": "Czech Republic",
+      "detail": "1 goal(s) chalked off so far",
+      "tied": false
+    }
+  },
+  "ownGoalInvolvement": {},
+  "tournamentComplete": false,
+  "varCancelled": {
+    "Czech Republic": 1
+  }
+}
