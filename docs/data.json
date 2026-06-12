@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T19:20:39.562Z",
+  "updatedAt": "2026-06-12T19:25:32.728Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -517,6 +517,7 @@
       "Croatia",
       "Curaçao",
       "Czech Republic",
+      "Czechia",
       "Ecuador",
       "Egypt",
       "England",
@@ -860,7 +861,7 @@
   ],
   "results": [
     {
-      "match": "South Korea 2-1 Czech Republic",
+      "match": "South Korea 2-1 Czechia",
       "round": "Group Stage - 1",
       "status": "FT"
     },
