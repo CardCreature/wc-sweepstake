@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T19:50:46.090Z",
+  "updatedAt": "2026-06-12T19:55:32.716Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -826,7 +826,7 @@
       "match": "Canada v Bosnia & Herzegovina",
       "date": "2026-06-12T19:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "1H"
+      "status": "HT"
     },
     {
       "match": "USA v Paraguay",
