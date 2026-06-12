@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T22:25:17.688Z",
+  "updatedAt": "2026-06-12T06:41:53.460Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -354,8 +354,8 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "Mexico",
-        "detail": "R. Jimenez 67' (Mexico v South Africa)"
+        "team": "South Korea",
+        "detail": "Oh Hyeon-Gyu 80' (South Korea v Czech Republic)"
       }
     },
     {
@@ -416,23 +416,62 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 2,
+    "totalGoals": 5,
     "lastGoal": {
-      "fixtureId": 1489369,
-      "date": "2026-06-11T19:00:00+00:00",
-      "teamId": 16,
-      "teamName": "Mexico",
-      "player": "R. Jimenez",
-      "minute": "67'",
-      "elapsed": 67,
+      "fixtureId": 1538999,
+      "date": "2026-06-12T02:00:00+00:00",
+      "teamId": 17,
+      "teamName": "South Korea",
+      "player": "Oh Hyeon-Gyu",
+      "minute": "80'",
+      "elapsed": 80,
       "extra": 0,
-      "sortKey": "2026-06-11T19:00:00+00:00|067|067",
-      "goalNumber": 2,
-      "butterflyTeam": "Argentina"
+      "sortKey": "2026-06-12T02:00:00+00:00|080|080",
+      "goalNumber": 5,
+      "butterflyTeam": "Belgium"
     },
-    "nextGoalTeam": "Australia",
-    "currentWinner": "Argentina",
+    "nextGoalTeam": "Bosnia & Herzegovina",
+    "currentWinner": "Belgium",
     "recentGoals": [
+      {
+        "fixtureId": 1538999,
+        "date": "2026-06-12T02:00:00+00:00",
+        "teamId": 17,
+        "teamName": "South Korea",
+        "player": "Oh Hyeon-Gyu",
+        "minute": "80'",
+        "elapsed": 80,
+        "extra": 0,
+        "sortKey": "2026-06-12T02:00:00+00:00|080|080",
+        "goalNumber": 5,
+        "butterflyTeam": "Belgium"
+      },
+      {
+        "fixtureId": 1538999,
+        "date": "2026-06-12T02:00:00+00:00",
+        "teamId": 17,
+        "teamName": "South Korea",
+        "player": "Hwang In-Beom",
+        "minute": "67'",
+        "elapsed": 67,
+        "extra": 0,
+        "sortKey": "2026-06-12T02:00:00+00:00|067|067",
+        "goalNumber": 4,
+        "butterflyTeam": "Austria"
+      },
+      {
+        "fixtureId": 1538999,
+        "date": "2026-06-12T02:00:00+00:00",
+        "teamId": 770,
+        "teamName": "Czech Republic",
+        "player": "L. Krejci",
+        "minute": "59'",
+        "elapsed": 59,
+        "extra": 0,
+        "sortKey": "2026-06-12T02:00:00+00:00|059|059",
+        "goalNumber": 3,
+        "butterflyTeam": "Australia"
+      },
       {
         "fixtureId": 1489369,
         "date": "2026-06-11T19:00:00+00:00",
@@ -780,12 +819,6 @@
   ],
   "upcoming": [
     {
-      "match": "South Korea v Czech Republic",
-      "date": "2026-06-12T02:00:00+00:00",
-      "round": "Group Stage - 1",
-      "status": "NS"
-    },
-    {
       "match": "Canada v Bosnia & Herzegovina",
       "date": "2026-06-12T19:00:00+00:00",
       "round": "Group Stage - 1",
@@ -814,14 +847,25 @@
       "date": "2026-06-14T01:00:00+00:00",
       "round": "Group Stage - 1",
       "status": "NS"
+    },
+    {
+      "match": "Australia v Türkiye",
+      "date": "2026-06-14T04:00:00+00:00",
+      "round": "Group Stage - 1",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "South Korea 2-1 Czech Republic",
+      "round": "Group Stage - 1",
+      "status": "FT"
+    },
     {
       "match": "Mexico 2-0 South Africa",
       "round": "Group Stage - 1",
       "status": "FT"
     }
   ],
-  "matchesProcessed": 1
+  "matchesProcessed": 2
 }
