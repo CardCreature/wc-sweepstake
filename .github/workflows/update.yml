@@ -1,11 +1,11 @@
 name: Update sweepstake
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 30 mins; tighten/loosen as you like
-  workflow_dispatch:          # manual "Run workflow" button
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
   push:
     paths:
-      - "config/**"           # re-runs instantly when Tom edits rulings
+      - "config/**"        # re-runs instantly when Tom edits rulings
 jobs:
   update:
     runs-on: ubuntu-latest
