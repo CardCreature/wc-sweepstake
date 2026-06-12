@@ -1,7 +1,8 @@
 {
   "processedFixtures": [
     1489369,
-    1538999
+    1538999,
+    1539000
   ],
   "claims": {
     "streets": {
@@ -97,6 +98,28 @@
       "elapsed": 80,
       "extra": 0,
       "sortKey": "2026-06-12T02:00:00+00:00|080|080"
+    },
+    {
+      "fixtureId": 1539000,
+      "date": "2026-06-12T19:00:00+00:00",
+      "teamId": 1113,
+      "teamName": "Bosnia & Herzegovina",
+      "player": "J. Lukic",
+      "minute": "21'",
+      "elapsed": 21,
+      "extra": 0,
+      "sortKey": "2026-06-12T19:00:00+00:00|021|021"
+    },
+    {
+      "fixtureId": 1539000,
+      "date": "2026-06-12T19:00:00+00:00",
+      "teamId": 5529,
+      "teamName": "Canada",
+      "player": "C. Larin",
+      "minute": "78'",
+      "elapsed": 78,
+      "extra": 0,
+      "sortKey": "2026-06-12T19:00:00+00:00|078|078"
     }
   ],
   "long": {

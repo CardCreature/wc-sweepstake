@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T20:55:32.413Z",
+  "updatedAt": "2026-06-12T21:01:01.957Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -419,23 +419,49 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 5,
+    "totalGoals": 7,
     "lastGoal": {
-      "fixtureId": 1538999,
-      "date": "2026-06-12T02:00:00+00:00",
-      "teamId": 17,
-      "teamName": "South Korea",
-      "player": "Oh Hyeon-Gyu",
-      "minute": "80'",
-      "elapsed": 80,
+      "fixtureId": 1539000,
+      "date": "2026-06-12T19:00:00+00:00",
+      "teamId": 5529,
+      "teamName": "Canada",
+      "player": "C. Larin",
+      "minute": "78'",
+      "elapsed": 78,
       "extra": 0,
-      "sortKey": "2026-06-12T02:00:00+00:00|080|080",
-      "goalNumber": 5,
-      "butterflyTeam": "Belgium"
+      "sortKey": "2026-06-12T19:00:00+00:00|078|078",
+      "goalNumber": 7,
+      "butterflyTeam": "Brazil"
     },
-    "nextGoalTeam": "Bosnia & Herzegovina",
-    "currentWinner": "Belgium",
+    "nextGoalTeam": "Canada",
+    "currentWinner": "Brazil",
     "recentGoals": [
+      {
+        "fixtureId": 1539000,
+        "date": "2026-06-12T19:00:00+00:00",
+        "teamId": 5529,
+        "teamName": "Canada",
+        "player": "C. Larin",
+        "minute": "78'",
+        "elapsed": 78,
+        "extra": 0,
+        "sortKey": "2026-06-12T19:00:00+00:00|078|078",
+        "goalNumber": 7,
+        "butterflyTeam": "Brazil"
+      },
+      {
+        "fixtureId": 1539000,
+        "date": "2026-06-12T19:00:00+00:00",
+        "teamId": 1113,
+        "teamName": "Bosnia & Herzegovina",
+        "player": "J. Lukic",
+        "minute": "21'",
+        "elapsed": 21,
+        "extra": 0,
+        "sortKey": "2026-06-12T19:00:00+00:00|021|021",
+        "goalNumber": 6,
+        "butterflyTeam": "Bosnia & Herzegovina"
+      },
       {
         "fixtureId": 1538999,
         "date": "2026-06-12T02:00:00+00:00",
@@ -823,12 +849,6 @@
   ],
   "upcoming": [
     {
-      "match": "Canada v Bosnia & Herzegovina",
-      "date": "2026-06-12T19:00:00+00:00",
-      "round": "Group Stage - 1",
-      "status": "2H"
-    },
-    {
       "match": "USA v Paraguay",
       "date": "2026-06-13T01:00:00+00:00",
       "round": "Group Stage - 1",
@@ -857,9 +877,20 @@
       "date": "2026-06-14T04:00:00+00:00",
       "round": "Group Stage - 1",
       "status": "NS"
+    },
+    {
+      "match": "Germany v Curaçao",
+      "date": "2026-06-14T17:00:00+00:00",
+      "round": "Group Stage - 1",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Canada 1-1 Bosnia & Herzegovina",
+      "round": "Group Stage - 1",
+      "status": "FT"
+    },
     {
       "match": "South Korea 2-1 Czechia",
       "round": "Group Stage - 1",
@@ -871,5 +902,5 @@
       "status": "FT"
     }
   ],
-  "matchesProcessed": 2
+  "matchesProcessed": 3
 }
