@@ -55,7 +55,7 @@ const ACHIEVEMENTS = [
   { id: "agent_chaos",    kind: "long",  mode: "auto",   emoji: "🤡", name: "Agent Chaos", desc: "Team involved in the most own goals." },
   { id: "blink",          kind: "long",  mode: "auto",   emoji: "⚡", name: "Blink And You'll Miss It", desc: "Fastest goal of the tournament." },
   { id: "better_late",    kind: "long",  mode: "auto",   emoji: "🌙", name: "Better Late Than Never", desc: "Latest normal-time goal of the tournament." },
-  { id: "computer_no",    kind: "long",  mode: "manual", emoji: "🖥️", name: "Computer Says No", desc: "Longest VAR review. (Tom times them — sorry Tom.)" },
+  { id: "computer_no",    kind: "long",  mode: "auto",   emoji: "🖥️", name: "Computer Says No", desc: "Team with the most goals chalked off by VAR." },
   { id: "nice_to_see_you",kind: "long",  mode: "auto",   emoji: "🚪", name: "It's Nice To See You Here, Now F*** Off", desc: "Earliest substitution of the tournament." },
 ];
 
@@ -379,6 +379,16 @@ async function scoreFixture(fx, state, finished, countCall) {
 
   // Result / timeline rules (finished matches only)
   if (finished && winner) {
+    for (const ev of (fx.events || [])) {
+      if (ev.type === "Var" && /cancel|disallow/i.test(ev.detail || "")) {
+        state.varCancelled = state.varCancelled || {};
+        state.varCancelled[ev.team.name] = (state.varCancelled[ev.team.name] || 0) + 1;
+        const vc = Object.entries(state.varCancelled).sort((a, b) => b[1] - a[1]);
+        state.long.computer_no = { score: -vc[0][1], team: vc[0][0],
+          detail: `${vc[0][1]} goal(s) chalked off so far`,
+          tied: vc.length > 1 && vc[1][1] === vc[0][1] };
+      }
+    }
     // Giant Killer tracking: any team appearing in a knockout fixture
     if (isKnockout(fx)) {
       state.knockoutTeams = state.knockoutTeams || [];
@@ -487,7 +497,7 @@ function finaliseLongAwards(state, participants) {
     const ranked = state.knockoutTeams.map(t => [t, ranks[t] || 0]).filter(([, r]) => r > 0).sort((a, b) => b[1] - a[1]);
     if (ranked.length) state.claims["giant_killer"] = { achievementId: "giant_killer", team: ranked[0][0], detail: `FIFA rank ${ranked[0][1]} — lowest-ranked knockout team`, awardedBy: "auto", claimedAt: new Date().toISOString() };
   }
-  for (const id of ["blink", "better_late", "nice_to_see_you"]) {
+  for (const id of ["blink", "better_late", "nice_to_see_you", "computer_no"]) {
     const rec = state.long[id];
     if (rec && !state.claims[id] && !rec.tied) {
       state.claims[id] = { achievementId: id, team: rec.team, detail: rec.detail, awardedBy: "auto", claimedAt: new Date().toISOString() };
