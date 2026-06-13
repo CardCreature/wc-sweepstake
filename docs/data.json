@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T02:10:38.430Z",
+  "updatedAt": "2026-06-13T02:15:37.524Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -415,7 +415,20 @@
       "owner": "Nick Lunn"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "key": "leadership|1489370|USA",
+      "achievementId": "leadership",
+      "team": "USA",
+      "detail": "Captain T. Ream booked (50') — confirm it was for dissent",
+      "match": "USA v Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "status": "pending",
+      "name": "Leadership Qualities",
+      "emoji": "🎖️"
+    }
+  ],
   "butterfly": {
     "potValue": 0,
     "potItems": [],

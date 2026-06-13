@@ -32,6 +32,16 @@
       "fixtureId": 1489369,
       "date": "2026-06-11T19:00:00+00:00",
       "status": "superseded"
+    },
+    "leadership|1489370|USA": {
+      "key": "leadership|1489370|USA",
+      "achievementId": "leadership",
+      "team": "USA",
+      "detail": "Captain T. Ream booked (50') — confirm it was for dissent",
+      "match": "USA v Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "status": "pending"
     }
   },
   "playerAges": {
