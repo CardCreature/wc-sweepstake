@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T01:50:37.085Z",
+  "updatedAt": "2026-06-13T01:55:30.208Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -852,7 +852,7 @@
       "match": "USA v Paraguay",
       "date": "2026-06-13T01:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "1H"
+      "status": "HT"
     },
     {
       "match": "Qatar v Switzerland",
