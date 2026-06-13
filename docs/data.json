@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T10:09:13.613Z",
+  "updatedAt": "2026-06-13T10:12:53.221Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -33,9 +33,16 @@
       "emoji": "⏱️",
       "name": "The Fergie Sandwich",
       "desc": "First team to score in 45+ and 90+ stoppage time in the same match.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "fergie",
+        "team": "USA",
+        "detail": "Scored 45+5 and 90+8 vs Paraguay",
+        "match": "USA v Paraguay",
+        "awardedBy": "Tom's ruling",
+        "claimedAt": "2026-06-13T10:12:53.212Z"
+      },
+      "owner": "Kate",
       "leader": null
     },
     {
@@ -400,6 +407,18 @@
   ],
   "claims": [
     {
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored 45+5 and 90+8 vs Paraguay",
+      "match": "USA v Paraguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-13T10:12:53.212Z",
+      "name": "The Fergie Sandwich",
+      "emoji": "⏱️",
+      "kind": "first",
+      "owner": "Kate"
+    },
+    {
       "achievementId": "warnock",
       "team": "Paraguay",
       "detail": "5 yellow cards in one match",
@@ -438,23 +457,12 @@
       "owner": "Nick Lunn"
     }
   ],
-  "pending": [
-    {
-      "key": "leadership|1489370|USA",
-      "achievementId": "leadership",
-      "team": "USA",
-      "detail": "Captain T. Ream booked (50') — confirm it was for dissent",
-      "match": "USA v Paraguay",
-      "fixtureId": 1489370,
-      "date": "2026-06-13T01:00:00+00:00",
-      "status": "pending",
-      "name": "Leadership Qualities",
-      "emoji": "🎖️"
-    }
-  ],
+  "pending": [],
   "butterfly": {
-    "potValue": 0,
-    "potItems": [],
+    "potValue": 10,
+    "potItems": [
+      "leadership"
+    ],
     "totalGoals": 12,
     "lastGoal": {
       "fixtureId": 1489370,
@@ -675,6 +683,15 @@
       "achievements": 1
     },
     {
+      "person": "Kate",
+      "teams": [
+        "USA",
+        "Argentina"
+      ],
+      "winnings": 10,
+      "achievements": 1
+    },
+    {
       "person": "Ant",
       "teams": [
         "Paraguay",
@@ -714,15 +731,6 @@
       "teams": [
         "Bosnia & Herzegovina",
         "Netherlands"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
-      "person": "Kate",
-      "teams": [
-        "USA",
-        "Argentina"
       ],
       "winnings": 0,
       "achievements": 0

@@ -31,6 +31,14 @@
       "date": "2026-06-13T01:00:00+00:00",
       "awardedBy": "auto",
       "claimedAt": "2026-06-13T03:05:36.489Z"
+    },
+    "fergie": {
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored 45+5 and 90+8 vs Paraguay",
+      "match": "USA v Paraguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-13T10:12:53.212Z"
     }
   },
   "candidates": {
@@ -52,7 +60,7 @@
       "match": "USA v Paraguay",
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
-      "status": "pending"
+      "status": "rejected"
     }
   },
   "playerAges": {
