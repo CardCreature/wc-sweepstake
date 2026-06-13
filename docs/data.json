@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T03:00:55.786Z",
+  "updatedAt": "2026-06-13T03:05:36.492Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -45,9 +45,18 @@
       "emoji": "🟨",
       "name": "Neil Warnock Would Be Proud",
       "desc": "First team with 5+ yellow cards in a match.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "warnock",
+        "team": "Paraguay",
+        "detail": "5 yellow cards in one match",
+        "match": "USA v Paraguay",
+        "fixtureId": 1489370,
+        "date": "2026-06-13T01:00:00+00:00",
+        "awardedBy": "auto",
+        "claimedAt": "2026-06-13T03:05:36.489Z"
+      },
+      "owner": "Ant",
       "leader": null
     },
     {
@@ -339,8 +348,8 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "Mexico",
-        "detail": "Julián Quiñones 9' (Mexico v South Africa)"
+        "team": "USA",
+        "detail": "Damian Bobadilla 7' (USA v Paraguay)"
       }
     },
     {
@@ -391,6 +400,20 @@
   ],
   "claims": [
     {
+      "achievementId": "warnock",
+      "team": "Paraguay",
+      "detail": "5 yellow cards in one match",
+      "match": "USA v Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-13T03:05:36.489Z",
+      "name": "Neil Warnock Would Be Proud",
+      "emoji": "🟨",
+      "kind": "first",
+      "owner": "Ant"
+    },
+    {
       "achievementId": "streets",
       "team": "Mexico",
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
@@ -432,23 +455,88 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 7,
+    "totalGoals": 12,
     "lastGoal": {
-      "fixtureId": 1539000,
-      "date": "2026-06-12T19:00:00+00:00",
-      "teamId": 5529,
-      "teamName": "Canada",
-      "player": "C. Larin",
-      "minute": "78'",
-      "elapsed": 78,
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "Giovanni Reyna",
+      "minute": "98'",
+      "elapsed": 98,
       "extra": 0,
-      "sortKey": "2026-06-12T19:00:00+00:00|078|078",
-      "goalNumber": 7,
-      "butterflyTeam": "Brazil"
+      "sortKey": "2026-06-13T01:00:00+00:00|098|098",
+      "goalNumber": 12,
+      "butterflyTeam": "Croatia"
     },
-    "nextGoalTeam": "Canada",
-    "currentWinner": "Brazil",
+    "nextGoalTeam": "Curaçao",
+    "currentWinner": "Croatia",
     "recentGoals": [
+      {
+        "fixtureId": 1489370,
+        "date": "2026-06-13T01:00:00+00:00",
+        "teamId": 2384,
+        "teamName": "USA",
+        "player": "Giovanni Reyna",
+        "minute": "98'",
+        "elapsed": 98,
+        "extra": 0,
+        "sortKey": "2026-06-13T01:00:00+00:00|098|098",
+        "goalNumber": 12,
+        "butterflyTeam": "Croatia"
+      },
+      {
+        "fixtureId": 1489370,
+        "date": "2026-06-13T01:00:00+00:00",
+        "teamId": 2380,
+        "teamName": "Paraguay",
+        "player": "Maurício Magalhães Prado",
+        "minute": "73'",
+        "elapsed": 73,
+        "extra": 0,
+        "sortKey": "2026-06-13T01:00:00+00:00|073|073",
+        "goalNumber": 11,
+        "butterflyTeam": "Congo DR"
+      },
+      {
+        "fixtureId": 1489370,
+        "date": "2026-06-13T01:00:00+00:00",
+        "teamId": 2384,
+        "teamName": "USA",
+        "player": "Folarin Balogun",
+        "minute": "50'",
+        "elapsed": 50,
+        "extra": 0,
+        "sortKey": "2026-06-13T01:00:00+00:00|050|050",
+        "goalNumber": 10,
+        "butterflyTeam": "Colombia"
+      },
+      {
+        "fixtureId": 1489370,
+        "date": "2026-06-13T01:00:00+00:00",
+        "teamId": 2384,
+        "teamName": "USA",
+        "player": "Folarin Balogun",
+        "minute": "31'",
+        "elapsed": 31,
+        "extra": 0,
+        "sortKey": "2026-06-13T01:00:00+00:00|031|031",
+        "goalNumber": 9,
+        "butterflyTeam": "Cape Verde Islands"
+      },
+      {
+        "fixtureId": 1489370,
+        "date": "2026-06-13T01:00:00+00:00",
+        "teamId": 2384,
+        "teamName": "USA",
+        "player": "Damian Bobadilla",
+        "minute": "7'",
+        "elapsed": 7,
+        "extra": 0,
+        "sortKey": "2026-06-13T01:00:00+00:00|007|007",
+        "goalNumber": 8,
+        "butterflyTeam": "Canada"
+      },
       {
         "fixtureId": 1539000,
         "date": "2026-06-12T19:00:00+00:00",
@@ -513,32 +601,6 @@
         "sortKey": "2026-06-12T02:00:00+00:00|059|059",
         "goalNumber": 3,
         "butterflyTeam": "Australia"
-      },
-      {
-        "fixtureId": 1489369,
-        "date": "2026-06-11T19:00:00+00:00",
-        "teamId": 16,
-        "teamName": "Mexico",
-        "player": "Raúl Jiménez",
-        "minute": "67'",
-        "elapsed": 67,
-        "extra": 0,
-        "sortKey": "2026-06-11T19:00:00+00:00|067|067",
-        "goalNumber": 2,
-        "butterflyTeam": "Argentina"
-      },
-      {
-        "fixtureId": 1489369,
-        "date": "2026-06-11T19:00:00+00:00",
-        "teamId": 16,
-        "teamName": "Mexico",
-        "player": "Julián Quiñones",
-        "minute": "9'",
-        "elapsed": 9,
-        "extra": 0,
-        "sortKey": "2026-06-11T19:00:00+00:00|009|009",
-        "goalNumber": 1,
-        "butterflyTeam": "Algeria"
       }
     ],
     "teamOrder": [
@@ -613,6 +675,15 @@
       "achievements": 1
     },
     {
+      "person": "Ant",
+      "teams": [
+        "Paraguay",
+        "Saudi Arabia"
+      ],
+      "winnings": 10,
+      "achievements": 1
+    },
+    {
       "person": "Kelsey",
       "teams": [
         "South Korea"
@@ -652,15 +723,6 @@
       "teams": [
         "USA",
         "Argentina"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
-      "person": "Ant",
-      "teams": [
-        "Paraguay",
-        "Saudi Arabia"
       ],
       "winnings": 0,
       "achievements": 0
@@ -862,12 +924,6 @@
   ],
   "upcoming": [
     {
-      "match": "USA v Paraguay",
-      "date": "2026-06-13T01:00:00+00:00",
-      "round": "Group Stage - 1",
-      "status": "2H"
-    },
-    {
       "match": "Qatar v Switzerland",
       "date": "2026-06-13T19:00:00+00:00",
       "round": "Group Stage - 1",
@@ -896,9 +952,20 @@
       "date": "2026-06-14T17:00:00+00:00",
       "round": "Group Stage - 1",
       "status": "NS"
+    },
+    {
+      "match": "Netherlands v Japan",
+      "date": "2026-06-14T20:00:00+00:00",
+      "round": "Group Stage - 1",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "USA 4-1 Paraguay",
+      "round": "Group Stage - 1",
+      "status": "FT"
+    },
     {
       "match": "Canada 1-1 Bosnia & Herzegovina",
       "round": "Group Stage - 1",
@@ -915,5 +982,5 @@
       "status": "FT"
     }
   ],
-  "matchesProcessed": 3
+  "matchesProcessed": 4
 }

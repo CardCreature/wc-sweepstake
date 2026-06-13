@@ -2,7 +2,8 @@
   "processedFixtures": [
     1489369,
     1538999,
-    1539000
+    1539000,
+    1489370
   ],
   "claims": {
     "streets": {
@@ -20,6 +21,16 @@
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
       "claimedAt": "2026-06-12T14:30:32.126Z"
+    },
+    "warnock": {
+      "achievementId": "warnock",
+      "team": "Paraguay",
+      "detail": "5 yellow cards in one match",
+      "match": "USA v Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-13T03:05:36.489Z"
     }
   },
   "candidates": {
@@ -138,6 +149,61 @@
       "elapsed": 78,
       "extra": 0,
       "sortKey": "2026-06-12T19:00:00+00:00|078|078"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "Damian Bobadilla",
+      "minute": "7'",
+      "elapsed": 7,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|007|007"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "Folarin Balogun",
+      "minute": "31'",
+      "elapsed": 31,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|031|031"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "Folarin Balogun",
+      "minute": "50'",
+      "elapsed": 50,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|050|050"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2380,
+      "teamName": "Paraguay",
+      "player": "Maurício Magalhães Prado",
+      "minute": "73'",
+      "elapsed": 73,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|073|073"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "Giovanni Reyna",
+      "minute": "98'",
+      "elapsed": 98,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|098|098"
     }
   ],
   "long": {
@@ -152,12 +218,12 @@
       "tieDetail": "Christian Pulisic off 45' (USA v Paraguay)"
     },
     "blink": {
-      "score": 9,
+      "score": 7,
       "unit": "min",
-      "team": "Mexico",
-      "detail": "Julián Quiñones 9' (Mexico v South Africa)",
-      "value": 9,
-      "display": "9'"
+      "team": "USA",
+      "detail": "Damian Bobadilla 7' (USA v Paraguay)",
+      "value": 7,
+      "display": "7'"
     },
     "better_late": {
       "score": -8000,
@@ -174,7 +240,10 @@
       "tied": false
     }
   },
-  "ownGoalInvolvement": {},
+  "ownGoalInvolvement": {
+    "USA": 1,
+    "Paraguay": 1
+  },
   "tournamentComplete": false,
   "varCancelled": {
     "Czech Republic": 1
