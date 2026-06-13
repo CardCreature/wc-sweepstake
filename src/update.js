@@ -55,7 +55,7 @@ const ACHIEVEMENTS = [
   { id: "agent_chaos",    kind: "long",  mode: "auto",   emoji: "🤡", name: "Agent Chaos", desc: "Team involved in the most own goals." },
   { id: "blink",          kind: "long",  mode: "auto",   emoji: "⚡", name: "Blink And You'll Miss It", desc: "Fastest goal of the tournament." },
   { id: "better_late",    kind: "long",  mode: "auto",   emoji: "🌙", name: "Better Late Than Never", desc: "Latest normal-time goal of the tournament." },
-  { id: "computer_no",    kind: "long",  mode: "auto",   emoji: "🖥️", name: "Computer Says No", desc: "Team with the most goals chalked off by VAR." },
+  { id: "computer_no",    kind: "long",  mode: "manual", emoji: "🖥️", name: "Computer Says No", desc: "Longest VAR review. (Tom times them — sorry Tom.)" },
   { id: "nice_to_see_you",kind: "long",  mode: "auto",   emoji: "🚪", name: "It's Nice To See You Here, Now F*** Off", desc: "Earliest substitution of the tournament." },
 ];
 
@@ -283,10 +283,12 @@ async function scoreFixture(fx, state, finished, countCall) {
     if (offP?.id && cameOnAt[offP.id] != null && t.elapsed <= 90) {
       claimIfFirst("wasted_journey", s.team.name, `${offP.name} subbed on (${cameOnAt[offP.id]}') then off (${minuteLabel(s)})`);
     }
-    // tournament-long: earliest sub
-    trackLong(state, "nice_to_see_you", t.total, "min", {
-      team: s.team.name, detail: `${offP?.name || "Player"} off ${minuteLabel(s)} (${matchLabel})`, value: t.total, display: minuteLabel(s),
-    });
+    // tournament-long: earliest sub (exclude half-time reshuffles at minute 45)
+    if (t.elapsed !== 45 || t.extra > 0) {
+      trackLong(state, "nice_to_see_you", t.total, "min", {
+        team: s.team.name, detail: `${offP?.name || "Player"} off ${minuteLabel(s)} (${matchLabel})`, value: t.total, display: minuteLabel(s),
+      });
+    }
   }
   for (const c of cards) {
     if (c.detail === "Yellow Card" && c.player?.id && cameOnAt[c.player.id] != null) {
@@ -302,9 +304,20 @@ async function scoreFixture(fx, state, finished, countCall) {
   }
   for (const team of [home, away]) {
     const tg = goalEvents.filter(g => g.team.id === team.id);
-    const fhStoppage = tg.some(g => evTime(g).elapsed === 45 && evTime(g).extra > 0);
-    const shStoppage = tg.some(g => evTime(g).elapsed === 90 && evTime(g).extra > 0);
-    if (fhStoppage && shStoppage) claimIfFirst("fergie", team.name, `Scored in 45+ and 90+ stoppage time`);
+    // A stoppage-time goal can arrive as {elapsed:45, extra:2} OR {elapsed:47, extra:null}.
+    // First-half stoppage = scored after 45:00 but at/before the interval (elapsed 45-49).
+    // Second-half stoppage = scored after 90:00 in normal time (elapsed 90-99, not extra-time).
+    const isFirstHalfStoppage = g => {
+      const e = evTime(g).elapsed, x = evTime(g).extra;
+      return (e === 45 && x > 0) || (e > 45 && e <= 50 && (x == null || x === 0));
+    };
+    const isSecondHalfStoppage = g => {
+      const e = evTime(g).elapsed, x = evTime(g).extra;
+      return (e === 90 && x > 0) || (e > 90 && e <= 100 && (x == null || x === 0));
+    };
+    const fhStoppage = tg.some(isFirstHalfStoppage);
+    const shStoppage = tg.some(isSecondHalfStoppage);
+    if (fhStoppage && shStoppage) claimIfFirst("fergie", team.name, `Scored in first-half and second-half stoppage time`);
   }
   for (const [pid, gs] of Object.entries(scorerGoals)) {
     const proper = gs.filter(g => g.detail !== "Own Goal");
@@ -360,6 +373,17 @@ async function scoreFixture(fx, state, finished, countCall) {
       if (finished) {
         state.ownGoalInvolvement[g.team.name] = (state.ownGoalInvolvement[g.team.name] || 0) + 1;
         state.ownGoalInvolvement[scorerTeam] = (state.ownGoalInvolvement[scorerTeam] || 0) + 1;
+        // live leader for Agent Chaos
+        const ag = Object.entries(state.ownGoalInvolvement).sort((a, b) => b[1] - a[1]);
+        const topVal = ag[0][1];
+        const topTeams = ag.filter(([, v]) => v === topVal).map(([t]) => t);
+        state.long.agent_chaos = {
+          score: -topVal, team: topTeams[0],
+          detail: topTeams.length > 1
+            ? `Joint leaders (${topTeams.join(", ")}) — ${topVal} own goal(s) each`
+            : `${topVal} own goal(s) involved in`,
+          tied: topTeams.length > 1,
+        };
       }
     }
   }
@@ -379,16 +403,6 @@ async function scoreFixture(fx, state, finished, countCall) {
 
   // Result / timeline rules (finished matches only)
   if (finished && winner) {
-    for (const ev of (fx.events || [])) {
-      if (ev.type === "Var" && /cancel|disallow/i.test(ev.detail || "")) {
-        state.varCancelled = state.varCancelled || {};
-        state.varCancelled[ev.team.name] = (state.varCancelled[ev.team.name] || 0) + 1;
-        const vc = Object.entries(state.varCancelled).sort((a, b) => b[1] - a[1]);
-        state.long.computer_no = { score: -vc[0][1], team: vc[0][0],
-          detail: `${vc[0][1]} goal(s) chalked off so far`,
-          tied: vc.length > 1 && vc[1][1] === vc[0][1] };
-      }
-    }
     // Giant Killer tracking: any team appearing in a knockout fixture
     if (isKnockout(fx)) {
       state.knockoutTeams = state.knockoutTeams || [];
@@ -497,7 +511,7 @@ function finaliseLongAwards(state, participants) {
     const ranked = state.knockoutTeams.map(t => [t, ranks[t] || 0]).filter(([, r]) => r > 0).sort((a, b) => b[1] - a[1]);
     if (ranked.length) state.claims["giant_killer"] = { achievementId: "giant_killer", team: ranked[0][0], detail: `FIFA rank ${ranked[0][1]} — lowest-ranked knockout team`, awardedBy: "auto", claimedAt: new Date().toISOString() };
   }
-  for (const id of ["blink", "better_late", "nice_to_see_you", "computer_no"]) {
+  for (const id of ["blink", "better_late", "nice_to_see_you"]) {
     const rec = state.long[id];
     if (rec && !state.claims[id] && !rec.tied) {
       state.claims[id] = { achievementId: id, team: rec.team, detail: rec.detail, awardedBy: "auto", claimedAt: new Date().toISOString() };
