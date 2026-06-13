@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T10:12:53.221Z",
+  "updatedAt": "2026-06-13T10:24:33.440Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -37,10 +37,12 @@
       "claim": {
         "achievementId": "fergie",
         "team": "USA",
-        "detail": "Scored 45+5 and 90+8 vs Paraguay",
+        "detail": "Scored in first-half and second-half stoppage time",
         "match": "USA v Paraguay",
-        "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-13T10:12:53.212Z"
+        "fixtureId": 1489370,
+        "date": "2026-06-13T01:00:00+00:00",
+        "awardedBy": "auto",
+        "claimedAt": "2026-06-13T10:24:32.987Z"
       },
       "owner": "Kate",
       "leader": null
@@ -61,7 +63,7 @@
         "fixtureId": 1489370,
         "date": "2026-06-13T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-13T03:05:36.489Z"
+        "claimedAt": "2026-06-13T10:24:32.987Z"
       },
       "owner": "Ant",
       "leader": null
@@ -104,7 +106,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-12T14:30:32.126Z"
+        "claimedAt": "2026-06-13T10:24:33.439Z"
       },
       "owner": "Neil",
       "leader": null
@@ -144,10 +146,12 @@
       "claim": {
         "achievementId": "check_complete",
         "team": "South Africa",
-        "detail": "Player sent off after VAR review vs Mexico",
+        "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
         "match": "Mexico v South Africa",
+        "fixtureId": 1489369,
+        "date": "2026-06-11T19:00:00+00:00",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-12T14:30:32.126Z"
+        "claimedAt": "2026-06-13T10:24:33.439Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -342,7 +346,10 @@
       "status": "open",
       "claim": null,
       "owner": null,
-      "leader": null
+      "leader": {
+        "team": "USA",
+        "detail": "Joint leaders (USA, Paraguay) — 1 own goal(s) each"
+      }
     },
     {
       "id": "blink",
@@ -356,7 +363,7 @@
       "owner": null,
       "leader": {
         "team": "USA",
-        "detail": "Damian Bobadilla 7' (USA v Paraguay)"
+        "detail": "D. Bobadilla 7' (USA v Paraguay)"
       }
     },
     {
@@ -370,24 +377,21 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "South Korea",
-        "detail": "Oh Hyeon-Gyu 80' (South Korea v Czech Republic)"
+        "team": "USA",
+        "detail": "G. Reyna 90+8' (USA v Paraguay)"
       }
     },
     {
       "id": "computer_no",
       "kind": "long",
-      "mode": "auto",
+      "mode": "manual",
       "emoji": "🖥️",
       "name": "Computer Says No",
-      "desc": "Team with the most goals chalked off by VAR.",
+      "desc": "Longest VAR review. (Tom times them — sorry Tom.)",
       "status": "open",
       "claim": null,
       "owner": null,
-      "leader": {
-        "team": "Czech Republic",
-        "detail": "1 goal(s) chalked off so far"
-      }
+      "leader": null
     },
     {
       "id": "nice_to_see_you",
@@ -401,22 +405,36 @@
       "owner": null,
       "leader": {
         "team": "Paraguay",
-        "detail": "Damian Bobadilla off 45' (USA v Paraguay)"
+        "detail": "D. Bobadilla off 46' (USA v Paraguay)"
       }
     }
   ],
   "claims": [
     {
-      "achievementId": "fergie",
-      "team": "USA",
-      "detail": "Scored 45+5 and 90+8 vs Paraguay",
-      "match": "USA v Paraguay",
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+      "match": "Mexico v South Africa",
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-13T10:12:53.212Z",
-      "name": "The Fergie Sandwich",
-      "emoji": "⏱️",
+      "claimedAt": "2026-06-13T10:24:33.439Z",
+      "name": "Check Complete",
+      "emoji": "📺",
       "kind": "first",
-      "owner": "Kate"
+      "owner": "Nick Lunn"
+    },
+    {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-13T10:24:33.439Z",
+      "name": "The Streets Won't Forget",
+      "emoji": "👴",
+      "kind": "first",
+      "owner": "Neil"
     },
     {
       "achievementId": "warnock",
@@ -426,54 +444,42 @@
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-13T03:05:36.489Z",
+      "claimedAt": "2026-06-13T10:24:32.987Z",
       "name": "Neil Warnock Would Be Proud",
       "emoji": "🟨",
       "kind": "first",
       "owner": "Ant"
     },
     {
-      "achievementId": "streets",
-      "team": "Mexico",
-      "detail": "R. Jimenez scored aged 35+ vs South Africa",
-      "match": "Mexico v South Africa",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-12T14:30:32.126Z",
-      "name": "The Streets Won't Forget",
-      "emoji": "👴",
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored in first-half and second-half stoppage time",
+      "match": "USA v Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-13T10:24:32.987Z",
+      "name": "The Fergie Sandwich",
+      "emoji": "⏱️",
       "kind": "first",
-      "owner": "Neil"
-    },
-    {
-      "achievementId": "check_complete",
-      "team": "South Africa",
-      "detail": "Player sent off after VAR review vs Mexico",
-      "match": "Mexico v South Africa",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-12T14:30:32.126Z",
-      "name": "Check Complete",
-      "emoji": "📺",
-      "kind": "first",
-      "owner": "Nick Lunn"
+      "owner": "Kate"
     }
   ],
   "pending": [],
   "butterfly": {
-    "potValue": 10,
-    "potItems": [
-      "leadership"
-    ],
+    "potValue": 0,
+    "potItems": [],
     "totalGoals": 12,
     "lastGoal": {
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
       "teamId": 2384,
       "teamName": "USA",
-      "player": "Giovanni Reyna",
-      "minute": "98'",
-      "elapsed": 98,
-      "extra": 0,
-      "sortKey": "2026-06-13T01:00:00+00:00|098|098",
+      "player": "G. Reyna",
+      "minute": "90+8'",
+      "elapsed": 90,
+      "extra": 8,
+      "sortKey": "2026-06-13T01:00:00+00:00|098|090",
       "goalNumber": 12,
       "butterflyTeam": "Croatia"
     },
@@ -485,11 +491,11 @@
         "date": "2026-06-13T01:00:00+00:00",
         "teamId": 2384,
         "teamName": "USA",
-        "player": "Giovanni Reyna",
-        "minute": "98'",
-        "elapsed": 98,
-        "extra": 0,
-        "sortKey": "2026-06-13T01:00:00+00:00|098|098",
+        "player": "G. Reyna",
+        "minute": "90+8'",
+        "elapsed": 90,
+        "extra": 8,
+        "sortKey": "2026-06-13T01:00:00+00:00|098|090",
         "goalNumber": 12,
         "butterflyTeam": "Croatia"
       },
@@ -498,7 +504,7 @@
         "date": "2026-06-13T01:00:00+00:00",
         "teamId": 2380,
         "teamName": "Paraguay",
-        "player": "Maurício Magalhães Prado",
+        "player": "Mauricio",
         "minute": "73'",
         "elapsed": 73,
         "extra": 0,
@@ -511,11 +517,11 @@
         "date": "2026-06-13T01:00:00+00:00",
         "teamId": 2384,
         "teamName": "USA",
-        "player": "Folarin Balogun",
-        "minute": "50'",
-        "elapsed": 50,
-        "extra": 0,
-        "sortKey": "2026-06-13T01:00:00+00:00|050|050",
+        "player": "F. Balogun",
+        "minute": "45+5'",
+        "elapsed": 45,
+        "extra": 5,
+        "sortKey": "2026-06-13T01:00:00+00:00|050|045",
         "goalNumber": 10,
         "butterflyTeam": "Colombia"
       },
@@ -524,7 +530,7 @@
         "date": "2026-06-13T01:00:00+00:00",
         "teamId": 2384,
         "teamName": "USA",
-        "player": "Folarin Balogun",
+        "player": "F. Balogun",
         "minute": "31'",
         "elapsed": 31,
         "extra": 0,
@@ -537,7 +543,7 @@
         "date": "2026-06-13T01:00:00+00:00",
         "teamId": 2384,
         "teamName": "USA",
-        "player": "Damian Bobadilla",
+        "player": "D. Bobadilla",
         "minute": "7'",
         "elapsed": 7,
         "extra": 0,
@@ -550,7 +556,7 @@
         "date": "2026-06-12T19:00:00+00:00",
         "teamId": 5529,
         "teamName": "Canada",
-        "player": "C. Larin",
+        "player": "Cyle Larin",
         "minute": "78'",
         "elapsed": 78,
         "extra": 0,
@@ -563,7 +569,7 @@
         "date": "2026-06-12T19:00:00+00:00",
         "teamId": 1113,
         "teamName": "Bosnia & Herzegovina",
-        "player": "J. Lukic",
+        "player": "Jovo Lukić",
         "minute": "21'",
         "elapsed": 21,
         "extra": 0,
@@ -601,7 +607,7 @@
         "fixtureId": 1538999,
         "date": "2026-06-12T02:00:00+00:00",
         "teamId": 770,
-        "teamName": "Czech Republic",
+        "teamName": "Czechia",
         "player": "L. Krejci",
         "minute": "59'",
         "elapsed": 59,
