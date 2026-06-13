@@ -3,7 +3,8 @@
     1489369,
     1538999,
     1539000,
-    1489370
+    1489370,
+    1489373
   ],
   "claims": {
     "warnock": {
@@ -211,6 +212,28 @@
       "elapsed": 90,
       "extra": 8,
       "sortKey": "2026-06-13T01:00:00+00:00|098|090"
+    },
+    {
+      "fixtureId": 1489373,
+      "date": "2026-06-13T19:00:00+00:00",
+      "teamId": 15,
+      "teamName": "Switzerland",
+      "player": "B. Embolo",
+      "minute": "17'",
+      "elapsed": 17,
+      "extra": 0,
+      "sortKey": "2026-06-13T19:00:00+00:00|017|017"
+    },
+    {
+      "fixtureId": 1489373,
+      "date": "2026-06-13T19:00:00+00:00",
+      "teamId": 1569,
+      "teamName": "Qatar",
+      "player": "B. Khoukhi",
+      "minute": "90+4'",
+      "elapsed": 90,
+      "extra": 4,
+      "sortKey": "2026-06-13T19:00:00+00:00|094|090"
     }
   ],
   "long": {
