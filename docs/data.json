@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T02:55:38.840Z",
+  "updatedAt": "2026-06-13T03:00:55.786Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -384,8 +384,8 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "USA",
-        "detail": "C. Pulisic off 46' (USA v Paraguay)"
+        "team": "Paraguay",
+        "detail": "Damian Bobadilla off 45' (USA v Paraguay)"
       }
     }
   ],

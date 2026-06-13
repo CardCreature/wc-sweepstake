@@ -142,14 +142,14 @@
   ],
   "long": {
     "nice_to_see_you": {
-      "score": 46,
+      "score": 45,
       "unit": "min",
-      "team": "USA",
-      "detail": "C. Pulisic off 46' (USA v Paraguay)",
-      "value": 46,
-      "display": "46'",
+      "team": "Paraguay",
+      "detail": "Damian Bobadilla off 45' (USA v Paraguay)",
+      "value": 45,
+      "display": "45'",
       "tied": true,
-      "tieDetail": "D. Bobadilla off 46' (USA v Paraguay)"
+      "tieDetail": "Christian Pulisic off 45' (USA v Paraguay)"
     },
     "blink": {
       "score": 9,
