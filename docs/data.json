@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T10:24:33.440Z",
+  "updatedAt": "2026-06-13T10:30:46.347Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -384,10 +384,10 @@
     {
       "id": "computer_no",
       "kind": "long",
-      "mode": "manual",
+      "mode": "auto",
       "emoji": "🖥️",
       "name": "Computer Says No",
-      "desc": "Longest VAR review. (Tom times them — sorry Tom.)",
+      "desc": "Team with the most goals chalked off by VAR.",
       "status": "open",
       "claim": null,
       "owner": null,
