@@ -132,12 +132,14 @@
   ],
   "long": {
     "nice_to_see_you": {
-      "score": 56,
+      "score": 46,
       "unit": "min",
-      "team": "South Africa",
-      "detail": "Lyle Foster off 56' (Mexico v South Africa)",
-      "value": 56,
-      "display": "56'"
+      "team": "USA",
+      "detail": "C. Pulisic off 46' (USA v Paraguay)",
+      "value": 46,
+      "display": "46'",
+      "tied": true,
+      "tieDetail": "D. Bobadilla off 46' (USA v Paraguay)"
     },
     "blink": {
       "score": 9,

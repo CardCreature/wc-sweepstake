@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T02:05:32.550Z",
+  "updatedAt": "2026-06-13T02:10:38.430Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -384,8 +384,8 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "South Africa",
-        "detail": "Lyle Foster off 56' (Mexico v South Africa)"
+        "team": "USA",
+        "detail": "C. Pulisic off 46' (USA v Paraguay)"
       }
     }
   ],
@@ -852,7 +852,7 @@
       "match": "USA v Paraguay",
       "date": "2026-06-13T01:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "HT"
+      "status": "2H"
     },
     {
       "match": "Qatar v Switzerland",
