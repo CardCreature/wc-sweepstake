@@ -55,7 +55,7 @@ const ACHIEVEMENTS = [
   { id: "agent_chaos",    kind: "long",  mode: "auto",   emoji: "🤡", name: "Agent Chaos", desc: "Team involved in the most own goals." },
   { id: "blink",          kind: "long",  mode: "auto",   emoji: "⚡", name: "Blink And You'll Miss It", desc: "Fastest goal of the tournament." },
   { id: "better_late",    kind: "long",  mode: "auto",   emoji: "🌙", name: "Better Late Than Never", desc: "Latest normal-time goal of the tournament." },
-  { id: "computer_no",    kind: "long",  mode: "auto",   emoji: "🖥️", name: "Computer Says No", desc: "Team with the most goals chalked off by VAR." },
+  { id: "computer_no",    kind: "long",  mode: "manual", emoji: "🖥️", name: "Computer Says No", desc: "Longest VAR review. (Tom times them — sorry Tom.)" },
   { id: "nice_to_see_you",kind: "long",  mode: "auto",   emoji: "🚪", name: "It's Nice To See You Here, Now F*** Off", desc: "Earliest substitution of the tournament." },
 ];
 
