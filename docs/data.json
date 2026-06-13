@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T19:00:57.826Z",
+  "updatedAt": "2026-06-13T19:05:32.002Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -941,7 +941,7 @@
       "match": "Qatar v Switzerland",
       "date": "2026-06-13T19:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "NS"
+      "status": "1H"
     },
     {
       "match": "Brazil v Morocco",
