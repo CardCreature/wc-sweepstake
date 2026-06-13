@@ -1,0 +1,255 @@
+{
+  "processedFixtures": [
+    1489369,
+    1538999,
+    1539000,
+    1489370
+  ],
+  "claims": {
+    "warnock": {
+      "achievementId": "warnock",
+      "team": "Paraguay",
+      "detail": "5 yellow cards in one match",
+      "match": "USA v Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-13T10:38:49.717Z"
+    },
+    "fergie": {
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored in first-half and second-half stoppage time",
+      "match": "USA v Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-13T10:38:49.717Z"
+    },
+    "check_complete": {
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+      "match": "Mexico v South Africa",
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-13T10:38:50.050Z"
+    },
+    "streets": {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-13T10:38:50.050Z"
+    }
+  },
+  "candidates": {
+    "check_complete|1489369|South Africa": {
+      "key": "check_complete|1489369|South Africa",
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+      "match": "Mexico v South Africa",
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "status": "confirmed"
+    }
+  },
+  "playerAges": {
+    "2001": 30,
+    "2887": 34,
+    "2901": 29,
+    "34710": 24,
+    "35532": 28,
+    "66407": 26,
+    "77037": -1,
+    "106485": 24,
+    "138835": 24,
+    "161921": 23
+  },
+  "missedPens": [],
+  "ownGoalScorers": [
+    {
+      "playerId": 195107,
+      "playerName": "D. Bobadilla",
+      "team": "Paraguay",
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00"
+    }
+  ],
+  "goals": [
+    {
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "teamId": 16,
+      "teamName": "Mexico",
+      "player": "J. Quinones",
+      "minute": "9'",
+      "elapsed": 9,
+      "extra": 0,
+      "sortKey": "2026-06-11T19:00:00+00:00|009|009"
+    },
+    {
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "teamId": 16,
+      "teamName": "Mexico",
+      "player": "R. Jimenez",
+      "minute": "67'",
+      "elapsed": 67,
+      "extra": 0,
+      "sortKey": "2026-06-11T19:00:00+00:00|067|067"
+    },
+    {
+      "fixtureId": 1538999,
+      "date": "2026-06-12T02:00:00+00:00",
+      "teamId": 770,
+      "teamName": "Czechia",
+      "player": "L. Krejci",
+      "minute": "59'",
+      "elapsed": 59,
+      "extra": 0,
+      "sortKey": "2026-06-12T02:00:00+00:00|059|059"
+    },
+    {
+      "fixtureId": 1538999,
+      "date": "2026-06-12T02:00:00+00:00",
+      "teamId": 17,
+      "teamName": "South Korea",
+      "player": "Hwang In-Beom",
+      "minute": "67'",
+      "elapsed": 67,
+      "extra": 0,
+      "sortKey": "2026-06-12T02:00:00+00:00|067|067"
+    },
+    {
+      "fixtureId": 1538999,
+      "date": "2026-06-12T02:00:00+00:00",
+      "teamId": 17,
+      "teamName": "South Korea",
+      "player": "Oh Hyeon-Gyu",
+      "minute": "80'",
+      "elapsed": 80,
+      "extra": 0,
+      "sortKey": "2026-06-12T02:00:00+00:00|080|080"
+    },
+    {
+      "fixtureId": 1539000,
+      "date": "2026-06-12T19:00:00+00:00",
+      "teamId": 1113,
+      "teamName": "Bosnia & Herzegovina",
+      "player": "Jovo Lukić",
+      "minute": "21'",
+      "elapsed": 21,
+      "extra": 0,
+      "sortKey": "2026-06-12T19:00:00+00:00|021|021"
+    },
+    {
+      "fixtureId": 1539000,
+      "date": "2026-06-12T19:00:00+00:00",
+      "teamId": 5529,
+      "teamName": "Canada",
+      "player": "Cyle Larin",
+      "minute": "78'",
+      "elapsed": 78,
+      "extra": 0,
+      "sortKey": "2026-06-12T19:00:00+00:00|078|078"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "D. Bobadilla",
+      "minute": "7'",
+      "elapsed": 7,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|007|007"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "F. Balogun",
+      "minute": "31'",
+      "elapsed": 31,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|031|031"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "F. Balogun",
+      "minute": "45+5'",
+      "elapsed": 45,
+      "extra": 5,
+      "sortKey": "2026-06-13T01:00:00+00:00|050|045"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2380,
+      "teamName": "Paraguay",
+      "player": "Mauricio",
+      "minute": "73'",
+      "elapsed": 73,
+      "extra": 0,
+      "sortKey": "2026-06-13T01:00:00+00:00|073|073"
+    },
+    {
+      "fixtureId": 1489370,
+      "date": "2026-06-13T01:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "G. Reyna",
+      "minute": "90+8'",
+      "elapsed": 90,
+      "extra": 8,
+      "sortKey": "2026-06-13T01:00:00+00:00|098|090"
+    }
+  ],
+  "long": {
+    "nice_to_see_you": {
+      "score": 46,
+      "unit": "min",
+      "team": "Paraguay",
+      "detail": "D. Bobadilla off 46' (USA v Paraguay)",
+      "value": 46,
+      "display": "46'",
+      "tied": true,
+      "tieDetail": "C. Pulisic off 46' (USA v Paraguay)"
+    },
+    "blink": {
+      "score": 7,
+      "unit": "min",
+      "team": "USA",
+      "detail": "D. Bobadilla 7' (USA v Paraguay)",
+      "value": 7,
+      "display": "7'"
+    },
+    "better_late": {
+      "score": -9008,
+      "unit": "min",
+      "team": "USA",
+      "detail": "G. Reyna 90+8' (USA v Paraguay)",
+      "value": 9008,
+      "display": "90+8'"
+    },
+    "agent_chaos": {
+      "score": -1,
+      "team": "USA",
+      "detail": "Joint leaders (USA, Paraguay) — 1 own goal(s) each",
+      "tied": true
+    }
+  },
+  "ownGoalInvolvement": {
+    "USA": 1,
+    "Paraguay": 1
+  },
+  "tournamentComplete": false
+}

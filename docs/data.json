@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T10:30:46.347Z",
+  "updatedAt": "2026-06-13T10:38:50.051Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -42,7 +42,7 @@
         "fixtureId": 1489370,
         "date": "2026-06-13T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-13T10:24:32.987Z"
+        "claimedAt": "2026-06-13T10:38:49.717Z"
       },
       "owner": "Kate",
       "leader": null
@@ -63,7 +63,7 @@
         "fixtureId": 1489370,
         "date": "2026-06-13T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-13T10:24:32.987Z"
+        "claimedAt": "2026-06-13T10:38:49.717Z"
       },
       "owner": "Ant",
       "leader": null
@@ -106,7 +106,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-13T10:24:33.439Z"
+        "claimedAt": "2026-06-13T10:38:50.050Z"
       },
       "owner": "Neil",
       "leader": null
@@ -151,7 +151,7 @@
         "fixtureId": 1489369,
         "date": "2026-06-11T19:00:00+00:00",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-13T10:24:33.439Z"
+        "claimedAt": "2026-06-13T10:38:50.050Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -384,10 +384,10 @@
     {
       "id": "computer_no",
       "kind": "long",
-      "mode": "auto",
+      "mode": "manual",
       "emoji": "🖥️",
       "name": "Computer Says No",
-      "desc": "Team with the most goals chalked off by VAR.",
+      "desc": "Longest VAR review. (Tom times them — sorry Tom.)",
       "status": "open",
       "claim": null,
       "owner": null,
@@ -418,7 +418,7 @@
       "fixtureId": 1489369,
       "date": "2026-06-11T19:00:00+00:00",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-13T10:24:33.439Z",
+      "claimedAt": "2026-06-13T10:38:50.050Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -430,7 +430,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-13T10:24:33.439Z",
+      "claimedAt": "2026-06-13T10:38:50.050Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -444,7 +444,7 @@
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-13T10:24:32.987Z",
+      "claimedAt": "2026-06-13T10:38:49.717Z",
       "name": "Neil Warnock Would Be Proud",
       "emoji": "🟨",
       "kind": "first",
@@ -458,7 +458,7 @@
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-13T10:24:32.987Z",
+      "claimedAt": "2026-06-13T10:38:49.717Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
