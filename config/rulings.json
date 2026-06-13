@@ -3,6 +3,7 @@
   "confirm": ["check_complete|1489369|South Africa"],
   "reject": [],
   "manualClaims": {
+    "fergie": { "team": "USA", "detail": "Scored 45+5 and 90+8 vs Paraguay", "match": "USA v Paraguay" }
     "streets": {
       "team": "Mexico",
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
