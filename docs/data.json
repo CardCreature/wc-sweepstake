@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T22:00:59.152Z",
+  "updatedAt": "2026-06-13T22:05:39.014Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -941,7 +941,7 @@
       "match": "Brazil v Morocco",
       "date": "2026-06-13T22:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "NS"
+      "status": "1H"
     },
     {
       "match": "Haiti v Scotland",
