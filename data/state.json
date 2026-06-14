@@ -6,7 +6,8 @@
     1489370,
     1489373,
     1489371,
-    1489372
+    1489372,
+    1539001
   ],
   "claims": {
     "warnock": {
@@ -56,6 +57,16 @@
       "date": "2026-06-14T01:00:00+00:00",
       "awardedBy": "auto",
       "claimedAt": "2026-06-14T03:05:30.608Z"
+    },
+    "masterclass": {
+      "achievementId": "masterclass",
+      "team": "Australia",
+      "detail": "Won with 28% possession",
+      "match": "Australia v Türkiye",
+      "fixtureId": 1539001,
+      "date": "2026-06-14T04:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-14T06:00:59.760Z"
     }
   },
   "candidates": {
@@ -279,6 +290,28 @@
       "elapsed": 28,
       "extra": 0,
       "sortKey": "2026-06-14T01:00:00+00:00|028|028"
+    },
+    {
+      "fixtureId": 1539001,
+      "date": "2026-06-14T04:00:00+00:00",
+      "teamId": 20,
+      "teamName": "Australia",
+      "player": "N. Irankunda",
+      "minute": "27'",
+      "elapsed": 27,
+      "extra": 0,
+      "sortKey": "2026-06-14T04:00:00+00:00|027|027"
+    },
+    {
+      "fixtureId": 1539001,
+      "date": "2026-06-14T04:00:00+00:00",
+      "teamId": 20,
+      "teamName": "Australia",
+      "player": "C. Metcalfe",
+      "minute": "75'",
+      "elapsed": 75,
+      "extra": 0,
+      "sortKey": "2026-06-14T04:00:00+00:00|075|075"
     }
   ],
   "long": {

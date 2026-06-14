@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T05:55:29.853Z",
+  "updatedAt": "2026-06-14T06:00:59.762Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -9,9 +9,18 @@
       "emoji": "🧠",
       "name": "Jose & Arteta Masterclass",
       "desc": "First team to win with under 30% possession.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "masterclass",
+        "team": "Australia",
+        "detail": "Won with 28% possession",
+        "match": "Australia v Türkiye",
+        "fixtureId": 1539001,
+        "date": "2026-06-14T04:00:00+00:00",
+        "awardedBy": "auto",
+        "claimedAt": "2026-06-14T06:00:59.760Z"
+      },
+      "owner": "Josh",
       "leader": null
     },
     {
@@ -420,6 +429,20 @@
   ],
   "claims": [
     {
+      "achievementId": "masterclass",
+      "team": "Australia",
+      "detail": "Won with 28% possession",
+      "match": "Australia v Türkiye",
+      "fixtureId": 1539001,
+      "date": "2026-06-14T04:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-14T06:00:59.760Z",
+      "name": "Jose & Arteta Masterclass",
+      "emoji": "🧠",
+      "kind": "first",
+      "owner": "Josh"
+    },
+    {
       "achievementId": "smash_grab",
       "team": "Scotland",
       "detail": "Won with 9 shots to 15",
@@ -492,23 +515,49 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 17,
+    "totalGoals": 19,
     "lastGoal": {
-      "fixtureId": 1489372,
-      "date": "2026-06-14T01:00:00+00:00",
-      "teamId": 1108,
-      "teamName": "Scotland",
-      "player": "J. McGinn",
-      "minute": "28'",
-      "elapsed": 28,
+      "fixtureId": 1539001,
+      "date": "2026-06-14T04:00:00+00:00",
+      "teamId": 20,
+      "teamName": "Australia",
+      "player": "C. Metcalfe",
+      "minute": "75'",
+      "elapsed": 75,
       "extra": 0,
-      "sortKey": "2026-06-14T01:00:00+00:00|028|028",
-      "goalNumber": 17,
-      "butterflyTeam": "Egypt"
+      "sortKey": "2026-06-14T04:00:00+00:00|075|075",
+      "goalNumber": 19,
+      "butterflyTeam": "France"
     },
-    "nextGoalTeam": "England",
-    "currentWinner": "Egypt",
+    "nextGoalTeam": "Germany",
+    "currentWinner": "France",
     "recentGoals": [
+      {
+        "fixtureId": 1539001,
+        "date": "2026-06-14T04:00:00+00:00",
+        "teamId": 20,
+        "teamName": "Australia",
+        "player": "C. Metcalfe",
+        "minute": "75'",
+        "elapsed": 75,
+        "extra": 0,
+        "sortKey": "2026-06-14T04:00:00+00:00|075|075",
+        "goalNumber": 19,
+        "butterflyTeam": "France"
+      },
+      {
+        "fixtureId": 1539001,
+        "date": "2026-06-14T04:00:00+00:00",
+        "teamId": 20,
+        "teamName": "Australia",
+        "player": "N. Irankunda",
+        "minute": "27'",
+        "elapsed": 27,
+        "extra": 0,
+        "sortKey": "2026-06-14T04:00:00+00:00|027|027",
+        "goalNumber": 18,
+        "butterflyTeam": "England"
+      },
       {
         "fixtureId": 1489372,
         "date": "2026-06-14T01:00:00+00:00",
@@ -612,32 +661,6 @@
         "sortKey": "2026-06-13T01:00:00+00:00|050|045",
         "goalNumber": 10,
         "butterflyTeam": "Colombia"
-      },
-      {
-        "fixtureId": 1489370,
-        "date": "2026-06-13T01:00:00+00:00",
-        "teamId": 2384,
-        "teamName": "USA",
-        "player": "F. Balogun",
-        "minute": "31'",
-        "elapsed": 31,
-        "extra": 0,
-        "sortKey": "2026-06-13T01:00:00+00:00|031|031",
-        "goalNumber": 9,
-        "butterflyTeam": "Cape Verde Islands"
-      },
-      {
-        "fixtureId": 1489370,
-        "date": "2026-06-13T01:00:00+00:00",
-        "teamId": 2384,
-        "teamName": "USA",
-        "player": "D. Bobadilla",
-        "minute": "7'",
-        "elapsed": 7,
-        "extra": 0,
-        "sortKey": "2026-06-13T01:00:00+00:00|007|007",
-        "goalNumber": 8,
-        "butterflyTeam": "Canada"
       }
     ],
     "teamOrder": [
@@ -730,6 +753,14 @@
       "achievements": 1
     },
     {
+      "person": "Josh",
+      "teams": [
+        "Australia"
+      ],
+      "winnings": 10,
+      "achievements": 1
+    },
+    {
       "person": "Kelsey",
       "teams": [
         "South Korea"
@@ -786,14 +817,6 @@
       "person": "Emma G",
       "teams": [
         "Morocco"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
-      "person": "Josh",
-      "teams": [
-        "Australia"
       ],
       "winnings": 0,
       "achievements": 0
@@ -961,12 +984,6 @@
   ],
   "upcoming": [
     {
-      "match": "Australia v Türkiye",
-      "date": "2026-06-14T04:00:00+00:00",
-      "round": "Group Stage - 1",
-      "status": "2H"
-    },
-    {
       "match": "Germany v Curaçao",
       "date": "2026-06-14T17:00:00+00:00",
       "round": "Group Stage - 1",
@@ -995,9 +1012,20 @@
       "date": "2026-06-15T16:00:00+00:00",
       "round": "Group Stage - 1",
       "status": "NS"
+    },
+    {
+      "match": "Belgium v Egypt",
+      "date": "2026-06-15T19:00:00+00:00",
+      "round": "Group Stage - 1",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Australia 2-0 Türkiye",
+      "round": "Group Stage - 1",
+      "status": "FT"
+    },
     {
       "match": "Haiti 0-1 Scotland",
       "round": "Group Stage - 1",
@@ -1022,12 +1050,7 @@
       "match": "Canada 1-1 Bosnia & Herzegovina",
       "round": "Group Stage - 1",
       "status": "FT"
-    },
-    {
-      "match": "South Korea 2-1 Czechia",
-      "round": "Group Stage - 1",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 7
+  "matchesProcessed": 8
 }
