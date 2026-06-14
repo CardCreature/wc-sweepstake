@@ -26,7 +26,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T17:05:35.725Z"
+      "claimedAt": "2026-06-14T17:10:39.128Z"
     },
     "smash_grab": {
       "achievementId": "smash_grab",
@@ -54,7 +54,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T17:05:35.725Z"
+      "claimedAt": "2026-06-14T17:10:39.128Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -62,7 +62,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T17:05:35.724Z"
+      "claimedAt": "2026-06-14T17:10:39.128Z"
     }
   },
   "candidates": {
@@ -320,6 +320,17 @@
       "elapsed": 75,
       "extra": 0,
       "sortKey": "2026-06-14T04:00:00+00:00|075|075"
+    },
+    {
+      "fixtureId": 1489374,
+      "date": "2026-06-14T17:00:00+00:00",
+      "teamId": 25,
+      "teamName": "Germany",
+      "player": "F. Nmecha",
+      "minute": "6'",
+      "elapsed": 6,
+      "extra": 0,
+      "sortKey": "2026-06-14T17:00:00+00:00|006|006"
     }
   ],
   "long": {
@@ -390,7 +401,7 @@
     },
     "1489374": {
       "Germany": 0,
-      "Curaçao": 0
+      "Curaçao": 1
     },
     "1538999": {
       "South Korea": 1,
@@ -417,7 +428,7 @@
     "Qatar": 1,
     "Switzerland": 1,
     "Germany": 0,
-    "Curaçao": 0,
+    "Curaçao": 1,
     "South Korea": 1,
     "Czechia": 2,
     "Canada": 1,
