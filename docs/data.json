@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T04:45:39.341Z",
+  "updatedAt": "2026-06-14T04:50:38.541Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -964,7 +964,7 @@
       "match": "Australia v Türkiye",
       "date": "2026-06-14T04:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "1H"
+      "status": "HT"
     },
     {
       "match": "Germany v Curaçao",
