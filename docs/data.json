@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T13:15:42.926Z",
+  "updatedAt": "2026-06-14T13:18:58.027Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -514,23 +514,12 @@
       "owner": "Ant"
     }
   ],
-  "pending": [
-    {
-      "key": "leadership|1489370|Paraguay",
-      "achievementId": "leadership",
-      "team": "Paraguay",
-      "detail": "Captain Gustavo Gómez booked (79') — confirm it was for dissent",
-      "match": "USA v Paraguay",
-      "fixtureId": 1489370,
-      "date": "2026-06-13T01:00:00+00:00",
-      "status": "pending",
-      "name": "Leadership Qualities",
-      "emoji": "🎖️"
-    }
-  ],
+  "pending": [],
   "butterfly": {
-    "potValue": 0,
-    "potItems": [],
+    "potValue": 10,
+    "potItems": [
+      "leadership"
+    ],
     "totalGoals": 19,
     "lastGoal": {
       "fixtureId": 1539001,
