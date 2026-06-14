@@ -5,7 +5,8 @@
     1539000,
     1489370,
     1489373,
-    1489371
+    1489371,
+    1489372
   ],
   "claims": {
     "warnock": {
@@ -45,6 +46,16 @@
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
       "claimedAt": "2026-06-13T10:38:50.050Z"
+    },
+    "smash_grab": {
+      "achievementId": "smash_grab",
+      "team": "Scotland",
+      "detail": "Won with 9 shots to 15",
+      "match": "Haiti v Scotland",
+      "fixtureId": 1489372,
+      "date": "2026-06-14T01:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-14T03:05:30.608Z"
     }
   },
   "candidates": {
@@ -257,6 +268,17 @@
       "elapsed": 32,
       "extra": 0,
       "sortKey": "2026-06-13T22:00:00+00:00|032|032"
+    },
+    {
+      "fixtureId": 1489372,
+      "date": "2026-06-14T01:00:00+00:00",
+      "teamId": 1108,
+      "teamName": "Scotland",
+      "player": "J. McGinn",
+      "minute": "28'",
+      "elapsed": 28,
+      "extra": 0,
+      "sortKey": "2026-06-14T01:00:00+00:00|028|028"
     }
   ],
   "long": {
