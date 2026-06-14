@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T19:25:32.457Z",
+  "updatedAt": "2026-06-14T19:30:48.349Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T19:25:32.448Z"
+        "claimedAt": "2026-06-14T19:30:48.341Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T19:25:32.449Z"
+        "claimedAt": "2026-06-14T19:30:48.341Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T19:25:32.449Z"
+        "claimedAt": "2026-06-14T19:30:48.341Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -442,7 +442,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T19:25:32.449Z",
+      "claimedAt": "2026-06-14T19:30:48.341Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -454,7 +454,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T19:25:32.449Z",
+      "claimedAt": "2026-06-14T19:30:48.341Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -466,7 +466,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T19:25:32.448Z",
+      "claimedAt": "2026-06-14T19:30:48.341Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
