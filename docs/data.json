@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T17:20:40.212Z",
+  "updatedAt": "2026-06-14T17:25:30.065Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T17:20:40.211Z"
+        "claimedAt": "2026-06-14T17:25:30.064Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T17:20:40.211Z"
+        "claimedAt": "2026-06-14T17:25:30.064Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T17:20:40.211Z"
+        "claimedAt": "2026-06-14T17:25:30.064Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -433,7 +433,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T17:20:40.211Z",
+      "claimedAt": "2026-06-14T17:25:30.064Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -445,7 +445,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T17:20:40.211Z",
+      "claimedAt": "2026-06-14T17:25:30.064Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -457,7 +457,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T17:20:40.211Z",
+      "claimedAt": "2026-06-14T17:25:30.064Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -510,23 +510,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 20,
+    "totalGoals": 21,
     "lastGoal": {
       "fixtureId": 1489374,
       "date": "2026-06-14T17:00:00+00:00",
-      "teamId": 25,
-      "teamName": "Germany",
-      "player": "F. Nmecha",
-      "minute": "6'",
-      "elapsed": 6,
+      "teamId": 5530,
+      "teamName": "Curaçao",
+      "player": "L. Comenencia",
+      "minute": "21'",
+      "elapsed": 21,
       "extra": 0,
-      "sortKey": "2026-06-14T17:00:00+00:00|006|006",
-      "goalNumber": 20,
-      "butterflyTeam": "Ghana"
+      "sortKey": "2026-06-14T17:00:00+00:00|021|021",
+      "goalNumber": 21,
+      "butterflyTeam": "Haiti"
     },
-    "nextGoalTeam": "Haiti",
-    "currentWinner": "Ghana",
+    "nextGoalTeam": "Iran",
+    "currentWinner": "Haiti",
     "recentGoals": [
+      {
+        "fixtureId": 1489374,
+        "date": "2026-06-14T17:00:00+00:00",
+        "teamId": 5530,
+        "teamName": "Curaçao",
+        "player": "L. Comenencia",
+        "minute": "21'",
+        "elapsed": 21,
+        "extra": 0,
+        "sortKey": "2026-06-14T17:00:00+00:00|021|021",
+        "goalNumber": 21,
+        "butterflyTeam": "Haiti"
+      },
       {
         "fixtureId": 1489374,
         "date": "2026-06-14T17:00:00+00:00",
@@ -643,19 +656,6 @@
         "sortKey": "2026-06-13T01:00:00+00:00|090|090",
         "goalNumber": 12,
         "butterflyTeam": "Croatia"
-      },
-      {
-        "fixtureId": 1489370,
-        "date": "2026-06-13T01:00:00+00:00",
-        "teamId": 2380,
-        "teamName": "Paraguay",
-        "player": "Mauricio",
-        "minute": "73'",
-        "elapsed": 73,
-        "extra": 0,
-        "sortKey": "2026-06-13T01:00:00+00:00|073|073",
-        "goalNumber": 11,
-        "butterflyTeam": "Congo DR"
       }
     ],
     "teamOrder": [
