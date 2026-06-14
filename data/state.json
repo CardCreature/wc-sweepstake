@@ -7,7 +7,8 @@
     1489373,
     1489371,
     1489372,
-    1539001
+    1539001,
+    1489374
   ],
   "claims": {
     "warnock": {
@@ -26,7 +27,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:55:38.007Z"
+      "claimedAt": "2026-06-14T19:00:58.278Z"
     },
     "smash_grab": {
       "achievementId": "smash_grab",
@@ -54,7 +55,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:55:38.007Z"
+      "claimedAt": "2026-06-14T19:00:58.278Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -62,7 +63,17 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:55:38.007Z"
+      "claimedAt": "2026-06-14T19:00:58.278Z"
+    },
+    "goaliazio": {
+      "achievementId": "goaliazio",
+      "team": "Germany",
+      "detail": "Won a 7-1 thriller",
+      "match": "Germany v Curaçao",
+      "fixtureId": 1489374,
+      "date": "2026-06-14T17:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-14T19:00:58.276Z"
     }
   },
   "candidates": {
@@ -428,12 +439,12 @@
       "tied": false
     },
     "blink": {
-      "score": 7,
+      "score": 6,
       "unit": "min",
-      "team": "USA",
-      "detail": "D. Bobadilla 7' (USA v Paraguay)",
-      "value": 7,
-      "display": "7'"
+      "team": "Germany",
+      "detail": "F. Nmecha 6' (Germany v Curaçao)",
+      "value": 6,
+      "display": "6'"
     },
     "better_late": {
       "score": -9000,
