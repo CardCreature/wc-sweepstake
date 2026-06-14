@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T18:05:31.733Z",
+  "updatedAt": "2026-06-14T18:10:41.128Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T18:05:31.731Z"
+        "claimedAt": "2026-06-14T18:10:41.127Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T18:05:31.732Z"
+        "claimedAt": "2026-06-14T18:10:41.127Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T18:05:31.732Z"
+        "claimedAt": "2026-06-14T18:10:41.127Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -407,7 +407,7 @@
       "owner": null,
       "leader": {
         "team": "Paraguay",
-        "detail": "4 goals conceded so far"
+        "detail": "Joint leaders (Paraguay, Curaçao) — 4 conceded each"
       }
     },
     {
@@ -433,7 +433,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:05:31.732Z",
+      "claimedAt": "2026-06-14T18:10:41.127Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -445,7 +445,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:05:31.732Z",
+      "claimedAt": "2026-06-14T18:10:41.127Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -457,7 +457,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:05:31.731Z",
+      "claimedAt": "2026-06-14T18:10:41.127Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -981,7 +981,7 @@
       "match": "Germany v Curaçao",
       "date": "2026-06-14T17:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "HT"
+      "status": "2H"
     },
     {
       "match": "Netherlands v Japan",
