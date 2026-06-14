@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T18:50:38.615Z",
+  "updatedAt": "2026-06-14T18:55:38.008Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T18:50:38.614Z"
+        "claimedAt": "2026-06-14T18:55:38.007Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T18:50:38.614Z"
+        "claimedAt": "2026-06-14T18:55:38.007Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T18:50:38.614Z"
+        "claimedAt": "2026-06-14T18:55:38.007Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -407,7 +407,7 @@
       "owner": null,
       "leader": {
         "team": "Curaçao",
-        "detail": "6 goals conceded so far"
+        "detail": "7 goals conceded so far"
       }
     },
     {
@@ -433,7 +433,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:50:38.614Z",
+      "claimedAt": "2026-06-14T18:55:38.007Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -445,7 +445,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:50:38.614Z",
+      "claimedAt": "2026-06-14T18:55:38.007Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -457,7 +457,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:50:38.614Z",
+      "claimedAt": "2026-06-14T18:55:38.007Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -510,23 +510,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 26,
+    "totalGoals": 27,
     "lastGoal": {
       "fixtureId": 1489374,
       "date": "2026-06-14T17:00:00+00:00",
       "teamId": 25,
       "teamName": "Germany",
-      "player": "D. Undav",
-      "minute": "78'",
-      "elapsed": 78,
+      "player": "K. Havertz",
+      "minute": "88'",
+      "elapsed": 88,
       "extra": 0,
-      "sortKey": "2026-06-14T17:00:00+00:00|078|078",
-      "goalNumber": 26,
-      "butterflyTeam": "Jordan"
+      "sortKey": "2026-06-14T17:00:00+00:00|088|088",
+      "goalNumber": 27,
+      "butterflyTeam": "Mexico"
     },
-    "nextGoalTeam": "Mexico",
-    "currentWinner": "Jordan",
+    "nextGoalTeam": "Morocco",
+    "currentWinner": "Mexico",
     "recentGoals": [
+      {
+        "fixtureId": 1489374,
+        "date": "2026-06-14T17:00:00+00:00",
+        "teamId": 25,
+        "teamName": "Germany",
+        "player": "K. Havertz",
+        "minute": "88'",
+        "elapsed": 88,
+        "extra": 0,
+        "sortKey": "2026-06-14T17:00:00+00:00|088|088",
+        "goalNumber": 27,
+        "butterflyTeam": "Mexico"
+      },
       {
         "fixtureId": 1489374,
         "date": "2026-06-14T17:00:00+00:00",
@@ -643,19 +656,6 @@
         "sortKey": "2026-06-14T04:00:00+00:00|027|027",
         "goalNumber": 18,
         "butterflyTeam": "France"
-      },
-      {
-        "fixtureId": 1489372,
-        "date": "2026-06-14T01:00:00+00:00",
-        "teamId": 1108,
-        "teamName": "Scotland",
-        "player": "J. McGinn",
-        "minute": "28'",
-        "elapsed": 28,
-        "extra": 0,
-        "sortKey": "2026-06-14T01:00:00+00:00|028|028",
-        "goalNumber": 17,
-        "butterflyTeam": "England"
       }
     ],
     "teamOrder": [
