@@ -55,7 +55,7 @@ const ACHIEVEMENTS = [
   { id: "agent_chaos",    kind: "long",  mode: "auto",   emoji: "🤡", name: "Agent Chaos", desc: "Team involved in the most own goals." },
   { id: "blink",          kind: "long",  mode: "auto",   emoji: "⚡", name: "Blink And You'll Miss It", desc: "Fastest goal of the tournament." },
   { id: "better_late",    kind: "long",  mode: "auto",   emoji: "🌙", name: "Better Late Than Never", desc: "Latest normal-time goal of the tournament." },
-  { id: "sieve",          kind: "long",  mode: "auto",   emoji: "🪣", name: "The Sieve", desc: "Team that conceded the most goals across the tournament." },
+  { id: "sieve",          kind: "long",  mode: "auto",   emoji: "🕳️", name: "The Sieve", desc: "Team that conceded the most goals across the tournament." },
   { id: "nice_to_see_you",kind: "long",  mode: "auto",   emoji: "🚪", name: "It's Nice To See You Here, Now F*** Off", desc: "Earliest substitution of the tournament." },
 ];
 
@@ -198,19 +198,19 @@ async function scoreFixture(fx, state, finished, countCall) {
     timeline.push({ ev: g, hs, as });
   }
 
-  // record goals for Butterfly / fastest / latest (only once, when finished)
-  if (finished) {
-    for (const t of timeline) {
-      const g = t.ev, tm = evTime(g);
-      state.goals.push({
-        fixtureId: fid, date: fx.fixture.date, teamId: g.team.id, teamName: g.team.name,
-        player: g.player?.name || "Unknown", minute: minuteLabel(g),
-        elapsed: tm.elapsed, extra: tm.extra,
-        sortKey: `${fx.fixture.date}|${String(tm.total).padStart(3, "0")}|${String(tm.elapsed).padStart(3, "0")}`,
-      });
-    }
-    state.goals.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
+  // record goals for Butterfly / fastest / latest — re-derive this fixture's goals every run
+  // so live matches update in real time and VAR cancellations get reflected on next refresh
+  state.goals = state.goals.filter(g => g.fixtureId !== fid);
+  for (const t of timeline) {
+    const g = t.ev, tm = evTime(g);
+    state.goals.push({
+      fixtureId: fid, date: fx.fixture.date, teamId: g.team.id, teamName: g.team.name,
+      player: g.player?.name || "Unknown", minute: minuteLabel(g),
+      elapsed: tm.elapsed, extra: tm.extra,
+      sortKey: `${fx.fixture.date}|${String(tm.total).padStart(3, "0")}|${String(tm.elapsed).padStart(3, "0")}`,
+    });
   }
+  state.goals.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
 
   const claimIfFirst = (id, team, detail) => {
     if (state.claims[id]) return;
@@ -392,21 +392,31 @@ async function scoreFixture(fx, state, finished, countCall) {
     }
   }
 
-  // The Sieve — count goals conceded (runs for all finished matches, including draws)
-  if (finished && fx.score.fulltime?.home != null) {
-    state.conceded = state.conceded || {};
-    state.conceded[home.name] = (state.conceded[home.name] || 0) + fx.score.fulltime.away;
-    state.conceded[away.name] = (state.conceded[away.name] || 0) + fx.score.fulltime.home;
-    const sv = Object.entries(state.conceded).sort((a, b) => b[1] - a[1]);
-    const topVal = sv[0][1];
-    const topTeams = sv.filter(([, v]) => v === topVal).map(([t]) => t);
-    state.long.sieve = {
-      score: -topVal, team: topTeams[0],
-      detail: topTeams.length > 1
-        ? `Joint leaders (${topTeams.join(", ")}) — ${topVal} conceded each`
-        : `${topVal} goals conceded so far`,
-      tied: topTeams.length > 1,
+  // The Sieve — track conceded per fixture, then aggregate (supports live updates)
+  if (fx.goals?.home != null && fx.goals?.away != null) {
+    state.concededByMatch = state.concededByMatch || {};
+    state.concededByMatch[fid] = {
+      [home.name]: fx.goals.away || 0,
+      [away.name]: fx.goals.home || 0,
     };
+    state.conceded = {};
+    for (const m of Object.values(state.concededByMatch)) {
+      for (const [team, n] of Object.entries(m)) {
+        state.conceded[team] = (state.conceded[team] || 0) + n;
+      }
+    }
+    const sv = Object.entries(state.conceded).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
+    if (sv.length) {
+      const topVal = sv[0][1];
+      const topTeams = sv.filter(([, v]) => v === topVal).map(([t]) => t);
+      state.long.sieve = {
+        score: -topVal, team: topTeams[0],
+        detail: topTeams.length > 1
+          ? `Joint leaders (${topTeams.join(", ")}) — ${topVal} conceded each`
+          : `${topVal} goals conceded so far`,
+        tied: topTeams.length > 1,
+      };
+    }
   }
 
   // Result / timeline rules (finished matches only)
