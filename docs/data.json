@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T01:50:36.154Z",
+  "updatedAt": "2026-06-14T01:55:29.375Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -941,7 +941,7 @@
       "match": "Haiti v Scotland",
       "date": "2026-06-14T01:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "1H"
+      "status": "HT"
     },
     {
       "match": "Australia v Türkiye",
