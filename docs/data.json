@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T12:21:51.352Z",
+  "updatedAt": "2026-06-14T12:30:31.139Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -402,10 +402,10 @@
     {
       "id": "computer_no",
       "kind": "long",
-      "mode": "manual",
+      "mode": "auto",
       "emoji": "🖥️",
       "name": "Computer Says No",
-      "desc": "Longest VAR review. (Tom times them — sorry Tom.)",
+      "desc": "Team with the most goals chalked off by VAR.",
       "status": "open",
       "claim": null,
       "owner": null,
@@ -527,10 +527,10 @@
       "extra": 0,
       "sortKey": "2026-06-14T04:00:00+00:00|075|075",
       "goalNumber": 19,
-      "butterflyTeam": "France"
+      "butterflyTeam": "Germany"
     },
-    "nextGoalTeam": "Germany",
-    "currentWinner": "France",
+    "nextGoalTeam": "Ghana",
+    "currentWinner": "Germany",
     "recentGoals": [
       {
         "fixtureId": 1539001,
@@ -543,7 +543,7 @@
         "extra": 0,
         "sortKey": "2026-06-14T04:00:00+00:00|075|075",
         "goalNumber": 19,
-        "butterflyTeam": "France"
+        "butterflyTeam": "Germany"
       },
       {
         "fixtureId": 1539001,
@@ -556,7 +556,7 @@
         "extra": 0,
         "sortKey": "2026-06-14T04:00:00+00:00|027|027",
         "goalNumber": 18,
-        "butterflyTeam": "England"
+        "butterflyTeam": "France"
       },
       {
         "fixtureId": 1489372,
@@ -569,7 +569,7 @@
         "extra": 0,
         "sortKey": "2026-06-14T01:00:00+00:00|028|028",
         "goalNumber": 17,
-        "butterflyTeam": "Egypt"
+        "butterflyTeam": "England"
       },
       {
         "fixtureId": 1489371,
@@ -582,7 +582,7 @@
         "extra": 0,
         "sortKey": "2026-06-13T22:00:00+00:00|032|032",
         "goalNumber": 16,
-        "butterflyTeam": "Ecuador"
+        "butterflyTeam": "Egypt"
       },
       {
         "fixtureId": 1489371,
@@ -595,7 +595,7 @@
         "extra": 0,
         "sortKey": "2026-06-13T22:00:00+00:00|021|021",
         "goalNumber": 15,
-        "butterflyTeam": "Czechia"
+        "butterflyTeam": "Ecuador"
       },
       {
         "fixtureId": 1489373,
@@ -678,7 +678,6 @@
       "Croatia",
       "Curaçao",
       "Czech Republic",
-      "Czechia",
       "Ecuador",
       "Egypt",
       "England",
