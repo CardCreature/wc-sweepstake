@@ -4,7 +4,8 @@
     1538999,
     1539000,
     1489370,
-    1489373
+    1489373,
+    1489371
   ],
   "claims": {
     "warnock": {
@@ -234,6 +235,28 @@
       "elapsed": 90,
       "extra": 4,
       "sortKey": "2026-06-13T19:00:00+00:00|094|090"
+    },
+    {
+      "fixtureId": 1489371,
+      "date": "2026-06-13T22:00:00+00:00",
+      "teamId": 31,
+      "teamName": "Morocco",
+      "player": "I. Saibari",
+      "minute": "21'",
+      "elapsed": 21,
+      "extra": 0,
+      "sortKey": "2026-06-13T22:00:00+00:00|021|021"
+    },
+    {
+      "fixtureId": 1489371,
+      "date": "2026-06-13T22:00:00+00:00",
+      "teamId": 6,
+      "teamName": "Brazil",
+      "player": "Vinicius Junior",
+      "minute": "32'",
+      "elapsed": 32,
+      "extra": 0,
+      "sortKey": "2026-06-13T22:00:00+00:00|032|032"
     }
   ],
   "long": {

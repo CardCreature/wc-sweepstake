@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T00:05:34.049Z",
+  "updatedAt": "2026-06-14T00:10:39.232Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -469,23 +469,49 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 14,
+    "totalGoals": 16,
     "lastGoal": {
-      "fixtureId": 1489373,
-      "date": "2026-06-13T19:00:00+00:00",
-      "teamId": 1569,
-      "teamName": "Qatar",
-      "player": "B. Khoukhi",
-      "minute": "90+4'",
-      "elapsed": 90,
-      "extra": 4,
-      "sortKey": "2026-06-13T19:00:00+00:00|094|090",
-      "goalNumber": 14,
-      "butterflyTeam": "Czech Republic"
+      "fixtureId": 1489371,
+      "date": "2026-06-13T22:00:00+00:00",
+      "teamId": 6,
+      "teamName": "Brazil",
+      "player": "Vinicius Junior",
+      "minute": "32'",
+      "elapsed": 32,
+      "extra": 0,
+      "sortKey": "2026-06-13T22:00:00+00:00|032|032",
+      "goalNumber": 16,
+      "butterflyTeam": "Ecuador"
     },
-    "nextGoalTeam": "Czechia",
-    "currentWinner": "Czech Republic",
+    "nextGoalTeam": "Egypt",
+    "currentWinner": "Ecuador",
     "recentGoals": [
+      {
+        "fixtureId": 1489371,
+        "date": "2026-06-13T22:00:00+00:00",
+        "teamId": 6,
+        "teamName": "Brazil",
+        "player": "Vinicius Junior",
+        "minute": "32'",
+        "elapsed": 32,
+        "extra": 0,
+        "sortKey": "2026-06-13T22:00:00+00:00|032|032",
+        "goalNumber": 16,
+        "butterflyTeam": "Ecuador"
+      },
+      {
+        "fixtureId": 1489371,
+        "date": "2026-06-13T22:00:00+00:00",
+        "teamId": 31,
+        "teamName": "Morocco",
+        "player": "I. Saibari",
+        "minute": "21'",
+        "elapsed": 21,
+        "extra": 0,
+        "sortKey": "2026-06-13T22:00:00+00:00|021|021",
+        "goalNumber": 15,
+        "butterflyTeam": "Czechia"
+      },
       {
         "fixtureId": 1489373,
         "date": "2026-06-13T19:00:00+00:00",
@@ -589,32 +615,6 @@
         "sortKey": "2026-06-12T19:00:00+00:00|078|078",
         "goalNumber": 7,
         "butterflyTeam": "Brazil"
-      },
-      {
-        "fixtureId": 1539000,
-        "date": "2026-06-12T19:00:00+00:00",
-        "teamId": 1113,
-        "teamName": "Bosnia & Herzegovina",
-        "player": "Jovo Lukić",
-        "minute": "21'",
-        "elapsed": 21,
-        "extra": 0,
-        "sortKey": "2026-06-12T19:00:00+00:00|021|021",
-        "goalNumber": 6,
-        "butterflyTeam": "Bosnia & Herzegovina"
-      },
-      {
-        "fixtureId": 1538999,
-        "date": "2026-06-12T02:00:00+00:00",
-        "teamId": 17,
-        "teamName": "South Korea",
-        "player": "Oh Hyeon-Gyu",
-        "minute": "80'",
-        "elapsed": 80,
-        "extra": 0,
-        "sortKey": "2026-06-12T02:00:00+00:00|080|080",
-        "goalNumber": 5,
-        "butterflyTeam": "Belgium"
       }
     ],
     "teamOrder": [
@@ -938,12 +938,6 @@
   ],
   "upcoming": [
     {
-      "match": "Brazil v Morocco",
-      "date": "2026-06-13T22:00:00+00:00",
-      "round": "Group Stage - 1",
-      "status": "2H"
-    },
-    {
       "match": "Haiti v Scotland",
       "date": "2026-06-14T01:00:00+00:00",
       "round": "Group Stage - 1",
@@ -972,9 +966,20 @@
       "date": "2026-06-14T23:00:00+00:00",
       "round": "Group Stage - 1",
       "status": "NS"
+    },
+    {
+      "match": "Sweden v Tunisia",
+      "date": "2026-06-15T02:00:00+00:00",
+      "round": "Group Stage - 1",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Brazil 1-1 Morocco",
+      "round": "Group Stage - 1",
+      "status": "FT"
+    },
     {
       "match": "Qatar 1-1 Switzerland",
       "round": "Group Stage - 1",
@@ -1001,5 +1006,5 @@
       "status": "FT"
     }
   ],
-  "matchesProcessed": 5
+  "matchesProcessed": 6
 }
