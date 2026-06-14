@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T12:30:48.591Z",
+  "updatedAt": "2026-06-14T13:02:48.085Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -18,7 +18,7 @@
         "fixtureId": 1539001,
         "date": "2026-06-14T04:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T06:00:59.760Z"
+        "claimedAt": "2026-06-14T13:02:48.083Z"
       },
       "owner": "Josh",
       "leader": null
@@ -46,12 +46,10 @@
       "claim": {
         "achievementId": "fergie",
         "team": "USA",
-        "detail": "Scored in first-half and second-half stoppage time",
+        "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
-        "fixtureId": 1489370,
-        "date": "2026-06-13T01:00:00+00:00",
-        "awardedBy": "auto",
-        "claimedAt": "2026-06-13T10:38:49.717Z"
+        "awardedBy": "Tom's ruling",
+        "claimedAt": "2026-06-14T13:02:48.084Z"
       },
       "owner": "Kate",
       "leader": null
@@ -72,7 +70,7 @@
         "fixtureId": 1489370,
         "date": "2026-06-13T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-13T10:38:49.717Z"
+        "claimedAt": "2026-06-14T13:02:46.670Z"
       },
       "owner": "Ant",
       "leader": null
@@ -111,13 +109,15 @@
       "status": "claimed",
       "claim": {
         "achievementId": "streets",
-        "team": "Mexico",
-        "detail": "R. Jimenez scored aged 35+ vs South Africa",
-        "match": "Mexico v South Africa",
-        "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-13T10:38:50.050Z"
+        "team": "Qatar",
+        "detail": "Boualem Khoukhi (35) scored (90+4')",
+        "match": "Qatar v Switzerland",
+        "fixtureId": 1489373,
+        "date": "2026-06-13T19:00:00+00:00",
+        "awardedBy": "auto",
+        "claimedAt": "2026-06-14T13:02:47.616Z"
       },
-      "owner": "Neil",
+      "owner": "Luke",
       "leader": null
     },
     {
@@ -136,7 +136,7 @@
         "fixtureId": 1489372,
         "date": "2026-06-14T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T03:05:30.608Z"
+        "claimedAt": "2026-06-14T13:02:47.927Z"
       },
       "owner": "Neil",
       "leader": null
@@ -169,7 +169,7 @@
         "fixtureId": 1489369,
         "date": "2026-06-11T19:00:00+00:00",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-13T10:38:50.050Z"
+        "claimedAt": "2026-06-14T13:02:48.084Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -396,20 +396,23 @@
       "owner": null,
       "leader": {
         "team": "USA",
-        "detail": "G. Reyna 90+8' (USA v Paraguay)"
+        "detail": "G. Reyna 90' (USA v Paraguay)"
       }
     },
     {
-      "id": "computer_no",
+      "id": "sieve",
       "kind": "long",
       "mode": "auto",
-      "emoji": "🖥️",
-      "name": "Computer Says No",
-      "desc": "Team with the most goals chalked off by VAR.",
+      "emoji": "🪣",
+      "name": "The Sieve",
+      "desc": "Team that conceded the most goals across the tournament.",
       "status": "open",
       "claim": null,
       "owner": null,
-      "leader": null
+      "leader": {
+        "team": "Paraguay",
+        "detail": "4 goals conceded so far"
+      }
     },
     {
       "id": "nice_to_see_you",
@@ -422,12 +425,38 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "Paraguay",
-        "detail": "D. Bobadilla off 46' (USA v Paraguay)"
+        "team": "USA",
+        "detail": "C. Pulisic off 46' (USA v Paraguay)"
       }
     }
   ],
   "claims": [
+    {
+      "achievementId": "check_complete",
+      "team": "South Africa",
+      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+      "match": "Mexico v South Africa",
+      "fixtureId": 1489369,
+      "date": "2026-06-11T19:00:00+00:00",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-14T13:02:48.084Z",
+      "name": "Check Complete",
+      "emoji": "📺",
+      "kind": "first",
+      "owner": "Nick Lunn"
+    },
+    {
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored 45+5 and 90+8 vs Paraguay",
+      "match": "USA v Paraguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-14T13:02:48.084Z",
+      "name": "The Fergie Sandwich",
+      "emoji": "⏱️",
+      "kind": "first",
+      "owner": "Kate"
+    },
     {
       "achievementId": "masterclass",
       "team": "Australia",
@@ -436,7 +465,7 @@
       "fixtureId": 1539001,
       "date": "2026-06-14T04:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-14T06:00:59.760Z",
+      "claimedAt": "2026-06-14T13:02:48.083Z",
       "name": "Jose & Arteta Masterclass",
       "emoji": "🧠",
       "kind": "first",
@@ -450,37 +479,25 @@
       "fixtureId": 1489372,
       "date": "2026-06-14T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-14T03:05:30.608Z",
+      "claimedAt": "2026-06-14T13:02:47.927Z",
       "name": "Smash & Grab",
       "emoji": "🛍️",
       "kind": "first",
       "owner": "Neil"
     },
     {
-      "achievementId": "check_complete",
-      "team": "South Africa",
-      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
-      "match": "Mexico v South Africa",
-      "fixtureId": 1489369,
-      "date": "2026-06-11T19:00:00+00:00",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-13T10:38:50.050Z",
-      "name": "Check Complete",
-      "emoji": "📺",
-      "kind": "first",
-      "owner": "Nick Lunn"
-    },
-    {
       "achievementId": "streets",
-      "team": "Mexico",
-      "detail": "R. Jimenez scored aged 35+ vs South Africa",
-      "match": "Mexico v South Africa",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-13T10:38:50.050Z",
+      "team": "Qatar",
+      "detail": "Boualem Khoukhi (35) scored (90+4')",
+      "match": "Qatar v Switzerland",
+      "fixtureId": 1489373,
+      "date": "2026-06-13T19:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-14T13:02:47.616Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
-      "owner": "Neil"
+      "owner": "Luke"
     },
     {
       "achievementId": "warnock",
@@ -490,28 +507,27 @@
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-13T10:38:49.717Z",
+      "claimedAt": "2026-06-14T13:02:46.670Z",
       "name": "Neil Warnock Would Be Proud",
       "emoji": "🟨",
       "kind": "first",
       "owner": "Ant"
-    },
+    }
+  ],
+  "pending": [
     {
-      "achievementId": "fergie",
-      "team": "USA",
-      "detail": "Scored in first-half and second-half stoppage time",
+      "key": "leadership|1489370|Paraguay",
+      "achievementId": "leadership",
+      "team": "Paraguay",
+      "detail": "Captain Gustavo Gómez booked (79') — confirm it was for dissent",
       "match": "USA v Paraguay",
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
-      "awardedBy": "auto",
-      "claimedAt": "2026-06-13T10:38:49.717Z",
-      "name": "The Fergie Sandwich",
-      "emoji": "⏱️",
-      "kind": "first",
-      "owner": "Kate"
+      "status": "pending",
+      "name": "Leadership Qualities",
+      "emoji": "🎖️"
     }
   ],
-  "pending": [],
   "butterfly": {
     "potValue": 0,
     "potItems": [],
@@ -576,7 +592,7 @@
         "date": "2026-06-13T22:00:00+00:00",
         "teamId": 6,
         "teamName": "Brazil",
-        "player": "Vinicius Junior",
+        "player": "Vinícius Júnior",
         "minute": "32'",
         "elapsed": 32,
         "extra": 0,
@@ -589,7 +605,7 @@
         "date": "2026-06-13T22:00:00+00:00",
         "teamId": 31,
         "teamName": "Morocco",
-        "player": "I. Saibari",
+        "player": "Ismael Saibari",
         "minute": "21'",
         "elapsed": 21,
         "extra": 0,
@@ -602,7 +618,7 @@
         "date": "2026-06-13T19:00:00+00:00",
         "teamId": 1569,
         "teamName": "Qatar",
-        "player": "B. Khoukhi",
+        "player": "Boualem Khoukhi",
         "minute": "90+4'",
         "elapsed": 90,
         "extra": 4,
@@ -615,7 +631,7 @@
         "date": "2026-06-13T19:00:00+00:00",
         "teamId": 15,
         "teamName": "Switzerland",
-        "player": "B. Embolo",
+        "player": "Breel Embolo",
         "minute": "17'",
         "elapsed": 17,
         "extra": 0,
@@ -629,10 +645,10 @@
         "teamId": 2384,
         "teamName": "USA",
         "player": "G. Reyna",
-        "minute": "90+8'",
+        "minute": "90'",
         "elapsed": 90,
-        "extra": 8,
-        "sortKey": "2026-06-13T01:00:00+00:00|098|090",
+        "extra": 0,
+        "sortKey": "2026-06-13T01:00:00+00:00|090|090",
         "goalNumber": 12,
         "butterflyTeam": "Croatia"
       },
@@ -655,10 +671,10 @@
         "teamId": 2384,
         "teamName": "USA",
         "player": "F. Balogun",
-        "minute": "45+5'",
+        "minute": "45'",
         "elapsed": 45,
-        "extra": 5,
-        "sortKey": "2026-06-13T01:00:00+00:00|050|045",
+        "extra": 0,
+        "sortKey": "2026-06-13T01:00:00+00:00|045|045",
         "goalNumber": 10,
         "butterflyTeam": "Colombia"
       }
@@ -721,14 +737,23 @@
         "Mexico",
         "Scotland"
       ],
-      "winnings": 20,
-      "achievements": 2
+      "winnings": 10,
+      "achievements": 1
     },
     {
       "person": "Nick Lunn",
       "teams": [
         "South Africa",
         "Sweden"
+      ],
+      "winnings": 10,
+      "achievements": 1
+    },
+    {
+      "person": "Luke",
+      "teams": [
+        "Czech Republic",
+        "Qatar"
       ],
       "winnings": 10,
       "achievements": 1
@@ -763,15 +788,6 @@
       "person": "Kelsey",
       "teams": [
         "South Korea"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
-      "person": "Luke",
-      "teams": [
-        "Czech Republic",
-        "Qatar"
       ],
       "winnings": 0,
       "achievements": 0
