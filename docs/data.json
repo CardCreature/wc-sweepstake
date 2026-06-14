@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T13:02:48.085Z",
+  "updatedAt": "2026-06-14T13:12:30.728Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -18,7 +18,7 @@
         "fixtureId": 1539001,
         "date": "2026-06-14T04:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:02:48.083Z"
+        "claimedAt": "2026-06-14T13:12:30.726Z"
       },
       "owner": "Josh",
       "leader": null
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T13:02:48.084Z"
+        "claimedAt": "2026-06-14T13:12:30.726Z"
       },
       "owner": "Kate",
       "leader": null
@@ -70,7 +70,7 @@
         "fixtureId": 1489370,
         "date": "2026-06-13T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:02:46.670Z"
+        "claimedAt": "2026-06-14T13:12:29.280Z"
       },
       "owner": "Ant",
       "leader": null
@@ -115,7 +115,7 @@
         "fixtureId": 1489373,
         "date": "2026-06-13T19:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:02:47.616Z"
+        "claimedAt": "2026-06-14T13:12:30.242Z"
       },
       "owner": "Luke",
       "leader": null
@@ -136,7 +136,7 @@
         "fixtureId": 1489372,
         "date": "2026-06-14T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:02:47.927Z"
+        "claimedAt": "2026-06-14T13:12:30.563Z"
       },
       "owner": "Neil",
       "leader": null
@@ -169,7 +169,7 @@
         "fixtureId": 1489369,
         "date": "2026-06-11T19:00:00+00:00",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T13:02:48.084Z"
+        "claimedAt": "2026-06-14T13:12:30.726Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -403,7 +403,7 @@
       "id": "sieve",
       "kind": "long",
       "mode": "auto",
-      "emoji": "🪣",
+      "emoji": "🕳️",
       "name": "The Sieve",
       "desc": "Team that conceded the most goals across the tournament.",
       "status": "open",
@@ -432,6 +432,20 @@
   ],
   "claims": [
     {
+      "achievementId": "masterclass",
+      "team": "Australia",
+      "detail": "Won with 28% possession",
+      "match": "Australia v Türkiye",
+      "fixtureId": 1539001,
+      "date": "2026-06-14T04:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-14T13:12:30.726Z",
+      "name": "Jose & Arteta Masterclass",
+      "emoji": "🧠",
+      "kind": "first",
+      "owner": "Josh"
+    },
+    {
       "achievementId": "check_complete",
       "team": "South Africa",
       "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
@@ -439,7 +453,7 @@
       "fixtureId": 1489369,
       "date": "2026-06-11T19:00:00+00:00",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T13:02:48.084Z",
+      "claimedAt": "2026-06-14T13:12:30.726Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -451,25 +465,11 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T13:02:48.084Z",
+      "claimedAt": "2026-06-14T13:12:30.726Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
       "owner": "Kate"
-    },
-    {
-      "achievementId": "masterclass",
-      "team": "Australia",
-      "detail": "Won with 28% possession",
-      "match": "Australia v Türkiye",
-      "fixtureId": 1539001,
-      "date": "2026-06-14T04:00:00+00:00",
-      "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:02:48.083Z",
-      "name": "Jose & Arteta Masterclass",
-      "emoji": "🧠",
-      "kind": "first",
-      "owner": "Josh"
     },
     {
       "achievementId": "smash_grab",
@@ -479,7 +479,7 @@
       "fixtureId": 1489372,
       "date": "2026-06-14T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:02:47.927Z",
+      "claimedAt": "2026-06-14T13:12:30.563Z",
       "name": "Smash & Grab",
       "emoji": "🛍️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "fixtureId": 1489373,
       "date": "2026-06-13T19:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:02:47.616Z",
+      "claimedAt": "2026-06-14T13:12:30.242Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -507,7 +507,7 @@
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:02:46.670Z",
+      "claimedAt": "2026-06-14T13:12:29.280Z",
       "name": "Neil Warnock Would Be Proud",
       "emoji": "🟨",
       "kind": "first",
