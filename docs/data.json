@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T13:40:40.277Z",
+  "updatedAt": "2026-06-14T13:45:33.095Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -18,7 +18,7 @@
         "fixtureId": 1539001,
         "date": "2026-06-14T04:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:12:30.726Z"
+        "claimedAt": "2026-06-14T13:45:33.092Z"
       },
       "owner": "Josh",
       "leader": null
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T13:12:30.726Z"
+        "claimedAt": "2026-06-14T13:45:33.093Z"
       },
       "owner": "Kate",
       "leader": null
@@ -70,7 +70,7 @@
         "fixtureId": 1489370,
         "date": "2026-06-13T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:12:29.280Z"
+        "claimedAt": "2026-06-14T13:45:31.651Z"
       },
       "owner": "Ant",
       "leader": null
@@ -109,15 +109,13 @@
       "status": "claimed",
       "claim": {
         "achievementId": "streets",
-        "team": "Qatar",
-        "detail": "Boualem Khoukhi (35) scored (90+4')",
-        "match": "Qatar v Switzerland",
-        "fixtureId": 1489373,
-        "date": "2026-06-13T19:00:00+00:00",
-        "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:12:30.242Z"
+        "team": "Mexico",
+        "detail": "R. Jimenez scored aged 35+ vs South Africa",
+        "match": "Mexico v South Africa",
+        "awardedBy": "Tom's ruling",
+        "claimedAt": "2026-06-14T13:45:33.093Z"
       },
-      "owner": "Luke",
+      "owner": "Neil",
       "leader": null
     },
     {
@@ -136,7 +134,7 @@
         "fixtureId": 1489372,
         "date": "2026-06-14T01:00:00+00:00",
         "awardedBy": "auto",
-        "claimedAt": "2026-06-14T13:12:30.563Z"
+        "claimedAt": "2026-06-14T13:45:32.934Z"
       },
       "owner": "Neil",
       "leader": null
@@ -164,12 +162,10 @@
       "claim": {
         "achievementId": "check_complete",
         "team": "South Africa",
-        "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+        "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
-        "fixtureId": 1489369,
-        "date": "2026-06-11T19:00:00+00:00",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-14T13:12:30.726Z"
+        "claimedAt": "2026-06-14T13:45:33.093Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -432,28 +428,24 @@
   ],
   "claims": [
     {
-      "achievementId": "masterclass",
-      "team": "Australia",
-      "detail": "Won with 28% possession",
-      "match": "Australia v Türkiye",
-      "fixtureId": 1539001,
-      "date": "2026-06-14T04:00:00+00:00",
-      "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:12:30.726Z",
-      "name": "Jose & Arteta Masterclass",
-      "emoji": "🧠",
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-14T13:45:33.093Z",
+      "name": "The Streets Won't Forget",
+      "emoji": "👴",
       "kind": "first",
-      "owner": "Josh"
+      "owner": "Neil"
     },
     {
       "achievementId": "check_complete",
       "team": "South Africa",
-      "detail": "Themba Zwane red card near a VAR review (84') — confirm it followed the review",
+      "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
-      "fixtureId": 1489369,
-      "date": "2026-06-11T19:00:00+00:00",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T13:12:30.726Z",
+      "claimedAt": "2026-06-14T13:45:33.093Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -465,11 +457,25 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T13:12:30.726Z",
+      "claimedAt": "2026-06-14T13:45:33.093Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
       "owner": "Kate"
+    },
+    {
+      "achievementId": "masterclass",
+      "team": "Australia",
+      "detail": "Won with 28% possession",
+      "match": "Australia v Türkiye",
+      "fixtureId": 1539001,
+      "date": "2026-06-14T04:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-14T13:45:33.092Z",
+      "name": "Jose & Arteta Masterclass",
+      "emoji": "🧠",
+      "kind": "first",
+      "owner": "Josh"
     },
     {
       "achievementId": "smash_grab",
@@ -479,25 +485,11 @@
       "fixtureId": 1489372,
       "date": "2026-06-14T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:12:30.563Z",
+      "claimedAt": "2026-06-14T13:45:32.934Z",
       "name": "Smash & Grab",
       "emoji": "🛍️",
       "kind": "first",
       "owner": "Neil"
-    },
-    {
-      "achievementId": "streets",
-      "team": "Qatar",
-      "detail": "Boualem Khoukhi (35) scored (90+4')",
-      "match": "Qatar v Switzerland",
-      "fixtureId": 1489373,
-      "date": "2026-06-13T19:00:00+00:00",
-      "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:12:30.242Z",
-      "name": "The Streets Won't Forget",
-      "emoji": "👴",
-      "kind": "first",
-      "owner": "Luke"
     },
     {
       "achievementId": "warnock",
@@ -507,7 +499,7 @@
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00",
       "awardedBy": "auto",
-      "claimedAt": "2026-06-14T13:12:29.280Z",
+      "claimedAt": "2026-06-14T13:45:31.651Z",
       "name": "Neil Warnock Would Be Proud",
       "emoji": "🟨",
       "kind": "first",
@@ -516,10 +508,8 @@
   ],
   "pending": [],
   "butterfly": {
-    "potValue": 10,
-    "potItems": [
-      "leadership"
-    ],
+    "potValue": 0,
+    "potItems": [],
     "totalGoals": 19,
     "lastGoal": {
       "fixtureId": 1539001,
@@ -726,23 +716,14 @@
         "Mexico",
         "Scotland"
       ],
-      "winnings": 10,
-      "achievements": 1
+      "winnings": 20,
+      "achievements": 2
     },
     {
       "person": "Nick Lunn",
       "teams": [
         "South Africa",
         "Sweden"
-      ],
-      "winnings": 10,
-      "achievements": 1
-    },
-    {
-      "person": "Luke",
-      "teams": [
-        "Czech Republic",
-        "Qatar"
       ],
       "winnings": 10,
       "achievements": 1
@@ -777,6 +758,15 @@
       "person": "Kelsey",
       "teams": [
         "South Korea"
+      ],
+      "winnings": 0,
+      "achievements": 0
+    },
+    {
+      "person": "Luke",
+      "teams": [
+        "Czech Republic",
+        "Qatar"
       ],
       "winnings": 0,
       "achievements": 0
