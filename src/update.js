@@ -510,7 +510,8 @@ function applyRulings(state, rulings) {
     if (state.candidates[key]) state.candidates[key].status = "rejected";
   }
   for (const [achId, claim] of Object.entries(rulings.manualClaims || {})) {
-    if (!state.claims[achId] && claim?.team) {
+    if (claim?.team) {
+      // Manual claims always override auto-claims. Tom's decision is final.
       state.claims[achId] = { achievementId: achId, team: claim.team, detail: claim.detail || "Awarded by Tom", match: claim.match || "", awardedBy: "Tom's ruling", claimedAt: new Date().toISOString() };
     }
   }
@@ -544,13 +545,13 @@ function computeButterfly(state, participants) {
   const last = mapped[mapped.length - 1] || null;
   const nextTeam = teamNames.length ? teamNames[mapped.length % n] : "TBD";
   // pot: £10 per rejected-and-unclaimed or tied achievement; final at tournament end, projected before
+  // The pot only accrues at the end of the tournament — unclaimed and tied prizes contribute then.
+  // Mid-tournament, a rejected candidate doesn't mean the prize is lost (another match could trigger it).
   let potItems = [];
-  for (const a of ACHIEVEMENTS) {
-    if (state.claims[a.id]) continue;
-    const cands = Object.values(state.candidates).filter(c => c.achievementId === a.id);
-    const allRejected = cands.length > 0 && cands.every(c => c.status === "rejected");
-    const tiedLong = a.kind === "long" && state.long[a.id]?.tied && state.tournamentComplete;
-    if (state.tournamentComplete || allRejected || tiedLong) potItems.push(a.id);
+  if (state.tournamentComplete) {
+    for (const a of ACHIEVEMENTS) {
+      if (!state.claims[a.id]) potItems.push(a.id);
+    }
   }
   return {
     potValue: potItems.length * 10, potItems,
