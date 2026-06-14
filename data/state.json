@@ -26,7 +26,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:40:38.163Z"
+      "claimedAt": "2026-06-14T18:45:34.991Z"
     },
     "smash_grab": {
       "achievementId": "smash_grab",
@@ -54,7 +54,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:40:38.163Z"
+      "claimedAt": "2026-06-14T18:45:34.991Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -62,7 +62,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-14T18:40:38.163Z"
+      "claimedAt": "2026-06-14T18:45:34.991Z"
     }
   },
   "candidates": {
@@ -386,6 +386,17 @@
       "elapsed": 68,
       "extra": 0,
       "sortKey": "2026-06-14T17:00:00+00:00|068|068"
+    },
+    {
+      "fixtureId": 1489374,
+      "date": "2026-06-14T17:00:00+00:00",
+      "teamId": 25,
+      "teamName": "Germany",
+      "player": "D. Undav",
+      "minute": "78'",
+      "elapsed": 78,
+      "extra": 0,
+      "sortKey": "2026-06-14T17:00:00+00:00|078|078"
     }
   ],
   "long": {
@@ -400,9 +411,9 @@
       "tieDetail": "S. Hansen off 46' (Germany v Curaçao)"
     },
     "sieve": {
-      "score": -5,
+      "score": -6,
       "team": "Curaçao",
-      "detail": "5 goals conceded so far",
+      "detail": "6 goals conceded so far",
       "tied": false
     },
     "blink": {
@@ -456,7 +467,7 @@
     },
     "1489374": {
       "Germany": 1,
-      "Curaçao": 5
+      "Curaçao": 6
     },
     "1538999": {
       "South Korea": 1,
@@ -483,7 +494,7 @@
     "Qatar": 1,
     "Switzerland": 1,
     "Germany": 1,
-    "Curaçao": 5,
+    "Curaçao": 6,
     "South Korea": 1,
     "Czechia": 2,
     "Canada": 1,
