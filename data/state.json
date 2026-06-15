@@ -31,7 +31,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T19:15:51.265Z"
+      "claimedAt": "2026-06-15T19:20:51.061Z"
     },
     "smash_grab": {
       "achievementId": "smash_grab",
@@ -59,7 +59,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T19:15:51.265Z"
+      "claimedAt": "2026-06-15T19:20:51.061Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -67,7 +67,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T19:15:51.265Z"
+      "claimedAt": "2026-06-15T19:20:51.061Z"
     },
     "goaliazio": {
       "achievementId": "goaliazio",
@@ -564,6 +564,17 @@
       "elapsed": 90,
       "extra": 6,
       "sortKey": "2026-06-15T02:00:00+00:00|096|090"
+    },
+    {
+      "fixtureId": 1489377,
+      "date": "2026-06-15T19:00:00+00:00",
+      "teamId": 32,
+      "teamName": "Egypt",
+      "player": "E. Ashour",
+      "minute": "20'",
+      "elapsed": 20,
+      "extra": 0,
+      "sortKey": "2026-06-15T19:00:00+00:00|020|020"
     }
   ],
   "long": {
@@ -645,7 +656,7 @@
       "Japan": 2
     },
     "1489377": {
-      "Belgium": 0,
+      "Belgium": 1,
       "Egypt": 0
     },
     "1489380": {
@@ -686,7 +697,7 @@
     "Ecuador": 1,
     "Netherlands": 2,
     "Japan": 2,
-    "Belgium": 0,
+    "Belgium": 1,
     "Egypt": 0,
     "Spain": 0,
     "Cape Verde Islands": 0,
