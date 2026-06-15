@@ -1,7 +1,8 @@
 {
   "_help": "Tom's control panel. 'confirm'/'reject' take candidate keys from the Pending Rulings section of the dashboard (or data/state.json). 'manualClaims' lets you award anything directly, e.g. the 35-yard screamer or longest VAR review.",
   "confirm": ["check_complete|1489369|South Africa"],
-  "reject": ["leadership|1489370|USA", "leadership|1489370|Paraguay"],
+  "reject": ["leadership|1489370|USA", "leadership|1489370|Paraguay", "leadership|1489375|Ivory Coast"],
+  "unclaim": ["ghost_squad"],
   "manualClaims": {
     "fergie": { "team": "USA", "detail": "Scored 45+5 and 90+8 vs Paraguay", "match": "USA v Paraguay" },
     "streets": {
