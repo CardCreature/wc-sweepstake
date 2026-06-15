@@ -62,7 +62,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T22:33:48.888Z"
+      "claimedAt": "2026-06-15T22:50:43.296Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -70,7 +70,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T22:33:48.888Z"
+      "claimedAt": "2026-06-15T22:50:43.296Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -78,7 +78,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T22:33:48.888Z"
+      "claimedAt": "2026-06-15T22:50:43.296Z"
     }
   },
   "candidates": {
@@ -602,6 +602,17 @@
       "elapsed": 66,
       "extra": 0,
       "sortKey": "2026-06-15T19:00:00+00:00|066|066"
+    },
+    {
+      "fixtureId": 1489379,
+      "date": "2026-06-15T22:00:00+00:00",
+      "teamId": 23,
+      "teamName": "Saudi Arabia",
+      "player": "A. Al Amri",
+      "minute": "41'",
+      "elapsed": 41,
+      "extra": 0,
+      "sortKey": "2026-06-15T22:00:00+00:00|041|041"
     }
   ],
   "long": {
@@ -711,7 +722,7 @@
     },
     "1489379": {
       "Saudi Arabia": 0,
-      "Uruguay": 0
+      "Uruguay": 1
     },
     "1489380": {
       "Spain": 0,
@@ -754,7 +765,7 @@
     "Belgium": 1,
     "Egypt": 1,
     "Saudi Arabia": 0,
-    "Uruguay": 0,
+    "Uruguay": 1,
     "Spain": 0,
     "Cape Verde Islands": 0,
     "South Korea": 1,
