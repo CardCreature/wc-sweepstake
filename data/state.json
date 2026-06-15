@@ -10,7 +10,8 @@
     1539001,
     1489374,
     1489376,
-    1489375
+    1489375,
+    1539002
   ],
   "claims": {
     "warnock": {
@@ -29,7 +30,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T03:55:29.663Z"
+      "claimedAt": "2026-06-15T04:00:59.970Z"
     },
     "smash_grab": {
       "achievementId": "smash_grab",
@@ -57,7 +58,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T03:55:29.663Z"
+      "claimedAt": "2026-06-15T04:00:59.970Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -65,7 +66,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T03:55:29.663Z"
+      "claimedAt": "2026-06-15T04:00:59.970Z"
     },
     "goaliazio": {
       "achievementId": "goaliazio",
@@ -551,6 +552,17 @@
       "elapsed": 84,
       "extra": 0,
       "sortKey": "2026-06-15T02:00:00+00:00|084|084"
+    },
+    {
+      "fixtureId": 1539002,
+      "date": "2026-06-15T02:00:00+00:00",
+      "teamId": 5,
+      "teamName": "Sweden",
+      "player": "Y. Ayari",
+      "minute": "90+6'",
+      "elapsed": 90,
+      "extra": 6,
+      "sortKey": "2026-06-15T02:00:00+00:00|096|090"
     }
   ],
   "long": {
@@ -579,14 +591,12 @@
       "display": "6'"
     },
     "better_late": {
-      "score": -9000,
+      "score": -9006,
       "unit": "min",
-      "team": "USA",
-      "detail": "G. Reyna 90' (USA v Paraguay)",
-      "value": 9000,
-      "display": "90'",
-      "tied": true,
-      "tieDetail": "A. Diallo 90' (Ivory Coast v Ecuador)"
+      "team": "Sweden",
+      "detail": "Y. Ayari 90+6' (Sweden v Tunisia)",
+      "value": 9006,
+      "display": "90+6'"
     },
     "agent_chaos": {
       "score": -1,
@@ -647,7 +657,7 @@
     },
     "1539002": {
       "Sweden": 1,
-      "Tunisia": 4
+      "Tunisia": 5
     }
   },
   "conceded": {
@@ -674,6 +684,6 @@
     "Australia": 0,
     "Türkiye": 2,
     "Sweden": 1,
-    "Tunisia": 4
+    "Tunisia": 5
   }
 }
