@@ -11,7 +11,9 @@
     1489374,
     1489376,
     1489375,
-    1539002
+    1539002,
+    1489380,
+    1489377
   ],
   "claims": {
     "warnock": {
@@ -60,7 +62,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T22:14:49.906Z"
+      "claimedAt": "2026-06-15T22:28:09.666Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -68,7 +70,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T22:14:49.906Z"
+      "claimedAt": "2026-06-15T22:28:09.666Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -76,7 +78,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T22:14:49.906Z"
+      "claimedAt": "2026-06-15T22:28:09.666Z"
     }
   },
   "candidates": {
@@ -151,6 +153,13 @@
       "team": "Switzerland",
       "fixtureId": 1489373,
       "date": "2026-06-13T19:00:00+00:00"
+    },
+    {
+      "playerId": 2654,
+      "playerName": "M. Hany",
+      "team": "Egypt",
+      "fixtureId": 1489377,
+      "date": "2026-06-15T19:00:00+00:00"
     }
   ],
   "goals": [
@@ -571,6 +580,28 @@
       "elapsed": 90,
       "extra": 6,
       "sortKey": "2026-06-15T02:00:00+00:00|096|090"
+    },
+    {
+      "fixtureId": 1489377,
+      "date": "2026-06-15T19:00:00+00:00",
+      "teamId": 32,
+      "teamName": "Egypt",
+      "player": "E. Ashour",
+      "minute": "19'",
+      "elapsed": 19,
+      "extra": 0,
+      "sortKey": "2026-06-15T19:00:00+00:00|019|019"
+    },
+    {
+      "fixtureId": 1489377,
+      "date": "2026-06-15T19:00:00+00:00",
+      "teamId": 1,
+      "teamName": "Belgium",
+      "player": "M. Hany",
+      "minute": "66'",
+      "elapsed": 66,
+      "extra": 0,
+      "sortKey": "2026-06-15T19:00:00+00:00|066|066"
     }
   ],
   "long": {
@@ -609,7 +640,7 @@
     "agent_chaos": {
       "score": -1,
       "team": "USA",
-      "detail": "Joint leaders (USA, Paraguay, Qatar, Switzerland) — 1 own goal(s) each",
+      "detail": "Joint leaders (USA, Paraguay, Qatar, Switzerland, Belgium, Egypt) — 1 own goal(s) each",
       "tied": true
     }
   },
@@ -617,7 +648,9 @@
     "USA": 1,
     "Paraguay": 1,
     "Qatar": 1,
-    "Switzerland": 1
+    "Switzerland": 1,
+    "Belgium": 1,
+    "Egypt": 1
   },
   "tournamentComplete": false,
   "ownGoalEvents": [
@@ -630,6 +663,11 @@
       "fixtureId": 1489373,
       "creditedTeam": "Qatar",
       "scorerTeam": "Switzerland"
+    },
+    {
+      "fixtureId": 1489377,
+      "creditedTeam": "Belgium",
+      "scorerTeam": "Egypt"
     }
   ],
   "concededByMatch": {
@@ -665,6 +703,18 @@
       "Netherlands": 2,
       "Japan": 2
     },
+    "1489377": {
+      "Belgium": 1,
+      "Egypt": 1
+    },
+    "1489379": {
+      "Saudi Arabia": 0,
+      "Uruguay": 0
+    },
+    "1489380": {
+      "Spain": 0,
+      "Cape Verde Islands": 0
+    },
     "1538999": {
       "South Korea": 1,
       "Czechia": 2
@@ -699,6 +749,12 @@
     "Ecuador": 1,
     "Netherlands": 2,
     "Japan": 2,
+    "Belgium": 1,
+    "Egypt": 1,
+    "Saudi Arabia": 0,
+    "Uruguay": 0,
+    "Spain": 0,
+    "Cape Verde Islands": 0,
     "South Korea": 1,
     "Czechia": 2,
     "Canada": 1,
