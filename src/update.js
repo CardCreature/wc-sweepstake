@@ -199,18 +199,23 @@ async function scoreFixture(fx, state, finished, countCall) {
   }
 
   // record goals for Butterfly / fastest / latest — re-derive this fixture's goals every run
-  // so live matches update in real time and VAR cancellations get reflected on next refresh
-  state.goals = state.goals.filter(g => g.fixtureId !== fid);
-  for (const t of timeline) {
-    const g = t.ev, tm = evTime(g);
-    state.goals.push({
-      fixtureId: fid, date: fx.fixture.date, teamId: g.team.id, teamName: g.team.name,
-      player: g.player?.name || "Unknown", minute: minuteLabel(g),
-      elapsed: tm.elapsed, extra: tm.extra,
-      sortKey: `${fx.fixture.date}|${String(tm.total).padStart(3, "0")}|${String(tm.elapsed).padStart(3, "0")}`,
-    });
+  // so live matches update in real time and VAR cancellations get reflected on next refresh.
+  // Protective check: if the API briefly returns empty events (happens right after FT while
+  // stats are computing), don't wipe existing goals for this fixture.
+  const existingForFid = state.goals.filter(g => g.fixtureId === fid).length;
+  if (timeline.length > 0 || existingForFid === 0) {
+    state.goals = state.goals.filter(g => g.fixtureId !== fid);
+    for (const t of timeline) {
+      const g = t.ev, tm = evTime(g);
+      state.goals.push({
+        fixtureId: fid, date: fx.fixture.date, teamId: g.team.id, teamName: g.team.name,
+        player: g.player?.name || "Unknown", minute: minuteLabel(g),
+        elapsed: tm.elapsed, extra: tm.extra,
+        sortKey: `${fx.fixture.date}|${String(tm.total).padStart(3, "0")}|${String(tm.elapsed).padStart(3, "0")}`,
+      });
+    }
+    state.goals.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
   }
-  state.goals.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
 
   const claimIfFirst = (id, team, detail) => {
     if (state.claims[id]) return;
@@ -361,21 +366,37 @@ async function scoreFixture(fx, state, finished, countCall) {
       if (!state.ownGoalScorers.some(o => o.playerId === g.player.id)) {
         state.ownGoalScorers.push({ playerId: g.player.id, playerName: g.player.name, team: scorerTeam, fixtureId: fid, date: fx.fixture.date });
       }
-      if (finished) {
-        state.ownGoalInvolvement[g.team.name] = (state.ownGoalInvolvement[g.team.name] || 0) + 1;
-        state.ownGoalInvolvement[scorerTeam] = (state.ownGoalInvolvement[scorerTeam] || 0) + 1;
-        // live leader for Agent Chaos
-        const ag = Object.entries(state.ownGoalInvolvement).sort((a, b) => b[1] - a[1]);
-        const topVal = ag[0][1];
-        const topTeams = ag.filter(([, v]) => v === topVal).map(([t]) => t);
-        state.long.agent_chaos = {
-          score: -topVal, team: topTeams[0],
-          detail: topTeams.length > 1
-            ? `Joint leaders (${topTeams.join(", ")}) — ${topVal} own goal(s) each`
-            : `${topVal} own goal(s) involved in`,
-          tied: topTeams.length > 1,
-        };
+    }
+  }
+  // Re-derive own goal events per fixture (only when finished, to avoid live-VAR phantoms)
+  if (finished) {
+    state.ownGoalEvents = (state.ownGoalEvents || []).filter(e => e.fixtureId !== fid);
+    for (const g of goalEvents) {
+      if (g.detail === "Own Goal" && g.player?.id) {
+        const scorerTeam = g.team.id === home.id ? away.name : home.name;
+        state.ownGoalEvents.push({ fixtureId: fid, creditedTeam: g.team.name, scorerTeam });
       }
+    }
+    // Recompute ownGoalInvolvement from scratch each time — self-correcting
+    state.ownGoalInvolvement = {};
+    for (const e of state.ownGoalEvents) {
+      state.ownGoalInvolvement[e.creditedTeam] = (state.ownGoalInvolvement[e.creditedTeam] || 0) + 1;
+      state.ownGoalInvolvement[e.scorerTeam] = (state.ownGoalInvolvement[e.scorerTeam] || 0) + 1;
+    }
+    // Update Agent Chaos live leader
+    const ag = Object.entries(state.ownGoalInvolvement).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
+    if (ag.length) {
+      const topVal = ag[0][1];
+      const topTeams = ag.filter(([, v]) => v === topVal).map(([t]) => t);
+      state.long.agent_chaos = {
+        score: -topVal, team: topTeams[0],
+        detail: topTeams.length > 1
+          ? `Joint leaders (${topTeams.join(", ")}) — ${topVal} own goal(s) each`
+          : `${topVal} own goal(s) involved in`,
+        tied: topTeams.length > 1,
+      };
+    } else {
+      delete state.long.agent_chaos;
     }
   }
   for (const g of goalEvents) {
