@@ -151,7 +151,7 @@ async function main() {
   const toProcess = fixtures.filter(fx =>
     (FINISHED.includes(fx.fixture.status.short) && !state.processedFixtures.includes(fx.fixture.id)) ||
     LIVE.includes(fx.fixture.status.short)
-  ).slice(0, 12); // safety cap per run
+  ).slice(0, 30); // safety cap per run (raised from 12; Tom has 7500 calls/day headroom)
 
   for (const fxLite of toProcess) {
     const detail = await apiGet("/fixtures", { id: fxLite.fixture.id }); apiCalls++;
@@ -162,8 +162,11 @@ async function main() {
     if (finished) state.processedFixtures.push(fx.fixture.id);
   }
 
-  // 3. Apply Tom's rulings (confirm/reject candidates, manual claims)
+  // 3. Apply Tom's rulings (confirm/reject candidates, manual claims, goal corrections)
   applyRulings(state, rulings);
+
+  // 3a. Derive Blink and Better Late from state.goals (respects goal corrections)
+  deriveBlinkAndBetterLate(state, fixtures);
 
   // 4. Tournament-long awards finalise after the final
   const finalFx = fixtures.find(fx => (fx.league.round || "").toLowerCase() === "final");
@@ -200,18 +203,27 @@ async function scoreFixture(fx, state, finished, countCall) {
 
   // record goals for Butterfly / fastest / latest — re-derive this fixture's goals every run
   // so live matches update in real time and VAR cancellations get reflected on next refresh.
-  // Protective check: if the API briefly returns empty events (happens right after FT while
-  // stats are computing), don't wipe existing goals for this fixture.
-  const existingForFid = state.goals.filter(g => g.fixtureId === fid).length;
-  if (timeline.length > 0 || existingForFid === 0) {
+  // Protective checks: (a) if API briefly returns empty events, don't wipe good data; (b) preserve
+  // the maximum-seen extra time for each goal, in case the API later "cleans up" stoppage data.
+  const existingForFid = state.goals.filter(g => g.fixtureId === fid);
+  if (timeline.length > 0 || existingForFid.length === 0) {
+    const maxExtraByKey = {};
+    for (const eg of existingForFid) {
+      maxExtraByKey[`${eg.player}|${eg.elapsed}|${eg.teamId}`] = eg.extra || 0;
+    }
     state.goals = state.goals.filter(g => g.fixtureId !== fid);
     for (const t of timeline) {
       const g = t.ev, tm = evTime(g);
+      const key = `${g.player?.name || "Unknown"}|${tm.elapsed}|${g.team.id}`;
+      // If we previously had higher extra time for this exact goal, keep it (resists API regression)
+      const extra = Math.max(tm.extra || 0, maxExtraByKey[key] || 0);
+      const total = tm.elapsed + extra;
+      const minute = extra ? `${tm.elapsed}+${extra}'` : `${tm.elapsed}'`;
       state.goals.push({
         fixtureId: fid, date: fx.fixture.date, teamId: g.team.id, teamName: g.team.name,
-        player: g.player?.name || "Unknown", minute: minuteLabel(g),
-        elapsed: tm.elapsed, extra: tm.extra,
-        sortKey: `${fx.fixture.date}|${String(tm.total).padStart(3, "0")}|${String(tm.elapsed).padStart(3, "0")}`,
+        player: g.player?.name || "Unknown", minute,
+        elapsed: tm.elapsed, extra,
+        sortKey: `${fx.fixture.date}|${String(total).padStart(3, "0")}|${String(tm.elapsed).padStart(3, "0")}`,
       });
     }
     state.goals.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
@@ -494,19 +506,8 @@ async function scoreFixture(fx, state, finished, countCall) {
       if (missed && !scored) flag("hows_your_luck", team.name, `Missed a pen and didn't score — confirm they also hit the woodwork`);
     }
 
-    // tournament-long trackers
-    if (timeline.length) {
-      const first = timeline[0], fTm = evTime(first.ev);
-      const secondsApprox = fTm.total; // minute resolution
-      trackLong(state, "blink", secondsApprox, "min", { team: first.ev.team.name, detail: `${first.ev.player?.name || "?"} ${minuteLabel(first.ev)} (${matchLabel})`, value: secondsApprox, display: minuteLabel(first.ev) });
-      for (const t of timeline) {
-        const tm = evTime(t.ev);
-        // Normal-time = up to ~100 minutes total (handles both stoppage-time encodings: 90+8 and rolled-in 98)
-        if (tm.total <= 100) {
-          trackLong(state, "better_late", -tm.total, "min", { team: t.ev.team.name, detail: `${t.ev.player?.name || "?"} ${minuteLabel(t.ev)} (${matchLabel})`, value: tm.total, display: minuteLabel(t.ev) });
-        }
-      }
-    }
+    // Blink and Better Late are now derived from state.goals in deriveBlinkAndBetterLate(),
+    // which runs after goal corrections are applied. See main().
   }
 }
 
@@ -536,11 +537,59 @@ function applyRulings(state, rulings) {
   for (const id of rulings.unclaim || []) {
     if (state.claims[id]) delete state.claims[id];
   }
+  // Goal corrections: override extra time for specific goals (e.g. when API later "cleans"
+  // stoppage data). Format: [{ fixtureId, player, elapsed, extra }]
+  let correctionsApplied = false;
+  for (const c of rulings.goalCorrections || []) {
+    if (!c.fixtureId || !c.player || c.elapsed == null) continue;
+    const goal = state.goals.find(g => g.fixtureId === c.fixtureId && g.player === c.player && g.elapsed === c.elapsed);
+    if (goal && c.extra != null && goal.extra !== c.extra) {
+      goal.extra = c.extra;
+      const total = goal.elapsed + goal.extra;
+      goal.minute = goal.extra ? `${goal.elapsed}+${goal.extra}'` : `${goal.elapsed}'`;
+      goal.sortKey = `${goal.date}|${String(total).padStart(3, "0")}|${String(goal.elapsed).padStart(3, "0")}`;
+      correctionsApplied = true;
+    }
+  }
+  if (correctionsApplied) state.goals.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
+
   for (const [achId, claim] of Object.entries(rulings.manualClaims || {})) {
     if (claim?.team) {
       // Manual claims always override auto-claims. Tom's decision is final.
       state.claims[achId] = { achievementId: achId, team: claim.team, detail: claim.detail || "Awarded by Tom", match: claim.match || "", awardedBy: "Tom's ruling", claimedAt: new Date().toISOString() };
     }
+  }
+}
+
+// Derive Blink and Better Late from state.goals (after any corrections). This makes the
+// trackers self-correcting and respects goalCorrections from rulings.json.
+function deriveBlinkAndBetterLate(state, fixtures) {
+  if (!state.goals.length) return;
+  const matchLabel = (fid) => {
+    const fx = fixtures.find(f => f.fixture.id === fid);
+    return fx ? `${fx.teams.home.name} v ${fx.teams.away.name}` : "";
+  };
+  const sorted = [...state.goals].map(g => ({ ...g, total: g.elapsed + (g.extra || 0) })).sort((a, b) => a.total - b.total);
+
+  // Blink — earliest goal
+  const earliest = sorted[0];
+  const tiedBlink = sorted.filter(g => g.total === earliest.total).length > 1;
+  state.long.blink = {
+    score: earliest.total, unit: "min", team: earliest.teamName,
+    detail: `${earliest.player} ${earliest.minute} (${matchLabel(earliest.fixtureId)})`,
+    value: earliest.total, display: earliest.minute, tied: tiedBlink,
+  };
+
+  // Better Late — latest goal in normal time (total <= 100)
+  const normalTime = sorted.filter(g => g.total <= 100);
+  if (normalTime.length) {
+    const latest = normalTime[normalTime.length - 1];
+    const tiedBL = normalTime.filter(g => g.total === latest.total).length > 1;
+    state.long.better_late = {
+      score: -latest.total, unit: "min", team: latest.teamName,
+      detail: `${latest.player} ${latest.minute} (${matchLabel(latest.fixtureId)})`,
+      value: latest.total, display: latest.minute, tied: tiedBL,
+    };
   }
 }
 
