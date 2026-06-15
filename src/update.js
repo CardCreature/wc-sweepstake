@@ -509,6 +509,11 @@ function applyRulings(state, rulings) {
   for (const key of rulings.reject || []) {
     if (state.candidates[key]) state.candidates[key].status = "rejected";
   }
+  // Unclaim: removes an existing claim so the prize is open again. Runs every time, so it
+  // survives state wipes (the auto-claim re-fires then gets removed again).
+  for (const id of rulings.unclaim || []) {
+    if (state.claims[id]) delete state.claims[id];
+  }
   for (const [achId, claim] of Object.entries(rulings.manualClaims || {})) {
     if (claim?.team) {
       // Manual claims always override auto-claims. Tom's decision is final.
