@@ -29,7 +29,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T03:20:37.997Z"
+      "claimedAt": "2026-06-15T03:25:36.836Z"
     },
     "smash_grab": {
       "achievementId": "smash_grab",
@@ -57,7 +57,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T03:20:37.997Z"
+      "claimedAt": "2026-06-15T03:25:36.836Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -65,7 +65,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T03:20:37.996Z"
+      "claimedAt": "2026-06-15T03:25:36.836Z"
     },
     "goaliazio": {
       "achievementId": "goaliazio",
@@ -536,10 +536,10 @@
       "teamId": 5,
       "teamName": "Sweden",
       "player": "V. Gyokeres",
-      "minute": "60'",
-      "elapsed": 60,
+      "minute": "59'",
+      "elapsed": 59,
       "extra": 0,
-      "sortKey": "2026-06-15T02:00:00+00:00|060|060"
+      "sortKey": "2026-06-15T02:00:00+00:00|059|059"
     }
   ],
   "long": {
