@@ -31,7 +31,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T20:25:39.735Z"
+      "claimedAt": "2026-06-15T20:30:58.654Z"
     },
     "smash_grab": {
       "achievementId": "smash_grab",
@@ -59,7 +59,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T20:25:39.735Z"
+      "claimedAt": "2026-06-15T20:30:58.654Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -67,7 +67,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-15T20:25:39.735Z"
+      "claimedAt": "2026-06-15T20:30:58.654Z"
     },
     "goaliazio": {
       "achievementId": "goaliazio",
@@ -144,6 +144,13 @@
       "team": "Paraguay",
       "fixtureId": 1489370,
       "date": "2026-06-13T01:00:00+00:00"
+    },
+    {
+      "playerId": 2654,
+      "playerName": "M. Hany",
+      "team": "Egypt",
+      "fixtureId": 1489377,
+      "date": "2026-06-15T19:00:00+00:00"
     }
   ],
   "goals": [
@@ -575,6 +582,17 @@
       "elapsed": 19,
       "extra": 0,
       "sortKey": "2026-06-15T19:00:00+00:00|019|019"
+    },
+    {
+      "fixtureId": 1489377,
+      "date": "2026-06-15T19:00:00+00:00",
+      "teamId": 1,
+      "teamName": "Belgium",
+      "player": "M. Hany",
+      "minute": "66'",
+      "elapsed": 66,
+      "extra": 0,
+      "sortKey": "2026-06-15T19:00:00+00:00|066|066"
     }
   ],
   "long": {
@@ -657,7 +675,7 @@
     },
     "1489377": {
       "Belgium": 1,
-      "Egypt": 0
+      "Egypt": 1
     },
     "1489380": {
       "Spain": 0,
@@ -698,7 +716,7 @@
     "Netherlands": 2,
     "Japan": 2,
     "Belgium": 1,
-    "Egypt": 0,
+    "Egypt": 1,
     "Spain": 0,
     "Cape Verde Islands": 0,
     "South Korea": 1,
