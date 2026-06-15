@@ -480,8 +480,9 @@ async function scoreFixture(fx, state, finished, countCall) {
       trackLong(state, "blink", secondsApprox, "min", { team: first.ev.team.name, detail: `${first.ev.player?.name || "?"} ${minuteLabel(first.ev)} (${matchLabel})`, value: secondsApprox, display: minuteLabel(first.ev) });
       for (const t of timeline) {
         const tm = evTime(t.ev);
-        if (tm.elapsed <= 90) {
-          trackLong(state, "better_late", -(tm.elapsed * 100 + tm.extra), "min", { team: t.ev.team.name, detail: `${t.ev.player?.name || "?"} ${minuteLabel(t.ev)} (${matchLabel})`, value: tm.elapsed * 100 + tm.extra, display: minuteLabel(t.ev) });
+        // Normal-time = up to ~100 minutes total (handles both stoppage-time encodings: 90+8 and rolled-in 98)
+        if (tm.total <= 100) {
+          trackLong(state, "better_late", -tm.total, "min", { team: t.ev.team.name, detail: `${t.ev.player?.name || "?"} ${minuteLabel(t.ev)} (${matchLabel})`, value: tm.total, display: minuteLabel(t.ev) });
         }
       }
     }
