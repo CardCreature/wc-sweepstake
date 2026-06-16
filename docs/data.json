@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T20:50:48.925Z",
+  "updatedAt": "2026-06-16T20:55:33.761Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-16T20:50:48.923Z"
+        "claimedAt": "2026-06-16T20:55:33.759Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-16T20:50:48.923Z"
+        "claimedAt": "2026-06-16T20:55:33.759Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-16T20:50:48.923Z"
+        "claimedAt": "2026-06-16T20:55:33.759Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -442,7 +442,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T20:50:48.923Z",
+      "claimedAt": "2026-06-16T20:55:33.759Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -454,7 +454,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T20:50:48.923Z",
+      "claimedAt": "2026-06-16T20:55:33.759Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -466,7 +466,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T20:50:48.923Z",
+      "claimedAt": "2026-06-16T20:55:33.759Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
