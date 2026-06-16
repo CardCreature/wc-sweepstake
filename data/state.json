@@ -63,7 +63,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T02:20:39.106Z"
+      "claimedAt": "2026-06-16T02:25:30.506Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -71,7 +71,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T02:20:39.106Z"
+      "claimedAt": "2026-06-16T02:25:30.506Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -79,7 +79,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T02:20:39.106Z"
+      "claimedAt": "2026-06-16T02:25:30.506Z"
     }
   },
   "candidates": {
@@ -647,6 +647,17 @@
       "elapsed": 32,
       "extra": 0,
       "sortKey": "2026-06-16T01:00:00+00:00|032|032"
+    },
+    {
+      "fixtureId": 1489378,
+      "date": "2026-06-16T01:00:00+00:00",
+      "teamId": 4673,
+      "teamName": "New Zealand",
+      "player": "E. Just",
+      "minute": "54'",
+      "elapsed": 54,
+      "extra": 0,
+      "sortKey": "2026-06-16T01:00:00+00:00|054|054"
     }
   ],
   "long": {
@@ -755,7 +766,7 @@
       "Egypt": 1
     },
     "1489378": {
-      "Iran": 1,
+      "Iran": 2,
       "New Zealand": 1
     },
     "1489379": {
@@ -802,7 +813,7 @@
     "Japan": 2,
     "Belgium": 1,
     "Egypt": 1,
-    "Iran": 1,
+    "Iran": 2,
     "New Zealand": 1,
     "Saudi Arabia": 1,
     "Uruguay": 1,
