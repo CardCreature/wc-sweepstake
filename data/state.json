@@ -14,7 +14,8 @@
     1539002,
     1489380,
     1489377,
-    1489379
+    1489379,
+    1489378
   ],
   "claims": {
     "warnock": {
@@ -63,7 +64,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T03:00:57.694Z"
+      "claimedAt": "2026-06-16T03:05:33.699Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -71,7 +72,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T03:00:57.694Z"
+      "claimedAt": "2026-06-16T03:05:33.699Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -79,7 +80,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T03:00:57.694Z"
+      "claimedAt": "2026-06-16T03:05:33.699Z"
     }
   },
   "candidates": {
@@ -631,7 +632,7 @@
       "date": "2026-06-16T01:00:00+00:00",
       "teamId": 4673,
       "teamName": "New Zealand",
-      "player": "Elijah Just",
+      "player": "E. Just",
       "minute": "7'",
       "elapsed": 7,
       "extra": 0,
@@ -642,7 +643,7 @@
       "date": "2026-06-16T01:00:00+00:00",
       "teamId": 22,
       "teamName": "Iran",
-      "player": "Ramin Rezaeian",
+      "player": "R. Rezaeian",
       "minute": "32'",
       "elapsed": 32,
       "extra": 0,
@@ -653,7 +654,7 @@
       "date": "2026-06-16T01:00:00+00:00",
       "teamId": 4673,
       "teamName": "New Zealand",
-      "player": "Elijah Just",
+      "player": "E. Just",
       "minute": "54'",
       "elapsed": 54,
       "extra": 0,
@@ -664,7 +665,7 @@
       "date": "2026-06-16T01:00:00+00:00",
       "teamId": 22,
       "teamName": "Iran",
-      "player": "Mohammad Mohebbi",
+      "player": "M. Mohebi",
       "minute": "64'",
       "elapsed": 64,
       "extra": 0,
