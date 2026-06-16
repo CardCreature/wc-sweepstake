@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T02:55:29.749Z",
+  "updatedAt": "2026-06-16T03:00:57.695Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-16T02:55:29.748Z"
+        "claimedAt": "2026-06-16T03:00:57.694Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-16T02:55:29.748Z"
+        "claimedAt": "2026-06-16T03:00:57.694Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-16T02:55:29.748Z"
+        "claimedAt": "2026-06-16T03:00:57.694Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -442,7 +442,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T02:55:29.748Z",
+      "claimedAt": "2026-06-16T03:00:57.694Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -454,7 +454,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T02:55:29.748Z",
+      "claimedAt": "2026-06-16T03:00:57.694Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -466,7 +466,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T02:55:29.748Z",
+      "claimedAt": "2026-06-16T03:00:57.694Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -539,7 +539,7 @@
       "date": "2026-06-16T01:00:00+00:00",
       "teamId": 22,
       "teamName": "Iran",
-      "player": "M. Mohebi",
+      "player": "Mohammad Mohebbi",
       "minute": "64'",
       "elapsed": 64,
       "extra": 0,
@@ -555,7 +555,7 @@
         "date": "2026-06-16T01:00:00+00:00",
         "teamId": 22,
         "teamName": "Iran",
-        "player": "M. Mohebi",
+        "player": "Mohammad Mohebbi",
         "minute": "64'",
         "elapsed": 64,
         "extra": 0,
@@ -568,7 +568,7 @@
         "date": "2026-06-16T01:00:00+00:00",
         "teamId": 4673,
         "teamName": "New Zealand",
-        "player": "E. Just",
+        "player": "Elijah Just",
         "minute": "54'",
         "elapsed": 54,
         "extra": 0,
@@ -581,7 +581,7 @@
         "date": "2026-06-16T01:00:00+00:00",
         "teamId": 22,
         "teamName": "Iran",
-        "player": "R. Rezaeian",
+        "player": "Ramin Rezaeian",
         "minute": "32'",
         "elapsed": 32,
         "extra": 0,
@@ -594,7 +594,7 @@
         "date": "2026-06-16T01:00:00+00:00",
         "teamId": 4673,
         "teamName": "New Zealand",
-        "player": "E. Just",
+        "player": "Elijah Just",
         "minute": "7'",
         "elapsed": 7,
         "extra": 0,
