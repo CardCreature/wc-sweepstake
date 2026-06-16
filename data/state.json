@@ -65,7 +65,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T22:25:31.594Z"
+      "claimedAt": "2026-06-16T22:30:48.908Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -73,7 +73,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T22:25:31.593Z"
+      "claimedAt": "2026-06-16T22:30:48.908Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -81,7 +81,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T22:25:31.594Z"
+      "claimedAt": "2026-06-16T22:30:48.908Z"
     }
   },
   "candidates": {
@@ -715,6 +715,17 @@
       "elapsed": 90,
       "extra": 6,
       "sortKey": "2026-06-16T19:00:00+00:00|096|090"
+    },
+    {
+      "fixtureId": 1539016,
+      "date": "2026-06-16T22:00:00+00:00",
+      "teamId": 1090,
+      "teamName": "Norway",
+      "player": "E. Haaland",
+      "minute": "29'",
+      "elapsed": 29,
+      "extra": 0,
+      "sortKey": "2026-06-16T22:00:00+00:00|029|029"
     }
   ],
   "long": {
@@ -855,7 +866,7 @@
       "Tunisia": 5
     },
     "1539016": {
-      "Iraq": 0,
+      "Iraq": 1,
       "Norway": 0
     }
   },
@@ -894,7 +905,7 @@
     "Türkiye": 2,
     "Sweden": 1,
     "Tunisia": 5,
-    "Iraq": 0,
+    "Iraq": 1,
     "Norway": 0
   }
 }
