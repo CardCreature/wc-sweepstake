@@ -64,7 +64,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T20:45:50.048Z"
+      "claimedAt": "2026-06-16T20:50:48.923Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -72,7 +72,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T20:45:50.048Z"
+      "claimedAt": "2026-06-16T20:50:48.923Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -80,7 +80,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-16T20:45:50.048Z"
+      "claimedAt": "2026-06-16T20:50:48.923Z"
     }
   },
   "candidates": {
@@ -681,6 +681,17 @@
       "elapsed": 66,
       "extra": 0,
       "sortKey": "2026-06-16T19:00:00+00:00|066|066"
+    },
+    {
+      "fixtureId": 1489383,
+      "date": "2026-06-16T19:00:00+00:00",
+      "teamId": 2,
+      "teamName": "France",
+      "player": "B. Barcola",
+      "minute": "82'",
+      "elapsed": 82,
+      "extra": 0,
+      "sortKey": "2026-06-16T19:00:00+00:00|082|082"
     }
   ],
   "long": {
@@ -802,7 +813,7 @@
     },
     "1489383": {
       "France": 0,
-      "Senegal": 1
+      "Senegal": 2
     },
     "1538999": {
       "South Korea": 1,
@@ -847,7 +858,7 @@
     "Spain": 0,
     "Cape Verde Islands": 0,
     "France": 0,
-    "Senegal": 1,
+    "Senegal": 2,
     "South Korea": 1,
     "Czechia": 2,
     "Canada": 1,
