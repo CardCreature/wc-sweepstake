@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T10:10:46.771Z",
+  "updatedAt": "2026-06-17T10:15:48.221Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T10:10:46.756Z"
+        "claimedAt": "2026-06-17T10:15:48.207Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T10:10:46.757Z"
+        "claimedAt": "2026-06-17T10:15:48.207Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T10:10:46.757Z"
+        "claimedAt": "2026-06-17T10:15:48.207Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -451,23 +451,11 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T10:10:46.757Z",
+      "claimedAt": "2026-06-17T10:15:48.207Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
       "owner": "Nick Lunn"
-    },
-    {
-      "achievementId": "streets",
-      "team": "Mexico",
-      "detail": "R. Jimenez scored aged 35+ vs South Africa",
-      "match": "Mexico v South Africa",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T10:10:46.757Z",
-      "name": "The Streets Won't Forget",
-      "emoji": "👴",
-      "kind": "first",
-      "owner": "Neil"
     },
     {
       "achievementId": "fergie",
@@ -475,11 +463,23 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T10:10:46.756Z",
+      "claimedAt": "2026-06-17T10:15:48.207Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
       "owner": "Kate"
+    },
+    {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-17T10:15:48.207Z",
+      "name": "The Streets Won't Forget",
+      "emoji": "👴",
+      "kind": "first",
+      "owner": "Neil"
     },
     {
       "achievementId": "hat_trick",
