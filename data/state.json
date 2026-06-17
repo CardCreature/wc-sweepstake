@@ -16,7 +16,8 @@
     1489377,
     1489379,
     1489378,
-    1489383
+    1489383,
+    1539016
   ],
   "claims": {
     "warnock": {
@@ -65,7 +66,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T00:01:06.306Z"
+      "claimedAt": "2026-06-17T00:05:32.320Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -73,7 +74,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T00:01:06.305Z"
+      "claimedAt": "2026-06-17T00:05:32.320Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -81,7 +82,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T00:01:06.306Z"
+      "claimedAt": "2026-06-17T00:05:32.320Z"
     }
   },
   "candidates": {
@@ -163,6 +164,13 @@
       "team": "Egypt",
       "fixtureId": 1489377,
       "date": "2026-06-15T19:00:00+00:00"
+    },
+    {
+      "playerId": 49451,
+      "playerName": "A. Hussein",
+      "team": "Iraq",
+      "fixtureId": 1539016,
+      "date": "2026-06-16T22:00:00+00:00"
     }
   ],
   "goals": [
@@ -765,11 +773,11 @@
       "date": "2026-06-16T22:00:00+00:00",
       "teamId": 1090,
       "teamName": "Norway",
-      "player": "K. Thorstvedt",
-      "minute": "90+7'",
+      "player": "A. Hussein",
+      "minute": "90+6'",
       "elapsed": 90,
-      "extra": 7,
-      "sortKey": "2026-06-16T22:00:00+00:00|097|090"
+      "extra": 6,
+      "sortKey": "2026-06-16T22:00:00+00:00|096|090"
     }
   ],
   "long": {
@@ -810,7 +818,7 @@
     "agent_chaos": {
       "score": -1,
       "team": "USA",
-      "detail": "Joint leaders (USA, Paraguay, Qatar, Switzerland, Belgium, Egypt) — 1 own goal(s) each",
+      "detail": "Joint leaders (USA, Paraguay, Qatar, Switzerland, Belgium, Egypt, Norway, Iraq) — 1 own goal(s) each",
       "tied": true
     }
   },
@@ -820,7 +828,9 @@
     "Qatar": 1,
     "Switzerland": 1,
     "Belgium": 1,
-    "Egypt": 1
+    "Egypt": 1,
+    "Norway": 1,
+    "Iraq": 1
   },
   "tournamentComplete": false,
   "ownGoalEvents": [
@@ -838,6 +848,11 @@
       "fixtureId": 1489377,
       "creditedTeam": "Belgium",
       "scorerTeam": "Egypt"
+    },
+    {
+      "fixtureId": 1539016,
+      "creditedTeam": "Norway",
+      "scorerTeam": "Iraq"
     }
   ],
   "concededByMatch": {
