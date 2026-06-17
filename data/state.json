@@ -67,7 +67,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T05:35:30.579Z"
+      "claimedAt": "2026-06-17T05:40:43.834Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -75,7 +75,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T05:35:30.579Z"
+      "claimedAt": "2026-06-17T05:40:43.834Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -83,7 +83,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T05:35:30.579Z"
+      "claimedAt": "2026-06-17T05:40:43.834Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -844,17 +844,6 @@
       "elapsed": 50,
       "extra": 0,
       "sortKey": "2026-06-17T04:00:00+00:00|050|050"
-    },
-    {
-      "fixtureId": 1489382,
-      "date": "2026-06-17T04:00:00+00:00",
-      "teamId": 775,
-      "teamName": "Austria",
-      "player": "M. Arnautovic",
-      "minute": "67'",
-      "elapsed": 67,
-      "extra": 0,
-      "sortKey": "2026-06-17T04:00:00+00:00|067|067"
     }
   ],
   "long": {
@@ -987,7 +976,7 @@
     },
     "1489382": {
       "Austria": 1,
-      "Jordan": 2
+      "Jordan": 1
     },
     "1489383": {
       "France": 1,
@@ -1042,7 +1031,7 @@
     "Argentina": 0,
     "Algeria": 3,
     "Austria": 1,
-    "Jordan": 2,
+    "Jordan": 1,
     "France": 1,
     "Senegal": 3,
     "South Korea": 1,
