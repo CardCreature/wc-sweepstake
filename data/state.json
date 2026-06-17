@@ -67,7 +67,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T05:40:43.834Z"
+      "claimedAt": "2026-06-17T05:45:38.282Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -75,7 +75,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T05:40:43.834Z"
+      "claimedAt": "2026-06-17T05:45:38.282Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -83,7 +83,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T05:40:43.834Z"
+      "claimedAt": "2026-06-17T05:45:38.282Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -182,6 +182,13 @@
       "team": "Iraq",
       "fixtureId": 1539016,
       "date": "2026-06-16T22:00:00+00:00"
+    },
+    {
+      "playerId": 53900,
+      "playerName": "Y. Al Arab",
+      "team": "Jordan",
+      "fixtureId": 1489382,
+      "date": "2026-06-17T04:00:00+00:00"
     }
   ],
   "goals": [
@@ -844,6 +851,17 @@
       "elapsed": 50,
       "extra": 0,
       "sortKey": "2026-06-17T04:00:00+00:00|050|050"
+    },
+    {
+      "fixtureId": 1489382,
+      "date": "2026-06-17T04:00:00+00:00",
+      "teamId": 775,
+      "teamName": "Austria",
+      "player": "Y. Al Arab",
+      "minute": "76'",
+      "elapsed": 76,
+      "extra": 0,
+      "sortKey": "2026-06-17T04:00:00+00:00|076|076"
     }
   ],
   "long": {
@@ -976,7 +994,7 @@
     },
     "1489382": {
       "Austria": 1,
-      "Jordan": 1
+      "Jordan": 2
     },
     "1489383": {
       "France": 1,
@@ -1031,7 +1049,7 @@
     "Argentina": 0,
     "Algeria": 3,
     "Austria": 1,
-    "Jordan": 1,
+    "Jordan": 2,
     "France": 1,
     "Senegal": 3,
     "South Korea": 1,
