@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T23:01:00.412Z",
+  "updatedAt": "2026-06-17T23:05:33.149Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T23:01:00.401Z"
+        "claimedAt": "2026-06-17T23:05:33.148Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T23:01:00.401Z"
+        "claimedAt": "2026-06-17T23:05:33.148Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T23:01:00.401Z"
+        "claimedAt": "2026-06-17T23:05:33.148Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -460,7 +460,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T23:01:00.401Z",
+      "claimedAt": "2026-06-17T23:05:33.148Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -472,7 +472,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T23:01:00.401Z",
+      "claimedAt": "2026-06-17T23:05:33.148Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -484,7 +484,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T23:01:00.401Z",
+      "claimedAt": "2026-06-17T23:05:33.148Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -1063,7 +1063,7 @@
       "match": "Ghana v Panama",
       "date": "2026-06-17T23:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "NS"
+      "status": "1H"
     },
     {
       "match": "Uzbekistan v Colombia",
