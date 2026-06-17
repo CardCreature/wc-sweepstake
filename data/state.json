@@ -69,7 +69,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T20:05:45.928Z"
+      "claimedAt": "2026-06-17T20:10:51.181Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -77,7 +77,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T20:05:45.928Z"
+      "claimedAt": "2026-06-17T20:10:51.181Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -85,7 +85,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T20:05:45.928Z"
+      "claimedAt": "2026-06-17T20:10:51.181Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -165,7 +165,16 @@
     "309763": 21,
     "338014": 19
   },
-  "missedPens": [],
+  "missedPens": [
+    {
+      "playerId": 184,
+      "playerName": "H. Kane",
+      "team": "England",
+      "fixtureId": 1489384,
+      "minute": "10'",
+      "date": "2026-06-17T20:00:00+00:00"
+    }
+  ],
   "ownGoalScorers": [
     {
       "playerId": 195107,
