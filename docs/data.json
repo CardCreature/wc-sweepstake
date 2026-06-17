@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T17:50:42.961Z",
+  "updatedAt": "2026-06-17T17:55:46.362Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T17:50:42.959Z"
+        "claimedAt": "2026-06-17T17:55:46.360Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T17:50:42.960Z"
+        "claimedAt": "2026-06-17T17:55:46.360Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-17T17:50:42.960Z"
+        "claimedAt": "2026-06-17T17:55:46.360Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -451,23 +451,11 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T17:50:42.960Z",
+      "claimedAt": "2026-06-17T17:55:46.360Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
       "owner": "Nick Lunn"
-    },
-    {
-      "achievementId": "streets",
-      "team": "Mexico",
-      "detail": "R. Jimenez scored aged 35+ vs South Africa",
-      "match": "Mexico v South Africa",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T17:50:42.960Z",
-      "name": "The Streets Won't Forget",
-      "emoji": "👴",
-      "kind": "first",
-      "owner": "Neil"
     },
     {
       "achievementId": "fergie",
@@ -475,11 +463,23 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T17:50:42.959Z",
+      "claimedAt": "2026-06-17T17:55:46.360Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
       "owner": "Kate"
+    },
+    {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-17T17:55:46.360Z",
+      "name": "The Streets Won't Forget",
+      "emoji": "👴",
+      "kind": "first",
+      "owner": "Neil"
     },
     {
       "achievementId": "hat_trick",
@@ -569,23 +569,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 63,
+    "totalGoals": 64,
     "lastGoal": {
       "fixtureId": 1539003,
       "date": "2026-06-17T17:00:00+00:00",
-      "teamId": 27,
-      "teamName": "Portugal",
-      "player": "J. Neves",
-      "minute": "6'",
-      "elapsed": 6,
-      "extra": 0,
-      "sortKey": "2026-06-17T17:00:00+00:00|006|006",
-      "goalNumber": 63,
-      "butterflyTeam": "Ecuador"
+      "teamId": 1508,
+      "teamName": "Congo DR",
+      "player": "Y. Wissa",
+      "minute": "45+5'",
+      "elapsed": 45,
+      "extra": 5,
+      "sortKey": "2026-06-17T17:00:00+00:00|050|045",
+      "goalNumber": 64,
+      "butterflyTeam": "Egypt"
     },
-    "nextGoalTeam": "Egypt",
-    "currentWinner": "Ecuador",
+    "nextGoalTeam": "England",
+    "currentWinner": "Egypt",
     "recentGoals": [
+      {
+        "fixtureId": 1539003,
+        "date": "2026-06-17T17:00:00+00:00",
+        "teamId": 1508,
+        "teamName": "Congo DR",
+        "player": "Y. Wissa",
+        "minute": "45+5'",
+        "elapsed": 45,
+        "extra": 5,
+        "sortKey": "2026-06-17T17:00:00+00:00|050|045",
+        "goalNumber": 64,
+        "butterflyTeam": "Egypt"
+      },
       {
         "fixtureId": 1539003,
         "date": "2026-06-17T17:00:00+00:00",
@@ -702,19 +715,6 @@
         "sortKey": "2026-06-16T22:00:00+00:00|096|090",
         "goalNumber": 55,
         "butterflyTeam": "Brazil"
-      },
-      {
-        "fixtureId": 1539016,
-        "date": "2026-06-16T22:00:00+00:00",
-        "teamId": 1090,
-        "teamName": "Norway",
-        "player": "L. Ostigard",
-        "minute": "76'",
-        "elapsed": 76,
-        "extra": 0,
-        "sortKey": "2026-06-16T22:00:00+00:00|076|076",
-        "goalNumber": 54,
-        "butterflyTeam": "Bosnia & Herzegovina"
       }
     ],
     "teamOrder": [
@@ -1040,7 +1040,7 @@
       "match": "Portugal v Congo DR",
       "date": "2026-06-17T17:00:00+00:00",
       "round": "Group Stage - 1",
-      "status": "1H"
+      "status": "HT"
     },
     {
       "match": "England v Croatia",
