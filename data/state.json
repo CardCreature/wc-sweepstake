@@ -69,7 +69,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T20:35:33.726Z"
+      "claimedAt": "2026-06-17T20:40:45.540Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -77,7 +77,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T20:35:33.726Z"
+      "claimedAt": "2026-06-17T20:40:45.540Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -85,7 +85,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T20:35:33.726Z"
+      "claimedAt": "2026-06-17T20:40:45.540Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -937,6 +937,17 @@
       "elapsed": 12,
       "extra": 0,
       "sortKey": "2026-06-17T20:00:00+00:00|012|012"
+    },
+    {
+      "fixtureId": 1489384,
+      "date": "2026-06-17T20:00:00+00:00",
+      "teamId": 3,
+      "teamName": "Croatia",
+      "player": "M. Baturina",
+      "minute": "36'",
+      "elapsed": 36,
+      "extra": 0,
+      "sortKey": "2026-06-17T20:00:00+00:00|036|036"
     }
   ],
   "long": {
@@ -1083,7 +1094,7 @@
       "Senegal": 3
     },
     "1489384": {
-      "England": 0,
+      "England": 1,
       "Croatia": 1
     },
     "1538999": {
@@ -1142,7 +1153,7 @@
     "Jordan": 3,
     "France": 1,
     "Senegal": 3,
-    "England": 0,
+    "England": 1,
     "Croatia": 1,
     "South Korea": 1,
     "Czechia": 2,
