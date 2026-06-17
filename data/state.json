@@ -69,7 +69,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T21:45:36.869Z"
+      "claimedAt": "2026-06-17T21:50:47.597Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -77,7 +77,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T21:45:36.869Z"
+      "claimedAt": "2026-06-17T21:50:47.597Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -85,7 +85,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T21:45:36.869Z"
+      "claimedAt": "2026-06-17T21:50:47.597Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -981,6 +981,17 @@
       "elapsed": 45,
       "extra": 5,
       "sortKey": "2026-06-17T20:00:00+00:00|050|045"
+    },
+    {
+      "fixtureId": 1489384,
+      "date": "2026-06-17T20:00:00+00:00",
+      "teamId": 10,
+      "teamName": "England",
+      "player": "M. Rashford",
+      "minute": "85'",
+      "elapsed": 85,
+      "extra": 0,
+      "sortKey": "2026-06-17T20:00:00+00:00|085|085"
     }
   ],
   "long": {
@@ -1128,7 +1139,7 @@
     },
     "1489384": {
       "England": 2,
-      "Croatia": 3
+      "Croatia": 4
     },
     "1538999": {
       "South Korea": 1,
@@ -1187,7 +1198,7 @@
     "France": 1,
     "Senegal": 3,
     "England": 2,
-    "Croatia": 3,
+    "Croatia": 4,
     "South Korea": 1,
     "Czechia": 2,
     "Canada": 1,
