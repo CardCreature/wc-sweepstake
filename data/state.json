@@ -68,7 +68,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T17:05:43.370Z"
+      "claimedAt": "2026-06-17T17:10:49.006Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -76,7 +76,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T17:05:43.370Z"
+      "claimedAt": "2026-06-17T17:10:49.006Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -84,7 +84,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-17T17:05:43.370Z"
+      "claimedAt": "2026-06-17T17:10:49.006Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -874,6 +874,17 @@
       "elapsed": 90,
       "extra": 12,
       "sortKey": "2026-06-17T04:00:00+00:00|102|090"
+    },
+    {
+      "fixtureId": 1539003,
+      "date": "2026-06-17T17:00:00+00:00",
+      "teamId": 27,
+      "teamName": "Portugal",
+      "player": "J. Neves",
+      "minute": "6'",
+      "elapsed": 6,
+      "extra": 0,
+      "sortKey": "2026-06-17T17:00:00+00:00|006|006"
     }
   ],
   "long": {
@@ -900,7 +911,7 @@
       "detail": "Felix Nmecha 6' (Germany v Curaçao)",
       "value": 6,
       "display": "6'",
-      "tied": false
+      "tied": true
     },
     "better_late": {
       "score": -98,
@@ -1037,7 +1048,7 @@
     },
     "1539003": {
       "Portugal": 0,
-      "Congo DR": 0
+      "Congo DR": 1
     },
     "1539016": {
       "Iraq": 4,
@@ -1084,7 +1095,7 @@
     "Sweden": 1,
     "Tunisia": 5,
     "Portugal": 0,
-    "Congo DR": 0,
+    "Congo DR": 1,
     "Iraq": 4,
     "Norway": 1
   }
