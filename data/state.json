@@ -71,7 +71,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:20:40.087Z"
+      "claimedAt": "2026-06-18T03:25:33.548Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -79,7 +79,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:20:40.087Z"
+      "claimedAt": "2026-06-18T03:25:33.548Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -87,7 +87,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:20:40.087Z"
+      "claimedAt": "2026-06-18T03:25:33.548Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1016,6 +1016,17 @@
       "elapsed": 40,
       "extra": 0,
       "sortKey": "2026-06-18T02:00:00+00:00|040|040"
+    },
+    {
+      "fixtureId": 1489386,
+      "date": "2026-06-18T02:00:00+00:00",
+      "teamId": 1568,
+      "teamName": "Uzbekistan",
+      "player": "A. Fayzullaev",
+      "minute": "60'",
+      "elapsed": 60,
+      "extra": 0,
+      "sortKey": "2026-06-18T02:00:00+00:00|060|060"
     }
   ],
   "long": {
@@ -1171,7 +1182,7 @@
     },
     "1489386": {
       "Uzbekistan": 1,
-      "Colombia": 0
+      "Colombia": 1
     },
     "1538999": {
       "South Korea": 1,
@@ -1234,7 +1245,7 @@
     "Ghana": 0,
     "Panama": 1,
     "Uzbekistan": 1,
-    "Colombia": 0,
+    "Colombia": 1,
     "South Korea": 1,
     "Czechia": 2,
     "Canada": 1,

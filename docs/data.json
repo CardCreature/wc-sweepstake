@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T03:20:40.088Z",
+  "updatedAt": "2026-06-18T03:25:33.549Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T03:20:40.087Z"
+        "claimedAt": "2026-06-18T03:25:33.548Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T03:20:40.087Z"
+        "claimedAt": "2026-06-18T03:25:33.548Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T03:20:40.087Z"
+        "claimedAt": "2026-06-18T03:25:33.548Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -460,7 +460,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:20:40.087Z",
+      "claimedAt": "2026-06-18T03:25:33.548Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -472,7 +472,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:20:40.087Z",
+      "claimedAt": "2026-06-18T03:25:33.548Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -484,7 +484,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:20:40.087Z",
+      "claimedAt": "2026-06-18T03:25:33.548Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -592,23 +592,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 72,
+    "totalGoals": 73,
     "lastGoal": {
       "fixtureId": 1489386,
       "date": "2026-06-18T02:00:00+00:00",
-      "teamId": 8,
-      "teamName": "Colombia",
-      "player": "D. Munoz",
-      "minute": "40'",
-      "elapsed": 40,
+      "teamId": 1568,
+      "teamName": "Uzbekistan",
+      "player": "A. Fayzullaev",
+      "minute": "60'",
+      "elapsed": 60,
       "extra": 0,
-      "sortKey": "2026-06-18T02:00:00+00:00|040|040",
-      "goalNumber": 72,
-      "butterflyTeam": "Ivory Coast"
+      "sortKey": "2026-06-18T02:00:00+00:00|060|060",
+      "goalNumber": 73,
+      "butterflyTeam": "Japan"
     },
-    "nextGoalTeam": "Japan",
-    "currentWinner": "Ivory Coast",
+    "nextGoalTeam": "Jordan",
+    "currentWinner": "Japan",
     "recentGoals": [
+      {
+        "fixtureId": 1489386,
+        "date": "2026-06-18T02:00:00+00:00",
+        "teamId": 1568,
+        "teamName": "Uzbekistan",
+        "player": "A. Fayzullaev",
+        "minute": "60'",
+        "elapsed": 60,
+        "extra": 0,
+        "sortKey": "2026-06-18T02:00:00+00:00|060|060",
+        "goalNumber": 73,
+        "butterflyTeam": "Japan"
+      },
       {
         "fixtureId": 1489386,
         "date": "2026-06-18T02:00:00+00:00",
@@ -725,19 +738,6 @@
         "sortKey": "2026-06-17T17:00:00+00:00|050|045",
         "goalNumber": 64,
         "butterflyTeam": "Egypt"
-      },
-      {
-        "fixtureId": 1539003,
-        "date": "2026-06-17T17:00:00+00:00",
-        "teamId": 27,
-        "teamName": "Portugal",
-        "player": "J. Neves",
-        "minute": "6'",
-        "elapsed": 6,
-        "extra": 0,
-        "sortKey": "2026-06-17T17:00:00+00:00|006|006",
-        "goalNumber": 63,
-        "butterflyTeam": "Ecuador"
       }
     ],
     "teamOrder": [
