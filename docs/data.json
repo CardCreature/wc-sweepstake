@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T20:55:33.920Z",
+  "updatedAt": "2026-06-18T21:00:58.868Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T20:55:33.918Z"
+        "claimedAt": "2026-06-18T21:00:58.867Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T20:55:33.918Z"
+        "claimedAt": "2026-06-18T21:00:58.867Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T20:55:33.918Z"
+        "claimedAt": "2026-06-18T21:00:58.867Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -460,7 +460,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:55:33.918Z",
+      "claimedAt": "2026-06-18T21:00:58.867Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -472,7 +472,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:55:33.918Z",
+      "claimedAt": "2026-06-18T21:00:58.867Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -484,7 +484,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:55:33.918Z",
+      "claimedAt": "2026-06-18T21:00:58.867Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -616,23 +616,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 81,
+    "totalGoals": 82,
     "lastGoal": {
       "fixtureId": 1539005,
       "date": "2026-06-18T19:00:00+00:00",
-      "teamId": 1113,
-      "teamName": "Bosnia & Herzegovina",
-      "player": "E. Mahmic",
-      "minute": "90+3'",
+      "teamId": 15,
+      "teamName": "Switzerland",
+      "player": "G. Xhaka",
+      "minute": "90+7'",
       "elapsed": 90,
-      "extra": 3,
-      "sortKey": "2026-06-18T19:00:00+00:00|093|090",
-      "goalNumber": 81,
-      "butterflyTeam": "Paraguay"
+      "extra": 7,
+      "sortKey": "2026-06-18T19:00:00+00:00|097|090",
+      "goalNumber": 82,
+      "butterflyTeam": "Portugal"
     },
-    "nextGoalTeam": "Portugal",
-    "currentWinner": "Paraguay",
+    "nextGoalTeam": "Qatar",
+    "currentWinner": "Portugal",
     "recentGoals": [
+      {
+        "fixtureId": 1539005,
+        "date": "2026-06-18T19:00:00+00:00",
+        "teamId": 15,
+        "teamName": "Switzerland",
+        "player": "G. Xhaka",
+        "minute": "90+7'",
+        "elapsed": 90,
+        "extra": 7,
+        "sortKey": "2026-06-18T19:00:00+00:00|097|090",
+        "goalNumber": 82,
+        "butterflyTeam": "Portugal"
+      },
       {
         "fixtureId": 1539005,
         "date": "2026-06-18T19:00:00+00:00",
@@ -749,19 +762,6 @@
         "sortKey": "2026-06-18T02:00:00+00:00|060|060",
         "goalNumber": 73,
         "butterflyTeam": "Japan"
-      },
-      {
-        "fixtureId": 1489386,
-        "date": "2026-06-18T02:00:00+00:00",
-        "teamId": 8,
-        "teamName": "Colombia",
-        "player": "D. Munoz",
-        "minute": "40'",
-        "elapsed": 40,
-        "extra": 0,
-        "sortKey": "2026-06-18T02:00:00+00:00|040|040",
-        "goalNumber": 72,
-        "butterflyTeam": "Ivory Coast"
       }
     ],
     "teamOrder": [
@@ -1084,12 +1084,6 @@
   ],
   "upcoming": [
     {
-      "match": "Switzerland v Bosnia & Herzegovina",
-      "date": "2026-06-18T19:00:00+00:00",
-      "round": "Group Stage - 2",
-      "status": "2H"
-    },
-    {
       "match": "Canada v Qatar",
       "date": "2026-06-18T22:00:00+00:00",
       "round": "Group Stage - 2",
@@ -1118,9 +1112,20 @@
       "date": "2026-06-20T00:30:00+00:00",
       "round": "Group Stage - 2",
       "status": "NS"
+    },
+    {
+      "match": "Türkiye v Paraguay",
+      "date": "2026-06-20T03:00:00+00:00",
+      "round": "Group Stage - 2",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Switzerland 4-1 Bosnia & Herzegovina",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "match": "Czechia 1-1 South Africa",
       "round": "Group Stage - 2",
@@ -1145,12 +1150,7 @@
       "match": "Portugal 1-1 Congo DR",
       "round": "Group Stage - 1",
       "status": "FT"
-    },
-    {
-      "match": "Austria 3-1 Jordan",
-      "round": "Group Stage - 1",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 25
+  "matchesProcessed": 26
 }

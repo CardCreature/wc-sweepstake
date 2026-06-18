@@ -24,7 +24,8 @@
     1489384,
     1489385,
     1489386,
-    1539004
+    1539004,
+    1539005
   ],
   "claims": {
     "warnock": {
@@ -73,7 +74,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:55:33.918Z"
+      "claimedAt": "2026-06-18T21:00:58.867Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -81,7 +82,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:55:33.918Z"
+      "claimedAt": "2026-06-18T21:00:58.867Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -89,7 +90,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:55:33.918Z"
+      "claimedAt": "2026-06-18T21:00:58.867Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1137,6 +1138,17 @@
       "elapsed": 90,
       "extra": 3,
       "sortKey": "2026-06-18T19:00:00+00:00|093|090"
+    },
+    {
+      "fixtureId": 1539005,
+      "date": "2026-06-18T19:00:00+00:00",
+      "teamId": 15,
+      "teamName": "Switzerland",
+      "player": "G. Xhaka",
+      "minute": "90+7'",
+      "elapsed": 90,
+      "extra": 7,
+      "sortKey": "2026-06-18T19:00:00+00:00|097|090"
     }
   ],
   "long": {
@@ -1320,7 +1332,7 @@
     },
     "1539005": {
       "Switzerland": 1,
-      "Bosnia & Herzegovina": 3
+      "Bosnia & Herzegovina": 4
     },
     "1539016": {
       "Iraq": 4,
@@ -1367,7 +1379,7 @@
     "South Korea": 1,
     "Czechia": 3,
     "Canada": 1,
-    "Bosnia & Herzegovina": 4,
+    "Bosnia & Herzegovina": 5,
     "Australia": 0,
     "Türkiye": 2,
     "Sweden": 1,
