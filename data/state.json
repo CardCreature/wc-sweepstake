@@ -74,7 +74,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T22:15:39.080Z"
+      "claimedAt": "2026-06-18T22:20:37.558Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -82,7 +82,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T22:15:39.080Z"
+      "claimedAt": "2026-06-18T22:20:37.558Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -90,7 +90,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T22:15:39.080Z"
+      "claimedAt": "2026-06-18T22:20:37.558Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1149,6 +1149,17 @@
       "elapsed": 90,
       "extra": 7,
       "sortKey": "2026-06-18T19:00:00+00:00|097|090"
+    },
+    {
+      "fixtureId": 1489387,
+      "date": "2026-06-18T22:00:00+00:00",
+      "teamId": 5529,
+      "teamName": "Canada",
+      "player": "C. Larin",
+      "minute": "16'",
+      "elapsed": 16,
+      "extra": 0,
+      "sortKey": "2026-06-18T22:00:00+00:00|016|016"
     }
   ],
   "long": {
@@ -1308,7 +1319,7 @@
     },
     "1489387": {
       "Canada": 0,
-      "Qatar": 0
+      "Qatar": 1
     },
     "1538999": {
       "South Korea": 1,
@@ -1352,7 +1363,7 @@
     "Morocco": 1,
     "Haiti": 1,
     "Scotland": 0,
-    "Qatar": 1,
+    "Qatar": 2,
     "Switzerland": 2,
     "Germany": 1,
     "Curaçao": 7,
