@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T23:50:39.774Z",
+  "updatedAt": "2026-06-18T23:55:32.105Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T23:50:39.772Z"
+        "claimedAt": "2026-06-18T23:55:32.103Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T23:50:39.772Z"
+        "claimedAt": "2026-06-18T23:55:32.103Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T23:50:39.772Z"
+        "claimedAt": "2026-06-18T23:55:32.103Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -442,8 +442,8 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "Curaçao",
-        "detail": "7 goals conceded so far"
+        "team": "Qatar",
+        "detail": "Joint leaders (Qatar, Curaçao) — 7 conceded each"
       }
     },
     {
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T23:50:39.772Z",
+      "claimedAt": "2026-06-18T23:55:32.103Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T23:50:39.772Z",
+      "claimedAt": "2026-06-18T23:55:32.103Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T23:50:39.772Z",
+      "claimedAt": "2026-06-18T23:55:32.103Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -639,23 +639,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 87,
+    "totalGoals": 88,
     "lastGoal": {
       "fixtureId": 1489387,
       "date": "2026-06-18T22:00:00+00:00",
       "teamId": 5529,
       "teamName": "Canada",
-      "player": "M. Al Mannai",
-      "minute": "75'",
-      "elapsed": 75,
-      "extra": 0,
-      "sortKey": "2026-06-18T22:00:00+00:00|075|075",
-      "goalNumber": 87,
-      "butterflyTeam": "South Africa"
+      "player": "J. David",
+      "minute": "90+2'",
+      "elapsed": 90,
+      "extra": 2,
+      "sortKey": "2026-06-18T22:00:00+00:00|092|090",
+      "goalNumber": 88,
+      "butterflyTeam": "South Korea"
     },
-    "nextGoalTeam": "South Korea",
-    "currentWinner": "South Africa",
+    "nextGoalTeam": "Spain",
+    "currentWinner": "South Korea",
     "recentGoals": [
+      {
+        "fixtureId": 1489387,
+        "date": "2026-06-18T22:00:00+00:00",
+        "teamId": 5529,
+        "teamName": "Canada",
+        "player": "J. David",
+        "minute": "90+2'",
+        "elapsed": 90,
+        "extra": 2,
+        "sortKey": "2026-06-18T22:00:00+00:00|092|090",
+        "goalNumber": 88,
+        "butterflyTeam": "South Korea"
+      },
       {
         "fixtureId": 1489387,
         "date": "2026-06-18T22:00:00+00:00",
@@ -772,19 +785,6 @@
         "sortKey": "2026-06-18T19:00:00+00:00|084|084",
         "goalNumber": 79,
         "butterflyTeam": "Norway"
-      },
-      {
-        "fixtureId": 1539005,
-        "date": "2026-06-18T19:00:00+00:00",
-        "teamId": 15,
-        "teamName": "Switzerland",
-        "player": "J. Manzambi",
-        "minute": "74'",
-        "elapsed": 74,
-        "extra": 0,
-        "sortKey": "2026-06-18T19:00:00+00:00|074|074",
-        "goalNumber": 78,
-        "butterflyTeam": "New Zealand"
       }
     ],
     "teamOrder": [
