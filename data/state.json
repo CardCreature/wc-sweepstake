@@ -74,7 +74,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T22:40:38.099Z"
+      "claimedAt": "2026-06-18T22:45:36.842Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -82,7 +82,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T22:40:38.099Z"
+      "claimedAt": "2026-06-18T22:45:36.842Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -90,7 +90,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T22:40:38.099Z"
+      "claimedAt": "2026-06-18T22:45:36.842Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1175,14 +1175,12 @@
   ],
   "long": {
     "nice_to_see_you": {
-      "score": 46,
+      "score": 40,
       "unit": "min",
-      "team": "USA",
-      "detail": "C. Pulisic off 46' (USA v Paraguay)",
-      "value": 46,
-      "display": "46'",
-      "tied": true,
-      "tieDetail": "J. Adams off 46' (Czechia v South Africa)"
+      "team": "Qatar",
+      "detail": "Y. Abdurisag off 40' (Canada v Qatar)",
+      "value": 40,
+      "display": "40'"
     },
     "sieve": {
       "score": -7,
