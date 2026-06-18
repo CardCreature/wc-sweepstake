@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T03:55:37.553Z",
+  "updatedAt": "2026-06-18T04:00:58.893Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T03:55:37.552Z"
+        "claimedAt": "2026-06-18T04:00:58.890Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T03:55:37.552Z"
+        "claimedAt": "2026-06-18T04:00:58.891Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T03:55:37.552Z"
+        "claimedAt": "2026-06-18T04:00:58.891Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -418,8 +418,8 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "USA",
-        "detail": "G. Reyna 90+8' (USA v Paraguay)"
+        "team": "Colombia",
+        "detail": "J. Campaz 90+9' (Uzbekistan v Colombia)"
       }
     },
     {
@@ -460,23 +460,11 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:55:37.552Z",
+      "claimedAt": "2026-06-18T04:00:58.891Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
       "owner": "Nick Lunn"
-    },
-    {
-      "achievementId": "fergie",
-      "team": "USA",
-      "detail": "Scored 45+5 and 90+8 vs Paraguay",
-      "match": "USA v Paraguay",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:55:37.552Z",
-      "name": "The Fergie Sandwich",
-      "emoji": "⏱️",
-      "kind": "first",
-      "owner": "Kate"
     },
     {
       "achievementId": "streets",
@@ -484,11 +472,23 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T03:55:37.552Z",
+      "claimedAt": "2026-06-18T04:00:58.891Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
       "owner": "Neil"
+    },
+    {
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored 45+5 and 90+8 vs Paraguay",
+      "match": "USA v Paraguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-18T04:00:58.890Z",
+      "name": "The Fergie Sandwich",
+      "emoji": "⏱️",
+      "kind": "first",
+      "owner": "Kate"
     },
     {
       "achievementId": "redemption",
@@ -592,23 +592,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 74,
+    "totalGoals": 75,
     "lastGoal": {
       "fixtureId": 1489386,
       "date": "2026-06-18T02:00:00+00:00",
       "teamId": 8,
       "teamName": "Colombia",
-      "player": "L. Diaz",
-      "minute": "65'",
-      "elapsed": 65,
-      "extra": 0,
-      "sortKey": "2026-06-18T02:00:00+00:00|065|065",
-      "goalNumber": 74,
-      "butterflyTeam": "Jordan"
+      "player": "J. Campaz",
+      "minute": "90+9'",
+      "elapsed": 90,
+      "extra": 9,
+      "sortKey": "2026-06-18T02:00:00+00:00|099|090",
+      "goalNumber": 75,
+      "butterflyTeam": "Mexico"
     },
-    "nextGoalTeam": "Mexico",
-    "currentWinner": "Jordan",
+    "nextGoalTeam": "Morocco",
+    "currentWinner": "Mexico",
     "recentGoals": [
+      {
+        "fixtureId": 1489386,
+        "date": "2026-06-18T02:00:00+00:00",
+        "teamId": 8,
+        "teamName": "Colombia",
+        "player": "J. Campaz",
+        "minute": "90+9'",
+        "elapsed": 90,
+        "extra": 9,
+        "sortKey": "2026-06-18T02:00:00+00:00|099|090",
+        "goalNumber": 75,
+        "butterflyTeam": "Mexico"
+      },
       {
         "fixtureId": 1489386,
         "date": "2026-06-18T02:00:00+00:00",
@@ -725,19 +738,6 @@
         "sortKey": "2026-06-17T20:00:00+00:00|036|036",
         "goalNumber": 66,
         "butterflyTeam": "France"
-      },
-      {
-        "fixtureId": 1489384,
-        "date": "2026-06-17T20:00:00+00:00",
-        "teamId": 10,
-        "teamName": "England",
-        "player": "H. Kane",
-        "minute": "12'",
-        "elapsed": 12,
-        "extra": 0,
-        "sortKey": "2026-06-17T20:00:00+00:00|012|012",
-        "goalNumber": 65,
-        "butterflyTeam": "England"
       }
     ],
     "teamOrder": [
