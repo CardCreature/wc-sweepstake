@@ -71,7 +71,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T01:55:31.397Z"
+      "claimedAt": "2026-06-18T02:01:03.840Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -79,7 +79,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T01:55:31.397Z"
+      "claimedAt": "2026-06-18T02:01:03.840Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -87,7 +87,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T01:55:31.397Z"
+      "claimedAt": "2026-06-18T02:01:03.840Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1158,6 +1158,10 @@
       "Ghana": 0,
       "Panama": 1
     },
+    "1489386": {
+      "Uzbekistan": 0,
+      "Colombia": 0
+    },
     "1538999": {
       "South Korea": 1,
       "Czechia": 2
@@ -1218,6 +1222,8 @@
     "Croatia": 4,
     "Ghana": 0,
     "Panama": 1,
+    "Uzbekistan": 0,
+    "Colombia": 0,
     "South Korea": 1,
     "Czechia": 2,
     "Canada": 1,
