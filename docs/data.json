@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T02:40:43.958Z",
+  "updatedAt": "2026-06-18T02:45:36.393Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T02:40:43.956Z"
+        "claimedAt": "2026-06-18T02:45:36.391Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T02:40:43.956Z"
+        "claimedAt": "2026-06-18T02:45:36.391Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T02:40:43.956Z"
+        "claimedAt": "2026-06-18T02:45:36.391Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -460,7 +460,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T02:40:43.956Z",
+      "claimedAt": "2026-06-18T02:45:36.391Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -472,7 +472,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T02:40:43.956Z",
+      "claimedAt": "2026-06-18T02:45:36.391Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -484,7 +484,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T02:40:43.956Z",
+      "claimedAt": "2026-06-18T02:45:36.391Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -598,11 +598,11 @@
       "date": "2026-06-18T02:00:00+00:00",
       "teamId": 8,
       "teamName": "Colombia",
-      "player": "Unknown",
-      "minute": "41'",
-      "elapsed": 41,
+      "player": "D. Munoz",
+      "minute": "40'",
+      "elapsed": 40,
       "extra": 0,
-      "sortKey": "2026-06-18T02:00:00+00:00|041|041",
+      "sortKey": "2026-06-18T02:00:00+00:00|040|040",
       "goalNumber": 72,
       "butterflyTeam": "Ivory Coast"
     },
@@ -614,11 +614,11 @@
         "date": "2026-06-18T02:00:00+00:00",
         "teamId": 8,
         "teamName": "Colombia",
-        "player": "Unknown",
-        "minute": "41'",
-        "elapsed": 41,
+        "player": "D. Munoz",
+        "minute": "40'",
+        "elapsed": 40,
         "extra": 0,
-        "sortKey": "2026-06-18T02:00:00+00:00|041|041",
+        "sortKey": "2026-06-18T02:00:00+00:00|040|040",
         "goalNumber": 72,
         "butterflyTeam": "Ivory Coast"
       },
