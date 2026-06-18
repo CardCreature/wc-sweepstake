@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T20:30:51.340Z",
+  "updatedAt": "2026-06-18T20:35:33.433Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T20:30:51.339Z"
+        "claimedAt": "2026-06-18T20:35:33.431Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T20:30:51.339Z"
+        "claimedAt": "2026-06-18T20:35:33.431Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-18T20:30:51.339Z"
+        "claimedAt": "2026-06-18T20:35:33.431Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -460,7 +460,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:30:51.339Z",
+      "claimedAt": "2026-06-18T20:35:33.431Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -472,7 +472,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:30:51.339Z",
+      "claimedAt": "2026-06-18T20:35:33.431Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -484,7 +484,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-18T20:30:51.339Z",
+      "claimedAt": "2026-06-18T20:35:33.431Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -616,23 +616,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 77,
+    "totalGoals": 78,
     "lastGoal": {
-      "fixtureId": 1539004,
-      "date": "2026-06-18T16:00:00+00:00",
-      "teamId": 1531,
-      "teamName": "South Africa",
-      "player": "T. Mokoena",
-      "minute": "83'",
-      "elapsed": 83,
+      "fixtureId": 1539005,
+      "date": "2026-06-18T19:00:00+00:00",
+      "teamId": 15,
+      "teamName": "Switzerland",
+      "player": "J. Manzambi",
+      "minute": "74'",
+      "elapsed": 74,
       "extra": 0,
-      "sortKey": "2026-06-18T16:00:00+00:00|083|083",
-      "goalNumber": 77,
-      "butterflyTeam": "Netherlands"
+      "sortKey": "2026-06-18T19:00:00+00:00|074|074",
+      "goalNumber": 78,
+      "butterflyTeam": "New Zealand"
     },
-    "nextGoalTeam": "New Zealand",
-    "currentWinner": "Netherlands",
+    "nextGoalTeam": "Norway",
+    "currentWinner": "New Zealand",
     "recentGoals": [
+      {
+        "fixtureId": 1539005,
+        "date": "2026-06-18T19:00:00+00:00",
+        "teamId": 15,
+        "teamName": "Switzerland",
+        "player": "J. Manzambi",
+        "minute": "74'",
+        "elapsed": 74,
+        "extra": 0,
+        "sortKey": "2026-06-18T19:00:00+00:00|074|074",
+        "goalNumber": 78,
+        "butterflyTeam": "New Zealand"
+      },
       {
         "fixtureId": 1539004,
         "date": "2026-06-18T16:00:00+00:00",
@@ -749,19 +762,6 @@
         "sortKey": "2026-06-17T20:00:00+00:00|050|045",
         "goalNumber": 69,
         "butterflyTeam": "Haiti"
-      },
-      {
-        "fixtureId": 1489384,
-        "date": "2026-06-17T20:00:00+00:00",
-        "teamId": 10,
-        "teamName": "England",
-        "player": "J. Bellingham",
-        "minute": "47'",
-        "elapsed": 47,
-        "extra": 0,
-        "sortKey": "2026-06-17T20:00:00+00:00|047|047",
-        "goalNumber": 68,
-        "butterflyTeam": "Ghana"
       }
     ],
     "teamOrder": [
