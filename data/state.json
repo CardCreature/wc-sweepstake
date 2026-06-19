@@ -77,7 +77,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T23:25:31.441Z"
+      "claimedAt": "2026-06-19T23:30:51.443Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -85,7 +85,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T23:25:31.441Z"
+      "claimedAt": "2026-06-19T23:30:51.443Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -93,7 +93,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T23:25:31.441Z"
+      "claimedAt": "2026-06-19T23:30:51.443Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -185,6 +185,16 @@
       "match": "USA v Australia",
       "fixtureId": 1489391,
       "date": "2026-06-19T19:00:00+00:00",
+      "status": "pending"
+    },
+    "leadership|1489390|Scotland": {
+      "key": "leadership|1489390|Scotland",
+      "achievementId": "leadership",
+      "team": "Scotland",
+      "detail": "Captain A. Robertson booked (65') — confirm it was for dissent",
+      "match": "Scotland v Morocco",
+      "fixtureId": 1489390,
+      "date": "2026-06-19T22:00:00+00:00",
       "status": "pending"
     }
   },

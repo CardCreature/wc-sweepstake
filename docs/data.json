@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T23:25:31.443Z",
+  "updatedAt": "2026-06-19T23:30:51.445Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -49,7 +49,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-19T23:25:31.441Z"
+        "claimedAt": "2026-06-19T23:30:51.443Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +113,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-19T23:25:31.441Z"
+        "claimedAt": "2026-06-19T23:30:51.443Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +165,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-19T23:25:31.441Z"
+        "claimedAt": "2026-06-19T23:30:51.443Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T23:25:31.441Z",
+      "claimedAt": "2026-06-19T23:30:51.443Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T23:25:31.441Z",
+      "claimedAt": "2026-06-19T23:30:51.443Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T23:25:31.441Z",
+      "claimedAt": "2026-06-19T23:30:51.443Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -643,6 +643,18 @@
       "match": "USA v Australia",
       "fixtureId": 1489391,
       "date": "2026-06-19T19:00:00+00:00",
+      "status": "pending",
+      "name": "Leadership Qualities",
+      "emoji": "🎖️"
+    },
+    {
+      "key": "leadership|1489390|Scotland",
+      "achievementId": "leadership",
+      "team": "Scotland",
+      "detail": "Captain A. Robertson booked (65') — confirm it was for dissent",
+      "match": "Scotland v Morocco",
+      "fixtureId": 1489390,
+      "date": "2026-06-19T22:00:00+00:00",
       "status": "pending",
       "name": "Leadership Qualities",
       "emoji": "🎖️"
