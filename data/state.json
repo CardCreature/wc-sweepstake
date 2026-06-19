@@ -27,7 +27,8 @@
     1539004,
     1539005,
     1489387,
-    1489388
+    1489388,
+    1489391
   ],
   "claims": {
     "warnock": {
@@ -76,7 +77,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T21:00:55.819Z"
+      "claimedAt": "2026-06-19T21:05:33.319Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -84,7 +85,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T21:00:55.819Z"
+      "claimedAt": "2026-06-19T21:05:33.319Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -92,7 +93,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-19T21:00:55.819Z"
+      "claimedAt": "2026-06-19T21:05:33.319Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1323,13 +1324,13 @@
     },
     "agent_chaos": {
       "score": -2,
-      "team": "Qatar",
-      "detail": "2 own goal(s) involved in",
-      "tied": false
+      "team": "USA",
+      "detail": "Joint leaders (USA, Qatar) — 2 own goal(s) each",
+      "tied": true
     }
   },
   "ownGoalInvolvement": {
-    "USA": 1,
+    "USA": 2,
     "Paraguay": 1,
     "Qatar": 2,
     "Switzerland": 1,
@@ -1339,7 +1340,8 @@
     "Iraq": 1,
     "Austria": 1,
     "Jordan": 1,
-    "Canada": 1
+    "Canada": 1,
+    "Australia": 1
   },
   "tournamentComplete": false,
   "ownGoalEvents": [
@@ -1372,6 +1374,11 @@
       "fixtureId": 1489387,
       "creditedTeam": "Canada",
       "scorerTeam": "Qatar"
+    },
+    {
+      "fixtureId": 1489391,
+      "creditedTeam": "USA",
+      "scorerTeam": "Australia"
     }
   ],
   "concededByMatch": {
