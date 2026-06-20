@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T21:55:35.652Z",
+  "updatedAt": "2026-06-20T22:01:02.488Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T21:55:35.650Z"
+        "claimedAt": "2026-06-20T22:01:02.485Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T21:55:35.650Z"
+        "claimedAt": "2026-06-20T22:01:02.486Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T21:55:35.650Z"
+        "claimedAt": "2026-06-20T22:01:02.486Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,23 +469,11 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T21:55:35.650Z",
+      "claimedAt": "2026-06-20T22:01:02.486Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
       "owner": "Nick Lunn"
-    },
-    {
-      "achievementId": "fergie",
-      "team": "USA",
-      "detail": "Scored 45+5 and 90+8 vs Paraguay",
-      "match": "USA v Paraguay",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T21:55:35.650Z",
-      "name": "The Fergie Sandwich",
-      "emoji": "⏱️",
-      "kind": "first",
-      "owner": "Kate"
     },
     {
       "achievementId": "streets",
@@ -493,11 +481,23 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T21:55:35.650Z",
+      "claimedAt": "2026-06-20T22:01:02.486Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
       "owner": "Neil"
+    },
+    {
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored 45+5 and 90+8 vs Paraguay",
+      "match": "USA v Paraguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-20T22:01:02.485Z",
+      "name": "The Fergie Sandwich",
+      "emoji": "⏱️",
+      "kind": "first",
+      "owner": "Kate"
     },
     {
       "achievementId": "vinnie",
@@ -602,23 +602,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 104,
+    "totalGoals": 105,
     "lastGoal": {
       "fixtureId": 1489393,
       "date": "2026-06-20T20:00:00+00:00",
       "teamId": 25,
       "teamName": "Germany",
       "player": "D. Undav",
-      "minute": "68'",
-      "elapsed": 68,
-      "extra": 0,
-      "sortKey": "2026-06-20T20:00:00+00:00|068|068",
-      "goalNumber": 104,
-      "butterflyTeam": "Canada"
+      "minute": "90+4'",
+      "elapsed": 90,
+      "extra": 4,
+      "sortKey": "2026-06-20T20:00:00+00:00|094|090",
+      "goalNumber": 105,
+      "butterflyTeam": "Cape Verde Islands"
     },
-    "nextGoalTeam": "Cape Verde Islands",
-    "currentWinner": "Canada",
+    "nextGoalTeam": "Colombia",
+    "currentWinner": "Cape Verde Islands",
     "recentGoals": [
+      {
+        "fixtureId": 1489393,
+        "date": "2026-06-20T20:00:00+00:00",
+        "teamId": 25,
+        "teamName": "Germany",
+        "player": "D. Undav",
+        "minute": "90+4'",
+        "elapsed": 90,
+        "extra": 4,
+        "sortKey": "2026-06-20T20:00:00+00:00|094|090",
+        "goalNumber": 105,
+        "butterflyTeam": "Cape Verde Islands"
+      },
       {
         "fixtureId": 1489393,
         "date": "2026-06-20T20:00:00+00:00",
@@ -735,19 +748,6 @@
         "sortKey": "2026-06-20T03:00:00+00:00|002|002",
         "goalNumber": 96,
         "butterflyTeam": "Uzbekistan"
-      },
-      {
-        "fixtureId": 1489389,
-        "date": "2026-06-20T00:30:00+00:00",
-        "teamId": 6,
-        "teamName": "Brazil",
-        "player": "Vinicius Junior",
-        "minute": "45+3'",
-        "elapsed": 45,
-        "extra": 3,
-        "sortKey": "2026-06-20T00:30:00+00:00|048|045",
-        "goalNumber": 95,
-        "butterflyTeam": "USA"
       }
     ],
     "teamOrder": [
@@ -1070,12 +1070,6 @@
   ],
   "upcoming": [
     {
-      "match": "Germany v Ivory Coast",
-      "date": "2026-06-20T20:00:00+00:00",
-      "round": "Group Stage - 2",
-      "status": "2H"
-    },
-    {
       "match": "Ecuador v Curaçao",
       "date": "2026-06-21T00:00:00+00:00",
       "round": "Group Stage - 2",
@@ -1104,9 +1098,20 @@
       "date": "2026-06-21T22:00:00+00:00",
       "round": "Group Stage - 2",
       "status": "NS"
+    },
+    {
+      "match": "New Zealand v Egypt",
+      "date": "2026-06-22T01:00:00+00:00",
+      "round": "Group Stage - 2",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Germany 2-1 Ivory Coast",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "match": "Netherlands 5-1 Sweden",
       "round": "Group Stage - 2",
@@ -1131,12 +1136,7 @@
       "match": "USA 2-0 Australia",
       "round": "Group Stage - 2",
       "status": "FT"
-    },
-    {
-      "match": "Mexico 1-0 South Korea",
-      "round": "Group Stage - 2",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 33
+  "matchesProcessed": 34
 }
