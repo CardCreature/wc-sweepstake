@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T04:35:34.039Z",
+  "updatedAt": "2026-06-20T04:40:40.239Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -30,9 +30,18 @@
       "emoji": "🦵",
       "name": "The Vinnie Jones Entrance",
       "desc": "First sub booked within 5 minutes of coming on.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "vinnie",
+        "team": "Türkiye",
+        "detail": "E. Elmali booked 0 min after coming on (71')",
+        "match": "Türkiye v Paraguay",
+        "fixtureId": 1539006,
+        "date": "2026-06-20T03:00:00+00:00",
+        "awardedBy": "auto",
+        "claimedAt": "2026-06-20T04:40:40.236Z"
+      },
+      "owner": "Will",
       "leader": null
     },
     {
@@ -49,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T04:35:34.037Z"
+        "claimedAt": "2026-06-20T04:40:40.238Z"
       },
       "owner": "Kate",
       "leader": null
@@ -113,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T04:35:34.037Z"
+        "claimedAt": "2026-06-20T04:40:40.238Z"
       },
       "owner": "Neil",
       "leader": null
@@ -165,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T04:35:34.037Z"
+        "claimedAt": "2026-06-20T04:40:40.238Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +478,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T04:35:34.037Z",
+      "claimedAt": "2026-06-20T04:40:40.238Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +490,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T04:35:34.037Z",
+      "claimedAt": "2026-06-20T04:40:40.238Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,11 +502,25 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T04:35:34.037Z",
+      "claimedAt": "2026-06-20T04:40:40.238Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
       "owner": "Neil"
+    },
+    {
+      "achievementId": "vinnie",
+      "team": "Türkiye",
+      "detail": "E. Elmali booked 0 min after coming on (71')",
+      "match": "Türkiye v Paraguay",
+      "fixtureId": 1539006,
+      "date": "2026-06-20T03:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-20T04:40:40.236Z",
+      "name": "The Vinnie Jones Entrance",
+      "emoji": "🦵",
+      "kind": "first",
+      "owner": "Will"
     },
     {
       "achievementId": "wasted_journey",
@@ -929,6 +952,15 @@
       "achievements": 1
     },
     {
+      "person": "Will",
+      "teams": [
+        "Türkiye",
+        "Iran"
+      ],
+      "winnings": 10,
+      "achievements": 1
+    },
+    {
       "person": "Michelle Jackson",
       "teams": [
         "Germany",
@@ -993,15 +1025,6 @@
       "person": "Emma G",
       "teams": [
         "Morocco"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
-      "person": "Will",
-      "teams": [
-        "Türkiye",
-        "Iran"
       ],
       "winnings": 0,
       "achievements": 0
