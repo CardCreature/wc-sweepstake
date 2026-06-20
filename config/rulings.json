@@ -1,8 +1,18 @@
 {
-  "_help": "Tom's control panel. 'confirm'/'reject' take candidate keys from the Pending Rulings section of the dashboard (or data/state.json). 'manualClaims' lets you award anything directly, e.g. the 35-yard screamer or longest VAR review. 'goalCorrections' override extra time for specific goals (when API drops stoppage data).",
+  "_help": "Tom's control panel. 'confirm'/'reject' take candidate keys. 'manualClaims' awards directly (locks the prize). 'tiebreakers' break ties between equal goals without locking the prize. 'goalCorrections' override extra time.",
   "confirm": ["check_complete|1489369|South Africa"],
-  "reject": ["leadership|1489370|USA", "leadership|1489370|Paraguay", "leadership|1489375|Ivory Coast"],
-  "unclaim": ["ghost_squad"],
+  "reject": [
+    "leadership|1489370|USA",
+    "leadership|1489370|Paraguay",
+    "leadership|1489375|Ivory Coast",
+    "leadership|1539003|Congo DR",
+    "leadership|1539004|Czechia",
+    "leadership|1539005|Bosnia & Herzegovina",
+    "leadership|1489391|Australia",
+    "leadership|1489390|Scotland",
+    "beach|1539006|Paraguay"
+  ],
+  "unclaim": ["ghost_squad", "redemption"],
   "manualClaims": {
     "fergie": { "team": "USA", "detail": "Scored 45+5 and 90+8 vs Paraguay", "match": "USA v Paraguay" },
     "streets": {
@@ -15,6 +25,9 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa"
     }
+  },
+  "tiebreakers": {
+    "blink": { "fixtureId": 1539006, "player": "M. Galarza" }
   },
   "goalCorrections": [
     { "fixtureId": 1489370, "player": "G. Reyna", "elapsed": 90, "extra": 8 },
