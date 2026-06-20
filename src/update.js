@@ -165,8 +165,8 @@ async function main() {
   // 3. Apply Tom's rulings (confirm/reject candidates, manual claims, goal corrections)
   applyRulings(state, rulings);
 
-  // 3a. Derive Blink and Better Late from state.goals (respects goal corrections)
-  deriveBlinkAndBetterLate(state, fixtures);
+  // 3a. Derive Blink and Better Late from state.goals (respects goal corrections and tiebreakers)
+  deriveBlinkAndBetterLate(state, fixtures, rulings);
 
   // 4. Tournament-long awards finalise after the final
   const finalFx = fixtures.find(fx => (fx.league.round || "").toLowerCase() === "final");
@@ -563,32 +563,53 @@ function applyRulings(state, rulings) {
 
 // Derive Blink and Better Late from state.goals (after any corrections). This makes the
 // trackers self-correcting and respects goalCorrections from rulings.json.
-function deriveBlinkAndBetterLate(state, fixtures) {
+// Supports tiebreakers from rulings.tiebreakers — if multiple goals share the winning total,
+// the engine prefers the goal matching the tiebreaker spec.
+function deriveBlinkAndBetterLate(state, fixtures, rulings) {
   if (!state.goals.length) return;
   const matchLabel = (fid) => {
     const fx = fixtures.find(f => f.fixture.id === fid);
     return fx ? `${fx.teams.home.name} v ${fx.teams.away.name}` : "";
   };
+  // Resolves a tie: picks the goal matching the tiebreaker spec, or falls back to the first.
+  // Returns { winner, resolved } — resolved=true if tiebreaker successfully chose.
+  const resolveTie = (tiedGoals, tb) => {
+    if (tiedGoals.length === 1 || !tb) return { winner: tiedGoals[0], resolved: tiedGoals.length === 1 };
+    const match = tiedGoals.find(g => g.fixtureId === tb.fixtureId && (!tb.player || g.player === tb.player));
+    return match ? { winner: match, resolved: true } : { winner: tiedGoals[0], resolved: false };
+  };
   const sorted = [...state.goals].map(g => ({ ...g, total: g.elapsed + (g.extra || 0) })).sort((a, b) => a.total - b.total);
 
   // Blink — earliest goal
-  const earliest = sorted[0];
-  const tiedBlink = sorted.filter(g => g.total === earliest.total).length > 1;
+  const tiedAtEarliest = sorted.filter(g => g.total === sorted[0].total);
+  const { winner: earliest, resolved: blinkResolved } = resolveTie(tiedAtEarliest, rulings?.tiebreakers?.blink);
   state.long.blink = {
     score: earliest.total, unit: "min", team: earliest.teamName,
     detail: `${earliest.player} ${earliest.minute} (${matchLabel(earliest.fixtureId)})`,
-    value: earliest.total, display: earliest.minute, tied: tiedBlink,
+    value: earliest.total, display: earliest.minute,
+    tied: tiedAtEarliest.length > 1 && !blinkResolved,
   };
 
-  // Better Late — latest goal in normal time (total <= 100)
-  const normalTime = sorted.filter(g => g.total <= 100);
+  // Better Late — latest goal in normal time.
+  // Normal time = regulation 90 mins + 2H stoppage (no matter how long).
+  // Extra time goals don't count, but only matches that went to ET have them.
+  const ET_STATUSES = new Set(["ET", "BT", "P", "AET", "PEN"]);
+  const isNormalTimeGoal = (g) => {
+    if (g.elapsed <= 90) return true; // regulation, always normal time
+    // elapsed > 90: could be 2H stoppage (rolled-in encoding) OR extra time
+    const fx = fixtures.find(f => f.fixture.id === g.fixtureId);
+    return !ET_STATUSES.has(fx?.fixture?.status?.short);
+  };
+  const normalTime = sorted.filter(isNormalTimeGoal);
   if (normalTime.length) {
-    const latest = normalTime[normalTime.length - 1];
-    const tiedBL = normalTime.filter(g => g.total === latest.total).length > 1;
+    const latestTotal = normalTime[normalTime.length - 1].total;
+    const tiedAtLatest = normalTime.filter(g => g.total === latestTotal);
+    const { winner: latest, resolved: blResolved } = resolveTie(tiedAtLatest, rulings?.tiebreakers?.better_late);
     state.long.better_late = {
       score: -latest.total, unit: "min", team: latest.teamName,
       detail: `${latest.player} ${latest.minute} (${matchLabel(latest.fixtureId)})`,
-      value: latest.total, display: latest.minute, tied: tiedBL,
+      value: latest.total, display: latest.minute,
+      tied: tiedAtLatest.length > 1 && !blResolved,
     };
   }
 }
