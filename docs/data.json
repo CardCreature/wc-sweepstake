@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T06:35:34.791Z",
+  "updatedAt": "2026-06-20T06:40:40.994Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T06:35:34.782Z"
+        "claimedAt": "2026-06-20T06:40:40.984Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T06:35:34.782Z"
+        "claimedAt": "2026-06-20T06:40:40.985Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-20T06:35:34.782Z"
+        "claimedAt": "2026-06-20T06:40:40.985Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -478,23 +478,11 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T06:35:34.782Z",
+      "claimedAt": "2026-06-20T06:40:40.985Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
       "owner": "Nick Lunn"
-    },
-    {
-      "achievementId": "fergie",
-      "team": "USA",
-      "detail": "Scored 45+5 and 90+8 vs Paraguay",
-      "match": "USA v Paraguay",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T06:35:34.782Z",
-      "name": "The Fergie Sandwich",
-      "emoji": "⏱️",
-      "kind": "first",
-      "owner": "Kate"
     },
     {
       "achievementId": "streets",
@@ -502,11 +490,23 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-20T06:35:34.782Z",
+      "claimedAt": "2026-06-20T06:40:40.985Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
       "owner": "Neil"
+    },
+    {
+      "achievementId": "fergie",
+      "team": "USA",
+      "detail": "Scored 45+5 and 90+8 vs Paraguay",
+      "match": "USA v Paraguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-20T06:40:40.984Z",
+      "name": "The Fergie Sandwich",
+      "emoji": "⏱️",
+      "kind": "first",
+      "owner": "Kate"
     },
     {
       "achievementId": "vinnie",
