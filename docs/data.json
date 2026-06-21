@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T04:30:56.350Z",
+  "updatedAt": "2026-06-21T04:35:32.584Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T04:30:56.348Z"
+        "claimedAt": "2026-06-21T04:35:32.582Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T04:30:56.348Z"
+        "claimedAt": "2026-06-21T04:35:32.582Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T04:30:56.348Z"
+        "claimedAt": "2026-06-21T04:35:32.582Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -443,7 +443,7 @@
       "owner": null,
       "leader": {
         "team": "Qatar",
-        "detail": "Joint leaders (Qatar, Curaçao) — 7 conceded each"
+        "detail": "Joint leaders (Qatar, Curaçao, Tunisia) — 7 conceded each"
       }
     },
     {
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T04:30:56.348Z",
+      "claimedAt": "2026-06-21T04:35:32.582Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T04:30:56.348Z",
+      "claimedAt": "2026-06-21T04:35:32.582Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T04:30:56.348Z",
+      "claimedAt": "2026-06-21T04:35:32.582Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -615,23 +615,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 106,
+    "totalGoals": 107,
     "lastGoal": {
       "fixtureId": 1489394,
       "date": "2026-06-21T04:00:00+00:00",
       "teamId": 12,
       "teamName": "Japan",
-      "player": "D. Kamada",
-      "minute": "4'",
-      "elapsed": 4,
+      "player": "A. Ueda",
+      "minute": "31'",
+      "elapsed": 31,
       "extra": 0,
-      "sortKey": "2026-06-21T04:00:00+00:00|004|004",
-      "goalNumber": 106,
-      "butterflyTeam": "Colombia"
+      "sortKey": "2026-06-21T04:00:00+00:00|031|031",
+      "goalNumber": 107,
+      "butterflyTeam": "Congo DR"
     },
-    "nextGoalTeam": "Congo DR",
-    "currentWinner": "Colombia",
+    "nextGoalTeam": "Croatia",
+    "currentWinner": "Congo DR",
     "recentGoals": [
+      {
+        "fixtureId": 1489394,
+        "date": "2026-06-21T04:00:00+00:00",
+        "teamId": 12,
+        "teamName": "Japan",
+        "player": "A. Ueda",
+        "minute": "31'",
+        "elapsed": 31,
+        "extra": 0,
+        "sortKey": "2026-06-21T04:00:00+00:00|031|031",
+        "goalNumber": 107,
+        "butterflyTeam": "Congo DR"
+      },
       {
         "fixtureId": 1489394,
         "date": "2026-06-21T04:00:00+00:00",
@@ -748,19 +761,6 @@
         "sortKey": "2026-06-20T17:00:00+00:00|017|017",
         "goalNumber": 98,
         "butterflyTeam": "Argentina"
-      },
-      {
-        "fixtureId": 1539007,
-        "date": "2026-06-20T17:00:00+00:00",
-        "teamId": 1118,
-        "teamName": "Netherlands",
-        "player": "B. Brobbey",
-        "minute": "5'",
-        "elapsed": 5,
-        "extra": 0,
-        "sortKey": "2026-06-20T17:00:00+00:00|005|005",
-        "goalNumber": 97,
-        "butterflyTeam": "Algeria"
       }
     ],
     "teamOrder": [

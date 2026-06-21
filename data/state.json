@@ -83,7 +83,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T04:30:56.348Z"
+      "claimedAt": "2026-06-21T04:35:32.582Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -91,7 +91,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T04:30:56.348Z"
+      "claimedAt": "2026-06-21T04:35:32.582Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -99,7 +99,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T04:30:56.348Z"
+      "claimedAt": "2026-06-21T04:35:32.582Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1486,6 +1486,17 @@
       "elapsed": 4,
       "extra": 0,
       "sortKey": "2026-06-21T04:00:00+00:00|004|004"
+    },
+    {
+      "fixtureId": 1489394,
+      "date": "2026-06-21T04:00:00+00:00",
+      "teamId": 12,
+      "teamName": "Japan",
+      "player": "A. Ueda",
+      "minute": "31'",
+      "elapsed": 31,
+      "extra": 0,
+      "sortKey": "2026-06-21T04:00:00+00:00|031|031"
     }
   ],
   "long": {
@@ -1502,7 +1513,7 @@
     "sieve": {
       "score": -7,
       "team": "Qatar",
-      "detail": "Joint leaders (Qatar, Curaçao) — 7 conceded each",
+      "detail": "Joint leaders (Qatar, Curaçao, Tunisia) — 7 conceded each",
       "tied": true
     },
     "blink": {
@@ -1684,7 +1695,7 @@
       "Ivory Coast": 2
     },
     "1489394": {
-      "Tunisia": 1,
+      "Tunisia": 2,
       "Japan": 0
     },
     "1538999": {
@@ -1768,7 +1779,7 @@
     "Canada": 1,
     "South Korea": 2,
     "Australia": 2,
-    "Tunisia": 6,
+    "Tunisia": 7,
     "Czechia": 3,
     "Bosnia & Herzegovina": 5,
     "Türkiye": 3,
