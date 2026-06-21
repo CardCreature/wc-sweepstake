@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T05:01:00.471Z",
+  "updatedAt": "2026-06-21T05:05:37.850Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T05:01:00.469Z"
+        "claimedAt": "2026-06-21T05:05:37.848Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T05:01:00.469Z"
+        "claimedAt": "2026-06-21T05:05:37.848Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T05:01:00.469Z"
+        "claimedAt": "2026-06-21T05:05:37.848Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T05:01:00.469Z",
+      "claimedAt": "2026-06-21T05:05:37.848Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T05:01:00.469Z",
+      "claimedAt": "2026-06-21T05:05:37.848Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T05:01:00.469Z",
+      "claimedAt": "2026-06-21T05:05:37.848Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -1086,7 +1086,7 @@
       "match": "Tunisia v Japan",
       "date": "2026-06-21T04:00:00+00:00",
       "round": "Group Stage - 2",
-      "status": "HT"
+      "status": "2H"
     },
     {
       "match": "Spain v Saudi Arabia",
