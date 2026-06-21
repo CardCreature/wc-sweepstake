@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:40:40.131Z",
+  "updatedAt": "2026-06-21T22:45:38.543Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T22:40:40.129Z"
+        "claimedAt": "2026-06-21T22:45:38.542Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T22:40:40.129Z"
+        "claimedAt": "2026-06-21T22:45:38.542Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T22:40:40.129Z"
+        "claimedAt": "2026-06-21T22:45:38.542Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T22:40:40.129Z",
+      "claimedAt": "2026-06-21T22:45:38.542Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T22:40:40.129Z",
+      "claimedAt": "2026-06-21T22:45:38.542Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T22:40:40.129Z",
+      "claimedAt": "2026-06-21T22:45:38.542Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -627,23 +627,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 114,
+    "totalGoals": 115,
     "lastGoal": {
       "fixtureId": 1489398,
       "date": "2026-06-21T22:00:00+00:00",
-      "teamId": 1533,
-      "teamName": "Cape Verde Islands",
-      "player": "K. Lenini",
-      "minute": "21'",
-      "elapsed": 21,
+      "teamId": 7,
+      "teamName": "Uruguay",
+      "player": "M. Araujo",
+      "minute": "44'",
+      "elapsed": 44,
       "extra": 0,
-      "sortKey": "2026-06-21T22:00:00+00:00|021|021",
-      "goalNumber": 114,
-      "butterflyTeam": "France"
+      "sortKey": "2026-06-21T22:00:00+00:00|044|044",
+      "goalNumber": 115,
+      "butterflyTeam": "Germany"
     },
-    "nextGoalTeam": "Germany",
-    "currentWinner": "France",
+    "nextGoalTeam": "Ghana",
+    "currentWinner": "Germany",
     "recentGoals": [
+      {
+        "fixtureId": 1489398,
+        "date": "2026-06-21T22:00:00+00:00",
+        "teamId": 7,
+        "teamName": "Uruguay",
+        "player": "M. Araujo",
+        "minute": "44'",
+        "elapsed": 44,
+        "extra": 0,
+        "sortKey": "2026-06-21T22:00:00+00:00|044|044",
+        "goalNumber": 115,
+        "butterflyTeam": "Germany"
+      },
       {
         "fixtureId": 1489398,
         "date": "2026-06-21T22:00:00+00:00",
@@ -760,19 +773,6 @@
         "sortKey": "2026-06-21T04:00:00+00:00|004|004",
         "goalNumber": 106,
         "butterflyTeam": "Colombia"
-      },
-      {
-        "fixtureId": 1489393,
-        "date": "2026-06-20T20:00:00+00:00",
-        "teamId": 25,
-        "teamName": "Germany",
-        "player": "D. Undav",
-        "minute": "90+4'",
-        "elapsed": 90,
-        "extra": 4,
-        "sortKey": "2026-06-20T20:00:00+00:00|094|090",
-        "goalNumber": 105,
-        "butterflyTeam": "Cape Verde Islands"
       }
     ],
     "teamOrder": [
