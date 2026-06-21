@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:50:37.792Z",
+  "updatedAt": "2026-06-21T22:55:36.904Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T22:50:37.790Z"
+        "claimedAt": "2026-06-21T22:55:36.902Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T22:50:37.791Z"
+        "claimedAt": "2026-06-21T22:55:36.902Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T22:50:37.791Z"
+        "claimedAt": "2026-06-21T22:55:36.902Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,23 +469,11 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T22:50:37.791Z",
+      "claimedAt": "2026-06-21T22:55:36.902Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
       "owner": "Nick Lunn"
-    },
-    {
-      "achievementId": "streets",
-      "team": "Mexico",
-      "detail": "R. Jimenez scored aged 35+ vs South Africa",
-      "match": "Mexico v South Africa",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T22:50:37.791Z",
-      "name": "The Streets Won't Forget",
-      "emoji": "👴",
-      "kind": "first",
-      "owner": "Neil"
     },
     {
       "achievementId": "fergie",
@@ -493,11 +481,23 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T22:50:37.790Z",
+      "claimedAt": "2026-06-21T22:55:36.902Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
       "owner": "Kate"
+    },
+    {
+      "achievementId": "streets",
+      "team": "Mexico",
+      "detail": "R. Jimenez scored aged 35+ vs South Africa",
+      "match": "Mexico v South Africa",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-21T22:55:36.902Z",
+      "name": "The Streets Won't Forget",
+      "emoji": "👴",
+      "kind": "first",
+      "owner": "Neil"
     },
     {
       "achievementId": "vinnie",
@@ -627,23 +627,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 115,
+    "totalGoals": 116,
     "lastGoal": {
       "fixtureId": 1489398,
       "date": "2026-06-21T22:00:00+00:00",
       "teamId": 7,
       "teamName": "Uruguay",
-      "player": "M. Araujo",
-      "minute": "44'",
-      "elapsed": 44,
-      "extra": 0,
-      "sortKey": "2026-06-21T22:00:00+00:00|044|044",
-      "goalNumber": 115,
-      "butterflyTeam": "Germany"
+      "player": "A. Canobbio",
+      "minute": "45+6'",
+      "elapsed": 45,
+      "extra": 6,
+      "sortKey": "2026-06-21T22:00:00+00:00|051|045",
+      "goalNumber": 116,
+      "butterflyTeam": "Ghana"
     },
-    "nextGoalTeam": "Ghana",
-    "currentWinner": "Germany",
+    "nextGoalTeam": "Haiti",
+    "currentWinner": "Ghana",
     "recentGoals": [
+      {
+        "fixtureId": 1489398,
+        "date": "2026-06-21T22:00:00+00:00",
+        "teamId": 7,
+        "teamName": "Uruguay",
+        "player": "A. Canobbio",
+        "minute": "45+6'",
+        "elapsed": 45,
+        "extra": 6,
+        "sortKey": "2026-06-21T22:00:00+00:00|051|045",
+        "goalNumber": 116,
+        "butterflyTeam": "Ghana"
+      },
       {
         "fixtureId": 1489398,
         "date": "2026-06-21T22:00:00+00:00",
@@ -760,19 +773,6 @@
         "sortKey": "2026-06-21T04:00:00+00:00|031|031",
         "goalNumber": 107,
         "butterflyTeam": "Congo DR"
-      },
-      {
-        "fixtureId": 1489394,
-        "date": "2026-06-21T04:00:00+00:00",
-        "teamId": 12,
-        "teamName": "Japan",
-        "player": "D. Kamada",
-        "minute": "4'",
-        "elapsed": 4,
-        "extra": 0,
-        "sortKey": "2026-06-21T04:00:00+00:00|004|004",
-        "goalNumber": 106,
-        "butterflyTeam": "Colombia"
       }
     ],
     "teamOrder": [
@@ -1098,7 +1098,7 @@
       "match": "Uruguay v Cape Verde Islands",
       "date": "2026-06-21T22:00:00+00:00",
       "round": "Group Stage - 2",
-      "status": "1H"
+      "status": "HT"
     },
     {
       "match": "New Zealand v Egypt",
