@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T16:20:42.469Z",
+  "updatedAt": "2026-06-21T16:25:38.383Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T16:20:42.467Z"
+        "claimedAt": "2026-06-21T16:25:38.381Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T16:20:42.467Z"
+        "claimedAt": "2026-06-21T16:25:38.381Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T16:20:42.467Z"
+        "claimedAt": "2026-06-21T16:25:38.381Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T16:20:42.467Z",
+      "claimedAt": "2026-06-21T16:25:38.381Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T16:20:42.467Z",
+      "claimedAt": "2026-06-21T16:25:38.381Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T16:20:42.467Z",
+      "claimedAt": "2026-06-21T16:25:38.381Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -615,23 +615,49 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 110,
+    "totalGoals": 112,
     "lastGoal": {
       "fixtureId": 1489397,
       "date": "2026-06-21T16:00:00+00:00",
       "teamId": 9,
       "teamName": "Spain",
-      "player": "Lamine Yamal",
-      "minute": "10'",
-      "elapsed": 10,
+      "player": "M. Oyarzabal",
+      "minute": "24'",
+      "elapsed": 24,
       "extra": 0,
-      "sortKey": "2026-06-21T16:00:00+00:00|010|010",
-      "goalNumber": 110,
-      "butterflyTeam": "Czech Republic"
+      "sortKey": "2026-06-21T16:00:00+00:00|024|024",
+      "goalNumber": 112,
+      "butterflyTeam": "Egypt"
     },
-    "nextGoalTeam": "Ecuador",
-    "currentWinner": "Czech Republic",
+    "nextGoalTeam": "England",
+    "currentWinner": "Egypt",
     "recentGoals": [
+      {
+        "fixtureId": 1489397,
+        "date": "2026-06-21T16:00:00+00:00",
+        "teamId": 9,
+        "teamName": "Spain",
+        "player": "M. Oyarzabal",
+        "minute": "24'",
+        "elapsed": 24,
+        "extra": 0,
+        "sortKey": "2026-06-21T16:00:00+00:00|024|024",
+        "goalNumber": 112,
+        "butterflyTeam": "Egypt"
+      },
+      {
+        "fixtureId": 1489397,
+        "date": "2026-06-21T16:00:00+00:00",
+        "teamId": 9,
+        "teamName": "Spain",
+        "player": "M. Oyarzabal",
+        "minute": "21'",
+        "elapsed": 21,
+        "extra": 0,
+        "sortKey": "2026-06-21T16:00:00+00:00|021|021",
+        "goalNumber": 111,
+        "butterflyTeam": "Ecuador"
+      },
       {
         "fixtureId": 1489397,
         "date": "2026-06-21T16:00:00+00:00",
@@ -735,32 +761,6 @@
         "sortKey": "2026-06-20T20:00:00+00:00|030|030",
         "goalNumber": 103,
         "butterflyTeam": "Brazil"
-      },
-      {
-        "fixtureId": 1539007,
-        "date": "2026-06-20T17:00:00+00:00",
-        "teamId": 1118,
-        "teamName": "Netherlands",
-        "player": "C. Summerville",
-        "minute": "89'",
-        "elapsed": 89,
-        "extra": 0,
-        "sortKey": "2026-06-20T17:00:00+00:00|089|089",
-        "goalNumber": 102,
-        "butterflyTeam": "Bosnia & Herzegovina"
-      },
-      {
-        "fixtureId": 1539007,
-        "date": "2026-06-20T17:00:00+00:00",
-        "teamId": 5,
-        "teamName": "Sweden",
-        "player": "A. Elanga",
-        "minute": "59'",
-        "elapsed": 59,
-        "extra": 0,
-        "sortKey": "2026-06-20T17:00:00+00:00|059|059",
-        "goalNumber": 101,
-        "butterflyTeam": "Belgium"
       }
     ],
     "teamOrder": [
