@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T16:10:44.548Z",
+  "updatedAt": "2026-06-21T16:15:43.934Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T16:10:44.546Z"
+        "claimedAt": "2026-06-21T16:15:43.932Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T16:10:44.546Z"
+        "claimedAt": "2026-06-21T16:15:43.932Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-21T16:10:44.546Z"
+        "claimedAt": "2026-06-21T16:15:43.932Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T16:10:44.546Z",
+      "claimedAt": "2026-06-21T16:15:43.932Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T16:10:44.546Z",
+      "claimedAt": "2026-06-21T16:15:43.932Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-21T16:10:44.546Z",
+      "claimedAt": "2026-06-21T16:15:43.932Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -615,23 +615,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 109,
+    "totalGoals": 110,
     "lastGoal": {
-      "fixtureId": 1489394,
-      "date": "2026-06-21T04:00:00+00:00",
-      "teamId": 12,
-      "teamName": "Japan",
-      "player": "A. Ueda",
-      "minute": "83'",
-      "elapsed": 83,
+      "fixtureId": 1489397,
+      "date": "2026-06-21T16:00:00+00:00",
+      "teamId": 9,
+      "teamName": "Spain",
+      "player": "Lamine Yamal",
+      "minute": "10'",
+      "elapsed": 10,
       "extra": 0,
-      "sortKey": "2026-06-21T04:00:00+00:00|083|083",
-      "goalNumber": 109,
-      "butterflyTeam": "Curaçao"
+      "sortKey": "2026-06-21T16:00:00+00:00|010|010",
+      "goalNumber": 110,
+      "butterflyTeam": "Czech Republic"
     },
-    "nextGoalTeam": "Czech Republic",
-    "currentWinner": "Curaçao",
+    "nextGoalTeam": "Ecuador",
+    "currentWinner": "Czech Republic",
     "recentGoals": [
+      {
+        "fixtureId": 1489397,
+        "date": "2026-06-21T16:00:00+00:00",
+        "teamId": 9,
+        "teamName": "Spain",
+        "player": "Lamine Yamal",
+        "minute": "10'",
+        "elapsed": 10,
+        "extra": 0,
+        "sortKey": "2026-06-21T16:00:00+00:00|010|010",
+        "goalNumber": 110,
+        "butterflyTeam": "Czech Republic"
+      },
       {
         "fixtureId": 1489394,
         "date": "2026-06-21T04:00:00+00:00",
@@ -748,19 +761,6 @@
         "sortKey": "2026-06-20T17:00:00+00:00|059|059",
         "goalNumber": 101,
         "butterflyTeam": "Belgium"
-      },
-      {
-        "fixtureId": 1539007,
-        "date": "2026-06-20T17:00:00+00:00",
-        "teamId": 1118,
-        "teamName": "Netherlands",
-        "player": "C. Gakpo",
-        "minute": "54'",
-        "elapsed": 54,
-        "extra": 0,
-        "sortKey": "2026-06-20T17:00:00+00:00|054|054",
-        "goalNumber": 100,
-        "butterflyTeam": "Austria"
       }
     ],
     "teamOrder": [
