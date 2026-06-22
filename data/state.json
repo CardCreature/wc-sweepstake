@@ -38,7 +38,8 @@
     1489394,
     1489397,
     1489395,
-    1489398
+    1489398,
+    1489396
   ],
   "claims": {
     "warnock": {
@@ -87,7 +88,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-22T03:01:05.096Z"
+      "claimedAt": "2026-06-22T03:05:37.451Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -95,7 +96,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-22T03:01:05.095Z"
+      "claimedAt": "2026-06-22T03:05:37.450Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -103,7 +104,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-22T03:01:05.096Z"
+      "claimedAt": "2026-06-22T03:05:37.451Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",

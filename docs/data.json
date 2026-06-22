@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T03:01:05.099Z",
+  "updatedAt": "2026-06-22T03:05:37.452Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-22T03:01:05.095Z"
+        "claimedAt": "2026-06-22T03:05:37.450Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-22T03:01:05.096Z"
+        "claimedAt": "2026-06-22T03:05:37.451Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-22T03:01:05.096Z"
+        "claimedAt": "2026-06-22T03:05:37.451Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-22T03:01:05.096Z",
+      "claimedAt": "2026-06-22T03:05:37.451Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-22T03:01:05.096Z",
+      "claimedAt": "2026-06-22T03:05:37.451Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-22T03:01:05.095Z",
+      "claimedAt": "2026-06-22T03:05:37.450Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -1095,12 +1095,6 @@
   ],
   "upcoming": [
     {
-      "match": "New Zealand v Egypt",
-      "date": "2026-06-22T01:00:00+00:00",
-      "round": "Group Stage - 2",
-      "status": "2H"
-    },
-    {
       "match": "Argentina v Austria",
       "date": "2026-06-22T17:00:00+00:00",
       "round": "Group Stage - 2",
@@ -1129,9 +1123,20 @@
       "date": "2026-06-23T17:00:00+00:00",
       "round": "Group Stage - 2",
       "status": "NS"
+    },
+    {
+      "match": "England v Ghana",
+      "date": "2026-06-23T20:00:00+00:00",
+      "round": "Group Stage - 2",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "New Zealand 1-3 Egypt",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "match": "Uruguay 2-2 Cape Verde Islands",
       "round": "Group Stage - 2",
@@ -1156,12 +1161,7 @@
       "match": "Ecuador 0-0 Curaçao",
       "round": "Group Stage - 2",
       "status": "FT"
-    },
-    {
-      "match": "Germany 2-1 Ivory Coast",
-      "round": "Group Stage - 2",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 39
+  "matchesProcessed": 40
 }
