@@ -92,7 +92,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:30:40.731Z"
+      "claimedAt": "2026-06-23T17:33:24.839Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -100,7 +100,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:30:40.731Z"
+      "claimedAt": "2026-06-23T17:33:24.839Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -108,7 +108,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:30:40.731Z"
+      "claimedAt": "2026-06-23T17:33:24.839Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -139,6 +139,22 @@
       "date": "2026-06-20T03:00:00+00:00",
       "awardedBy": "auto",
       "claimedAt": "2026-06-20T04:40:40.236Z"
+    },
+    "redemption": {
+      "achievementId": "redemption",
+      "team": "Argentina",
+      "detail": "L. Messi scored after missing a penalty vs Austria",
+      "match": "Argentina v Austria",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-23T17:33:24.839Z"
+    },
+    "welly": {
+      "achievementId": "welly",
+      "team": "Cape Verde Islands",
+      "detail": "35-yard goal vs Uruguay",
+      "match": "Cape Verde Islands v Uruguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-23T17:33:24.839Z"
     }
   },
   "candidates": {
@@ -1850,17 +1866,6 @@
       "elapsed": 17,
       "extra": 0,
       "sortKey": "2026-06-23T17:00:00+00:00|017|017"
-    },
-    {
-      "fixtureId": 1489404,
-      "date": "2026-06-23T17:00:00+00:00",
-      "teamId": 1568,
-      "teamName": "Uzbekistan",
-      "player": "A. Ganiev",
-      "minute": "29'",
-      "elapsed": 29,
-      "extra": 0,
-      "sortKey": "2026-06-23T17:00:00+00:00|029|029"
     }
   ],
   "long": {
@@ -2096,7 +2101,7 @@
       "Senegal": 3
     },
     "1489404": {
-      "Portugal": 1,
+      "Portugal": 0,
       "Uzbekistan": 2
     },
     "1538999": {
@@ -2186,7 +2191,7 @@
     "Australia": 2,
     "Tunisia": 9,
     "Norway": 3,
-    "Portugal": 2,
+    "Portugal": 1,
     "Czechia": 3,
     "Bosnia & Herzegovina": 5,
     "Türkiye": 3,

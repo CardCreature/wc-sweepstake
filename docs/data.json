@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:30:40.733Z",
+  "updatedAt": "2026-06-23T17:33:24.841Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-23T17:30:40.731Z"
+        "claimedAt": "2026-06-23T17:33:24.839Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-23T17:30:40.731Z"
+        "claimedAt": "2026-06-23T17:33:24.839Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-23T17:30:40.731Z"
+        "claimedAt": "2026-06-23T17:33:24.839Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -300,9 +300,16 @@
       "emoji": "🚀",
       "name": "F**king Welly It!",
       "desc": "First goal from 35+ yards. (Tom verifies distance.)",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "welly",
+        "team": "Cape Verde Islands",
+        "detail": "35-yard goal vs Uruguay",
+        "match": "Cape Verde Islands v Uruguay",
+        "awardedBy": "Tom's ruling",
+        "claimedAt": "2026-06-23T17:33:24.839Z"
+      },
+      "owner": "Wendy",
       "leader": null
     },
     {
@@ -357,9 +364,16 @@
       "emoji": "📈",
       "name": "Redemption Arc",
       "desc": "First player to score after previously missing a penalty.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "redemption",
+        "team": "Argentina",
+        "detail": "L. Messi scored after missing a penalty vs Austria",
+        "match": "Argentina v Austria",
+        "awardedBy": "Tom's ruling",
+        "claimedAt": "2026-06-23T17:33:24.839Z"
+      },
+      "owner": "Kate",
       "leader": null
     },
     {
@@ -469,7 +483,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:30:40.731Z",
+      "claimedAt": "2026-06-23T17:33:24.839Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +495,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:30:40.731Z",
+      "claimedAt": "2026-06-23T17:33:24.839Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,11 +507,35 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:30:40.731Z",
+      "claimedAt": "2026-06-23T17:33:24.839Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
       "owner": "Neil"
+    },
+    {
+      "achievementId": "redemption",
+      "team": "Argentina",
+      "detail": "L. Messi scored after missing a penalty vs Austria",
+      "match": "Argentina v Austria",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-23T17:33:24.839Z",
+      "name": "Redemption Arc",
+      "emoji": "📈",
+      "kind": "first",
+      "owner": "Kate"
+    },
+    {
+      "achievementId": "welly",
+      "team": "Cape Verde Islands",
+      "detail": "35-yard goal vs Uruguay",
+      "match": "Cape Verde Islands v Uruguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-23T17:33:24.839Z",
+      "name": "F**king Welly It!",
+      "emoji": "🚀",
+      "kind": "first",
+      "owner": "Wendy"
     },
     {
       "achievementId": "vinnie",
@@ -602,36 +640,23 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 137,
+    "totalGoals": 136,
     "lastGoal": {
       "fixtureId": 1489404,
       "date": "2026-06-23T17:00:00+00:00",
-      "teamId": 1568,
-      "teamName": "Uzbekistan",
-      "player": "A. Ganiev",
-      "minute": "29'",
-      "elapsed": 29,
+      "teamId": 27,
+      "teamName": "Portugal",
+      "player": "N. Mendes",
+      "minute": "17'",
+      "elapsed": 17,
       "extra": 0,
-      "sortKey": "2026-06-23T17:00:00+00:00|029|029",
-      "goalNumber": 137,
-      "butterflyTeam": "Spain"
+      "sortKey": "2026-06-23T17:00:00+00:00|017|017",
+      "goalNumber": 136,
+      "butterflyTeam": "South Korea"
     },
-    "nextGoalTeam": "Sweden",
-    "currentWinner": "Spain",
+    "nextGoalTeam": "Spain",
+    "currentWinner": "South Korea",
     "recentGoals": [
-      {
-        "fixtureId": 1489404,
-        "date": "2026-06-23T17:00:00+00:00",
-        "teamId": 1568,
-        "teamName": "Uzbekistan",
-        "player": "A. Ganiev",
-        "minute": "29'",
-        "elapsed": 29,
-        "extra": 0,
-        "sortKey": "2026-06-23T17:00:00+00:00|029|029",
-        "goalNumber": 137,
-        "butterflyTeam": "Spain"
-      },
       {
         "fixtureId": 1489404,
         "date": "2026-06-23T17:00:00+00:00",
@@ -748,6 +773,19 @@
         "sortKey": "2026-06-23T00:00:00+00:00|048|048",
         "goalNumber": 128,
         "butterflyTeam": "Panama"
+      },
+      {
+        "fixtureId": 1489401,
+        "date": "2026-06-23T00:00:00+00:00",
+        "teamId": 1090,
+        "teamName": "Norway",
+        "player": "M. Pedersen",
+        "minute": "43'",
+        "elapsed": 43,
+        "extra": 0,
+        "sortKey": "2026-06-23T00:00:00+00:00|043|043",
+        "goalNumber": 127,
+        "butterflyTeam": "Norway"
       }
     ],
     "teamOrder": [
@@ -803,19 +841,19 @@
   },
   "leaderboard": [
     {
-      "person": "Neil",
-      "teams": [
-        "Mexico",
-        "Scotland"
-      ],
-      "winnings": 20,
-      "achievements": 2
-    },
-    {
       "person": "Kate",
       "teams": [
         "USA",
         "Argentina"
+      ],
+      "winnings": 30,
+      "achievements": 3
+    },
+    {
+      "person": "Neil",
+      "teams": [
+        "Mexico",
+        "Scotland"
       ],
       "winnings": 20,
       "achievements": 2
@@ -869,6 +907,14 @@
       "teams": [
         "Germany",
         "Uzbekistan"
+      ],
+      "winnings": 10,
+      "achievements": 1
+    },
+    {
+      "person": "Wendy",
+      "teams": [
+        "Cape Verde Islands"
       ],
       "winnings": 10,
       "achievements": 1
@@ -964,14 +1010,6 @@
       "teams": [
         "Tunisia",
         "France"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
-      "person": "Wendy",
-      "teams": [
-        "Cape Verde Islands"
       ],
       "winnings": 0,
       "achievements": 0
