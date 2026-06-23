@@ -43,7 +43,8 @@
     1489399,
     1539017,
     1489401,
-    1489400
+    1489400,
+    1489404
   ],
   "claims": {
     "warnock": {
@@ -92,7 +93,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:33:24.839Z"
+      "claimedAt": "2026-06-23T21:05:35.655Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -100,7 +101,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:33:24.839Z"
+      "claimedAt": "2026-06-23T21:05:35.655Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -108,7 +109,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:33:24.839Z"
+      "claimedAt": "2026-06-23T21:05:35.655Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -140,21 +141,21 @@
       "awardedBy": "auto",
       "claimedAt": "2026-06-20T04:40:40.236Z"
     },
-    "redemption": {
-      "achievementId": "redemption",
-      "team": "Argentina",
-      "detail": "L. Messi scored after missing a penalty vs Austria",
-      "match": "Argentina v Austria",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:33:24.839Z"
-    },
     "welly": {
       "achievementId": "welly",
       "team": "Cape Verde Islands",
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T17:33:24.839Z"
+      "claimedAt": "2026-06-23T21:05:35.655Z"
+    },
+    "redemption": {
+      "achievementId": "redemption",
+      "team": "Argentina",
+      "detail": "L. Messi scored after missing a penalty vs Austria",
+      "match": "Argentina v Austria",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-23T21:05:35.655Z"
     }
   },
   "candidates": {
@@ -368,6 +369,13 @@
       "team": "Saudi Arabia",
       "fixtureId": 1489397,
       "date": "2026-06-21T16:00:00+00:00"
+    },
+    {
+      "playerId": 73507,
+      "playerName": "A. Nematov",
+      "team": "Uzbekistan",
+      "fixtureId": 1489404,
+      "date": "2026-06-23T17:00:00+00:00"
     }
   ],
   "goals": [
@@ -1866,6 +1874,39 @@
       "elapsed": 17,
       "extra": 0,
       "sortKey": "2026-06-23T17:00:00+00:00|017|017"
+    },
+    {
+      "fixtureId": 1489404,
+      "date": "2026-06-23T17:00:00+00:00",
+      "teamId": 27,
+      "teamName": "Portugal",
+      "player": "C. Ronaldo",
+      "minute": "39'",
+      "elapsed": 39,
+      "extra": 0,
+      "sortKey": "2026-06-23T17:00:00+00:00|039|039"
+    },
+    {
+      "fixtureId": 1489404,
+      "date": "2026-06-23T17:00:00+00:00",
+      "teamId": 27,
+      "teamName": "Portugal",
+      "player": "A. Nematov",
+      "minute": "60'",
+      "elapsed": 60,
+      "extra": 0,
+      "sortKey": "2026-06-23T17:00:00+00:00|060|060"
+    },
+    {
+      "fixtureId": 1489404,
+      "date": "2026-06-23T17:00:00+00:00",
+      "teamId": 27,
+      "teamName": "Portugal",
+      "player": "R. Leao",
+      "minute": "87'",
+      "elapsed": 87,
+      "extra": 0,
+      "sortKey": "2026-06-23T17:00:00+00:00|087|087"
     }
   ],
   "long": {
@@ -1922,7 +1963,9 @@
     "Canada": 1,
     "Australia": 1,
     "Spain": 1,
-    "Saudi Arabia": 1
+    "Saudi Arabia": 1,
+    "Portugal": 1,
+    "Uzbekistan": 1
   },
   "tournamentComplete": false,
   "ownGoalEvents": [
@@ -1965,6 +2008,11 @@
       "fixtureId": 1489397,
       "creditedTeam": "Spain",
       "scorerTeam": "Saudi Arabia"
+    },
+    {
+      "fixtureId": 1489404,
+      "creditedTeam": "Portugal",
+      "scorerTeam": "Uzbekistan"
     }
   ],
   "concededByMatch": {
@@ -2100,9 +2148,13 @@
       "Norway": 2,
       "Senegal": 3
     },
+    "1489402": {
+      "England": 0,
+      "Ghana": 0
+    },
     "1489404": {
       "Portugal": 0,
-      "Uzbekistan": 2
+      "Uzbekistan": 5
     },
     "1538999": {
       "South Korea": 1,
@@ -2184,7 +2236,7 @@
     "Croatia": 4,
     "Ghana": 0,
     "Panama": 1,
-    "Uzbekistan": 5,
+    "Uzbekistan": 8,
     "Colombia": 1,
     "Canada": 1,
     "South Korea": 2,
