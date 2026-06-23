@@ -89,7 +89,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T00:05:34.810Z"
+      "claimedAt": "2026-06-23T00:10:41.752Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -97,7 +97,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T00:05:34.810Z"
+      "claimedAt": "2026-06-23T00:10:41.752Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -105,7 +105,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T00:05:34.810Z"
+      "claimedAt": "2026-06-23T00:10:41.752Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1710,11 +1710,22 @@
       "date": "2026-06-22T21:00:00+00:00",
       "teamId": 2,
       "teamName": "France",
-      "player": "K. Mbappe",
+      "player": "Kylian Mbappé",
       "minute": "14'",
       "elapsed": 14,
       "extra": 0,
       "sortKey": "2026-06-22T21:00:00+00:00|014|014"
+    },
+    {
+      "fixtureId": 1539017,
+      "date": "2026-06-22T21:00:00+00:00",
+      "teamId": 2,
+      "teamName": "France",
+      "player": "Kylian Mbappé",
+      "minute": "54'",
+      "elapsed": 54,
+      "extra": 0,
+      "sortKey": "2026-06-22T21:00:00+00:00|054|054"
     }
   ],
   "long": {
@@ -1724,7 +1735,9 @@
       "team": "Iraq",
       "detail": "A. Hussein off 26' (France v Iraq)",
       "value": 26,
-      "display": "26'"
+      "display": "26'",
+      "tied": true,
+      "tieDetail": "Aymen Hussein off 26' (France v Iraq)"
     },
     "sieve": {
       "score": -9,
@@ -1987,7 +2000,7 @@
     },
     "1539017": {
       "France": 0,
-      "Iraq": 1
+      "Iraq": 2
     }
   },
   "conceded": {
@@ -2038,6 +2051,6 @@
     "Sweden": 6,
     "Portugal": 1,
     "Congo DR": 1,
-    "Iraq": 5
+    "Iraq": 6
   }
 }
