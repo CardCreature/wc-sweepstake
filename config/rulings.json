@@ -11,6 +11,8 @@
     "leadership|1489391|Australia",
     "leadership|1489390|Scotland",
     "beach|1539006|Paraguay"
+    "leadership|1489392|Curaçao"
+    "leadership|1489397|Saudi Arabia"
   ],
   "unclaim": ["ghost_squad", "redemption"],
   "manualClaims": {
@@ -25,6 +27,16 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa"
     }
+  },
+  "redemption": {
+  "team": "Argentina",
+  "detail": "L. Messi scored after missing a penalty vs Austria",
+  "match": "Argentina v Austria"
+  },
+  "welly": {
+  "team": "Cape Verde Islands",
+  "detail": "35-yard goal vs Uruguay",
+  "match": "Cape Verde Islands v Uruguay"
   },
   "tiebreakers": {
     "blink": { "fixtureId": 1539006, "player": "M. Galarza" }
