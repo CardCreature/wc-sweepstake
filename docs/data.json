@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T04:55:31.686Z",
+  "updatedAt": "2026-06-23T05:01:03.183Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-23T04:55:31.684Z"
+        "claimedAt": "2026-06-23T05:01:03.181Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-23T04:55:31.684Z"
+        "claimedAt": "2026-06-23T05:01:03.181Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-23T04:55:31.684Z"
+        "claimedAt": "2026-06-23T05:01:03.181Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -469,7 +469,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T04:55:31.684Z",
+      "claimedAt": "2026-06-23T05:01:03.181Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -481,7 +481,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T04:55:31.684Z",
+      "claimedAt": "2026-06-23T05:01:03.181Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -493,7 +493,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T04:55:31.684Z",
+      "claimedAt": "2026-06-23T05:01:03.181Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -1095,12 +1095,6 @@
   ],
   "upcoming": [
     {
-      "match": "Jordan v Algeria",
-      "date": "2026-06-23T03:00:00+00:00",
-      "round": "Group Stage - 2",
-      "status": "2H"
-    },
-    {
       "match": "Portugal v Uzbekistan",
       "date": "2026-06-23T17:00:00+00:00",
       "round": "Group Stage - 2",
@@ -1129,9 +1123,20 @@
       "date": "2026-06-24T19:00:00+00:00",
       "round": "Group Stage - 3",
       "status": "NS"
+    },
+    {
+      "match": "Bosnia & Herzegovina v Qatar",
+      "date": "2026-06-24T19:00:00+00:00",
+      "round": "Group Stage - 3",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Jordan 1-2 Algeria",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "match": "Norway 3-2 Senegal",
       "round": "Group Stage - 2",
@@ -1156,12 +1161,7 @@
       "match": "Uruguay 2-2 Cape Verde Islands",
       "round": "Group Stage - 2",
       "status": "FT"
-    },
-    {
-      "match": "Belgium 0-0 Iran",
-      "round": "Group Stage - 2",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 43
+  "matchesProcessed": 44
 }
