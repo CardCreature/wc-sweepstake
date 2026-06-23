@@ -90,7 +90,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T01:15:38.240Z"
+      "claimedAt": "2026-06-23T01:20:40.849Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -98,7 +98,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T01:15:38.239Z"
+      "claimedAt": "2026-06-23T01:20:40.849Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -106,7 +106,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-23T01:15:38.240Z"
+      "claimedAt": "2026-06-23T01:20:40.849Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -1771,6 +1771,17 @@
       "elapsed": 53,
       "extra": 0,
       "sortKey": "2026-06-23T00:00:00+00:00|053|053"
+    },
+    {
+      "fixtureId": 1489401,
+      "date": "2026-06-23T00:00:00+00:00",
+      "teamId": 1090,
+      "teamName": "Norway",
+      "player": "E. Haaland",
+      "minute": "58'",
+      "elapsed": 58,
+      "extra": 0,
+      "sortKey": "2026-06-23T00:00:00+00:00|058|058"
     }
   ],
   "long": {
@@ -1999,7 +2010,7 @@
     },
     "1489401": {
       "Norway": 1,
-      "Senegal": 2
+      "Senegal": 3
     },
     "1538999": {
       "South Korea": 1,
@@ -2076,7 +2087,7 @@
     "Austria": 3,
     "Jordan": 3,
     "France": 1,
-    "Senegal": 5,
+    "Senegal": 6,
     "England": 2,
     "Croatia": 4,
     "Ghana": 0,
