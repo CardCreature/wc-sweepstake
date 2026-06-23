@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:17:07.482Z",
+  "updatedAt": "2026-06-23T17:20:06.054Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -633,7 +633,7 @@
       "date": "2026-06-23T17:00:00+00:00",
       "teamId": 27,
       "teamName": "Portugal",
-      "player": "Unknown",
+      "player": "N. Mendes",
       "minute": "17'",
       "elapsed": 17,
       "extra": 0,
@@ -649,7 +649,7 @@
         "date": "2026-06-23T17:00:00+00:00",
         "teamId": 27,
         "teamName": "Portugal",
-        "player": "Unknown",
+        "player": "N. Mendes",
         "minute": "17'",
         "elapsed": 17,
         "extra": 0,
