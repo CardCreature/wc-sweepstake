@@ -29,14 +29,14 @@
     }
   },
   "redemption": {
-  "team": "Argentina",
-  "detail": "L. Messi scored after missing a penalty vs Austria",
-  "match": "Argentina v Austria"
+    "team": "Argentina",
+    "detail": "L. Messi scored after missing a penalty vs Austria",
+    "match": "Argentina v Austria"
   },
   "welly": {
-  "team": "Cape Verde Islands",
-  "detail": "35-yard goal vs Uruguay",
-  "match": "Cape Verde Islands v Uruguay"
+    "team": "Cape Verde Islands",
+    "detail": "35-yard goal vs Uruguay",
+    "match": "Cape Verde Islands v Uruguay"
   },
   "tiebreakers": {
     "blink": { "fixtureId": 1539006, "player": "M. Galarza" }
