@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:15:47.918Z",
+  "updatedAt": "2026-06-23T17:17:07.482Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -412,8 +412,8 @@
       "claim": null,
       "owner": null,
       "leader": {
-        "team": "Paraguay",
-        "detail": "M. Galarza 2' (Türkiye v Paraguay)"
+        "team": "Morocco",
+        "detail": "I. Saibari 2' (Scotland v Morocco)"
       }
     },
     {
@@ -627,23 +627,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 135,
+    "totalGoals": 136,
     "lastGoal": {
       "fixtureId": 1489404,
       "date": "2026-06-23T17:00:00+00:00",
       "teamId": 27,
       "teamName": "Portugal",
-      "player": "C. Ronaldo",
-      "minute": "6'",
-      "elapsed": 6,
+      "player": "Unknown",
+      "minute": "17'",
+      "elapsed": 17,
       "extra": 0,
-      "sortKey": "2026-06-23T17:00:00+00:00|006|006",
-      "goalNumber": 135,
-      "butterflyTeam": "South Africa"
+      "sortKey": "2026-06-23T17:00:00+00:00|017|017",
+      "goalNumber": 136,
+      "butterflyTeam": "South Korea"
     },
-    "nextGoalTeam": "South Korea",
-    "currentWinner": "South Africa",
+    "nextGoalTeam": "Spain",
+    "currentWinner": "South Korea",
     "recentGoals": [
+      {
+        "fixtureId": 1489404,
+        "date": "2026-06-23T17:00:00+00:00",
+        "teamId": 27,
+        "teamName": "Portugal",
+        "player": "Unknown",
+        "minute": "17'",
+        "elapsed": 17,
+        "extra": 0,
+        "sortKey": "2026-06-23T17:00:00+00:00|017|017",
+        "goalNumber": 136,
+        "butterflyTeam": "South Korea"
+      },
       {
         "fixtureId": 1489404,
         "date": "2026-06-23T17:00:00+00:00",
@@ -760,19 +773,6 @@
         "sortKey": "2026-06-23T00:00:00+00:00|043|043",
         "goalNumber": 127,
         "butterflyTeam": "Norway"
-      },
-      {
-        "fixtureId": 1539017,
-        "date": "2026-06-22T21:00:00+00:00",
-        "teamId": 2,
-        "teamName": "France",
-        "player": "Ousmane Dembélé",
-        "minute": "66'",
-        "elapsed": 66,
-        "extra": 0,
-        "sortKey": "2026-06-22T21:00:00+00:00|066|066",
-        "goalNumber": 126,
-        "butterflyTeam": "New Zealand"
       }
     ],
     "teamOrder": [

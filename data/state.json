@@ -1839,6 +1839,17 @@
       "elapsed": 6,
       "extra": 0,
       "sortKey": "2026-06-23T17:00:00+00:00|006|006"
+    },
+    {
+      "fixtureId": 1489404,
+      "date": "2026-06-23T17:00:00+00:00",
+      "teamId": 27,
+      "teamName": "Portugal",
+      "player": "Unknown",
+      "minute": "17'",
+      "elapsed": 17,
+      "extra": 0,
+      "sortKey": "2026-06-23T17:00:00+00:00|017|017"
     }
   ],
   "long": {
@@ -1859,11 +1870,11 @@
     "blink": {
       "score": 2,
       "unit": "min",
-      "team": "Paraguay",
-      "detail": "M. Galarza 2' (Türkiye v Paraguay)",
+      "team": "Morocco",
+      "detail": "I. Saibari 2' (Scotland v Morocco)",
       "value": 2,
       "display": "2'",
-      "tied": false
+      "tied": true
     },
     "better_late": {
       "score": -102,
@@ -2075,7 +2086,7 @@
     },
     "1489404": {
       "Portugal": 0,
-      "Uzbekistan": 1
+      "Uzbekistan": 2
     },
     "1538999": {
       "South Korea": 1,
@@ -2157,7 +2168,7 @@
     "Croatia": 4,
     "Ghana": 0,
     "Panama": 1,
-    "Uzbekistan": 4,
+    "Uzbekistan": 5,
     "Colombia": 1,
     "Canada": 1,
     "South Korea": 2,
