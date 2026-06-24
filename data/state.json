@@ -98,7 +98,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T23:50:43.140Z"
+      "claimedAt": "2026-06-24T23:55:35.462Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -106,7 +106,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T23:50:43.140Z"
+      "claimedAt": "2026-06-24T23:55:35.462Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -114,7 +114,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T23:50:43.140Z"
+      "claimedAt": "2026-06-24T23:55:35.462Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -152,7 +152,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T23:50:43.140Z"
+      "claimedAt": "2026-06-24T23:55:35.462Z"
     },
     "redemption": {
       "achievementId": "redemption",
@@ -160,7 +160,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T23:50:43.140Z"
+      "claimedAt": "2026-06-24T23:55:35.462Z"
     }
   },
   "candidates": {
@@ -292,6 +292,16 @@
       "match": "Bosnia & Herzegovina v Qatar",
       "fixtureId": 1539009,
       "date": "2026-06-24T19:00:00+00:00",
+      "status": "pending"
+    },
+    "leadership|1489405|Haiti": {
+      "key": "leadership|1489405|Haiti",
+      "achievementId": "leadership",
+      "team": "Haiti",
+      "detail": "Captain J. Placide booked (79') — confirm it was for dissent",
+      "match": "Morocco v Haiti",
+      "fixtureId": 1489405,
+      "date": "2026-06-24T22:00:00+00:00",
       "status": "pending"
     }
   },
@@ -2150,6 +2160,17 @@
       "elapsed": 78,
       "extra": 0,
       "sortKey": "2026-06-24T22:00:00+00:00|078|078"
+    },
+    {
+      "fixtureId": 1489405,
+      "date": "2026-06-24T22:00:00+00:00",
+      "teamId": 31,
+      "teamName": "Morocco",
+      "player": "G. Yassine",
+      "minute": "89'",
+      "elapsed": 89,
+      "extra": 0,
+      "sortKey": "2026-06-24T22:00:00+00:00|089|089"
     }
   ],
   "long": {
@@ -2411,7 +2432,7 @@
     },
     "1489405": {
       "Morocco": 2,
-      "Haiti": 3
+      "Haiti": 4
     },
     "1489406": {
       "Scotland": 3,
@@ -2481,7 +2502,7 @@
     "Paraguay": 4,
     "Brazil": 1,
     "Morocco": 3,
-    "Haiti": 7,
+    "Haiti": 8,
     "Scotland": 4,
     "Qatar": 10,
     "Switzerland": 3,
