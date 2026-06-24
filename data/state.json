@@ -98,7 +98,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T22:25:37.388Z"
+      "claimedAt": "2026-06-24T22:30:57.350Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -106,7 +106,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T22:25:37.388Z"
+      "claimedAt": "2026-06-24T22:30:57.350Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -114,7 +114,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T22:25:37.388Z"
+      "claimedAt": "2026-06-24T22:30:57.350Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -152,7 +152,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T22:25:37.388Z"
+      "claimedAt": "2026-06-24T22:30:57.350Z"
     },
     "redemption": {
       "achievementId": "redemption",
@@ -160,7 +160,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T22:25:37.388Z"
+      "claimedAt": "2026-06-24T22:30:57.350Z"
     }
   },
   "candidates": {
@@ -425,6 +425,13 @@
       "team": "Qatar",
       "fixtureId": 1539009,
       "date": "2026-06-24T19:00:00+00:00"
+    },
+    {
+      "playerId": 2701,
+      "playerName": "Bono",
+      "team": "Morocco",
+      "fixtureId": 1489405,
+      "date": "2026-06-24T22:00:00+00:00"
     }
   ],
   "goals": [
@@ -2072,22 +2079,11 @@
       "date": "2026-06-24T22:00:00+00:00",
       "teamId": 2386,
       "teamName": "Haiti",
-      "player": "L. Joseph",
+      "player": "Bono",
       "minute": "10'",
       "elapsed": 10,
       "extra": 0,
       "sortKey": "2026-06-24T22:00:00+00:00|010|010"
-    },
-    {
-      "fixtureId": 1489406,
-      "date": "2026-06-24T22:00:00+00:00",
-      "teamId": 6,
-      "teamName": "Brazil",
-      "player": "Vinicius Junior",
-      "minute": "22'",
-      "elapsed": 22,
-      "extra": 0,
-      "sortKey": "2026-06-24T22:00:00+00:00|022|022"
     }
   ],
   "long": {
@@ -2352,7 +2348,7 @@
       "Haiti": 0
     },
     "1489406": {
-      "Scotland": 2,
+      "Scotland": 1,
       "Brazil": 0
     },
     "1489408": {
@@ -2420,7 +2416,7 @@
     "Brazil": 1,
     "Morocco": 2,
     "Haiti": 4,
-    "Scotland": 3,
+    "Scotland": 2,
     "Qatar": 10,
     "Switzerland": 3,
     "Germany": 2,
