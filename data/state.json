@@ -95,7 +95,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T03:35:36.075Z"
+      "claimedAt": "2026-06-24T03:40:41.499Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -103,7 +103,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T03:35:36.075Z"
+      "claimedAt": "2026-06-24T03:40:41.499Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -111,7 +111,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T03:35:36.075Z"
+      "claimedAt": "2026-06-24T03:40:41.499Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -149,7 +149,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T03:35:36.075Z"
+      "claimedAt": "2026-06-24T03:40:41.499Z"
     },
     "redemption": {
       "achievementId": "redemption",
@@ -157,7 +157,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-24T03:35:36.075Z"
+      "claimedAt": "2026-06-24T03:40:41.499Z"
     }
   },
   "candidates": {
@@ -1930,6 +1930,17 @@
       "elapsed": 54,
       "extra": 0,
       "sortKey": "2026-06-23T23:00:00+00:00|054|054"
+    },
+    {
+      "fixtureId": 1539008,
+      "date": "2026-06-24T02:00:00+00:00",
+      "teamId": 8,
+      "teamName": "Colombia",
+      "player": "D. Munoz",
+      "minute": "76'",
+      "elapsed": 76,
+      "extra": 0,
+      "sortKey": "2026-06-24T02:00:00+00:00|076|076"
     }
   ],
   "long": {
@@ -2221,7 +2232,7 @@
     },
     "1539008": {
       "Colombia": 0,
-      "Congo DR": 0
+      "Congo DR": 1
     },
     "1539016": {
       "Iraq": 4,
@@ -2279,7 +2290,7 @@
     "Bosnia & Herzegovina": 5,
     "Türkiye": 3,
     "Sweden": 6,
-    "Congo DR": 1,
+    "Congo DR": 2,
     "Iraq": 7
   }
 }
