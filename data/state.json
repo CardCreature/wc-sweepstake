@@ -100,7 +100,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T02:50:40.951Z"
+      "claimedAt": "2026-06-25T02:55:33.817Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -108,7 +108,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T02:50:40.951Z"
+      "claimedAt": "2026-06-25T02:55:33.817Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -116,7 +116,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T02:50:40.951Z"
+      "claimedAt": "2026-06-25T02:55:33.817Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -154,7 +154,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T02:50:40.951Z"
+      "claimedAt": "2026-06-25T02:55:33.817Z"
     },
     "redemption": {
       "achievementId": "redemption",
@@ -162,7 +162,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T02:50:40.951Z"
+      "claimedAt": "2026-06-25T02:55:33.817Z"
     }
   },
   "candidates": {
@@ -2216,6 +2216,17 @@
       "elapsed": 63,
       "extra": 0,
       "sortKey": "2026-06-25T01:00:00+00:00|063|063"
+    },
+    {
+      "fixtureId": 1539010,
+      "date": "2026-06-25T01:00:00+00:00",
+      "teamId": 16,
+      "teamName": "Mexico",
+      "player": "A. Fidalgo",
+      "minute": "90+4'",
+      "elapsed": 90,
+      "extra": 4,
+      "sortKey": "2026-06-25T01:00:00+00:00|094|090"
     }
   ],
   "long": {
@@ -2543,7 +2554,7 @@
       "Qatar": 3
     },
     "1539010": {
-      "Czechia": 2,
+      "Czechia": 3,
       "Mexico": 0
     },
     "1539016": {
@@ -2598,7 +2609,7 @@
     "Tunisia": 9,
     "Norway": 3,
     "Portugal": 1,
-    "Czechia": 5,
+    "Czechia": 6,
     "Bosnia & Herzegovina": 6,
     "Türkiye": 3,
     "Sweden": 6,
