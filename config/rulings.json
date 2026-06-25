@@ -1,6 +1,9 @@
 {
   "_help": "Tom's control panel. 'confirm'/'reject' take candidate keys. 'manualClaims' awards directly (locks the prize). 'tiebreakers' break ties between equal goals without locking the prize. 'goalCorrections' override extra time.",
-  "confirm": ["check_complete|1489369|South Africa"],
+  "confirm": [
+    "check_complete|1489369|South Africa",
+    "beach|1539009|Bosnia & Herzegovina"
+  ],
   "reject": [
     "leadership|1489370|USA",
     "leadership|1489370|Paraguay",
@@ -12,7 +15,11 @@
     "leadership|1489390|Scotland",
     "beach|1539006|Paraguay",
     "leadership|1489392|Curaçao",
-    "leadership|1489397|Saudi Arabia"
+    "leadership|1489397|Saudi Arabia",
+    "leadership|1489403|Panama",
+    "leadership|1489408|Switzerland",
+    "leadership|1489405|Haiti",
+    "leadership|1539010|Mexico"
   ],
   "unclaim": ["ghost_squad", "redemption"],
   "manualClaims": {
