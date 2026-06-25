@@ -104,7 +104,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T23:01:00.406Z"
+      "claimedAt": "2026-06-25T23:05:32.812Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -112,7 +112,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T23:01:00.405Z"
+      "claimedAt": "2026-06-25T23:05:32.812Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -120,7 +120,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T23:01:00.406Z"
+      "claimedAt": "2026-06-25T23:05:32.812Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -158,7 +158,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T23:01:00.406Z"
+      "claimedAt": "2026-06-25T23:05:32.812Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -176,7 +176,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T23:01:00.406Z"
+      "claimedAt": "2026-06-25T23:05:32.812Z"
     }
   },
   "candidates": {
@@ -468,6 +468,13 @@
       "team": "Morocco",
       "fixtureId": 1489405,
       "date": "2026-06-24T22:00:00+00:00"
+    },
+    {
+      "playerId": 21587,
+      "playerName": "Ellyes Skhiri",
+      "team": "Tunisia",
+      "fixtureId": 1489412,
+      "date": "2026-06-25T23:00:00+00:00"
     }
   ],
   "goals": [
@@ -2296,6 +2303,17 @@
       "elapsed": 77,
       "extra": 0,
       "sortKey": "2026-06-25T20:00:00+00:00|077|077"
+    },
+    {
+      "fixtureId": 1489412,
+      "date": "2026-06-25T23:00:00+00:00",
+      "teamId": 1118,
+      "teamName": "Netherlands",
+      "player": "Ellyes Skhiri",
+      "minute": "3'",
+      "elapsed": 3,
+      "extra": 0,
+      "sortKey": "2026-06-25T23:00:00+00:00|003|003"
     }
   ],
   "long": {
@@ -2310,8 +2328,8 @@
     "sieve": {
       "score": -10,
       "team": "Qatar",
-      "detail": "10 goals conceded so far",
-      "tied": false
+      "detail": "Joint leaders (Qatar, Tunisia) — 10 conceded each",
+      "tied": true
     },
     "blink": {
       "score": 2,
@@ -2586,6 +2604,10 @@
       "Ecuador": 1,
       "Germany": 2
     },
+    "1489412": {
+      "Tunisia": 1,
+      "Netherlands": 0
+    },
     "1538999": {
       "South Korea": 1,
       "Czechia": 2
@@ -2633,6 +2655,10 @@
     "1539010": {
       "Czechia": 3,
       "Mexico": 0
+    },
+    "1539011": {
+      "Japan": 0,
+      "Sweden": 0
     },
     "1539016": {
       "Iraq": 4,
@@ -2683,7 +2709,7 @@
     "Canada": 3,
     "South Korea": 3,
     "Australia": 2,
-    "Tunisia": 9,
+    "Tunisia": 10,
     "Norway": 3,
     "Portugal": 1,
     "Czechia": 6,
