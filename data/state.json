@@ -49,7 +49,9 @@
     1489403,
     1539008,
     1489408,
-    1539009
+    1539009,
+    1489405,
+    1489406
   ],
   "claims": {
     "warnock": {
@@ -98,7 +100,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T00:01:01.741Z"
+      "claimedAt": "2026-06-25T00:05:34.458Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -106,7 +108,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T00:01:01.740Z"
+      "claimedAt": "2026-06-25T00:05:34.458Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -114,7 +116,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T00:01:01.741Z"
+      "claimedAt": "2026-06-25T00:05:34.458Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -152,7 +154,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T00:01:01.741Z"
+      "claimedAt": "2026-06-25T00:05:34.458Z"
     },
     "redemption": {
       "achievementId": "redemption",
@@ -160,7 +162,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-25T00:01:01.741Z"
+      "claimedAt": "2026-06-25T00:05:34.458Z"
     }
   },
   "candidates": {
@@ -2230,7 +2232,9 @@
     "Saudi Arabia": 1,
     "Portugal": 1,
     "Uzbekistan": 1,
-    "Bosnia & Herzegovina": 1
+    "Bosnia & Herzegovina": 1,
+    "Haiti": 1,
+    "Morocco": 1
   },
   "tournamentComplete": false,
   "ownGoalEvents": [
@@ -2283,6 +2287,11 @@
       "fixtureId": 1539009,
       "creditedTeam": "Bosnia & Herzegovina",
       "scorerTeam": "Qatar"
+    },
+    {
+      "fixtureId": 1489405,
+      "creditedTeam": "Haiti",
+      "scorerTeam": "Morocco"
     }
   ],
   "concededByMatch": {
