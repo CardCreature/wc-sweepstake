@@ -58,7 +58,8 @@
     1489409,
     1489412,
     1539011,
-    1489411
+    1489411,
+    1539012
   ],
   "claims": {
     "warnock": {
@@ -107,7 +108,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T04:01:04.938Z"
+      "claimedAt": "2026-06-26T04:05:31.623Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -115,7 +116,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T04:01:04.938Z"
+      "claimedAt": "2026-06-26T04:05:31.623Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -123,7 +124,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T04:01:04.938Z"
+      "claimedAt": "2026-06-26T04:05:31.623Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -161,7 +162,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T04:01:04.938Z"
+      "claimedAt": "2026-06-26T04:05:31.623Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -179,7 +180,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T04:01:04.938Z"
+      "claimedAt": "2026-06-26T04:05:31.623Z"
     }
   },
   "candidates": {
@@ -2416,6 +2417,17 @@
       "elapsed": 49,
       "extra": 0,
       "sortKey": "2026-06-26T02:00:00+00:00|049|049"
+    },
+    {
+      "fixtureId": 1539012,
+      "date": "2026-06-26T02:00:00+00:00",
+      "teamId": 777,
+      "teamName": "Türkiye",
+      "player": "Kaan Ayhan",
+      "minute": "98'",
+      "elapsed": 98,
+      "extra": 0,
+      "sortKey": "2026-06-26T02:00:00+00:00|098|098"
     }
   ],
   "long": {
@@ -2775,7 +2787,7 @@
     },
     "1539012": {
       "Türkiye": 2,
-      "USA": 2
+      "USA": 3
     },
     "1539016": {
       "Iraq": 4,
@@ -2789,7 +2801,7 @@
   "conceded": {
     "Mexico": 0,
     "South Africa": 3,
-    "USA": 3,
+    "USA": 4,
     "Paraguay": 4,
     "Brazil": 1,
     "Morocco": 3,
