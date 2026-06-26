@@ -106,7 +106,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T03:10:41.643Z"
+      "claimedAt": "2026-06-26T03:15:36.664Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -114,7 +114,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T03:10:41.643Z"
+      "claimedAt": "2026-06-26T03:15:36.664Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -122,7 +122,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T03:10:41.643Z"
+      "claimedAt": "2026-06-26T03:15:36.664Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -160,7 +160,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T03:10:41.643Z"
+      "claimedAt": "2026-06-26T03:15:36.664Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -178,7 +178,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T03:10:41.643Z"
+      "claimedAt": "2026-06-26T03:15:36.664Z"
     }
   },
   "candidates": {
@@ -2404,6 +2404,17 @@
       "elapsed": 31,
       "extra": 0,
       "sortKey": "2026-06-26T02:00:00+00:00|031|031"
+    },
+    {
+      "fixtureId": 1539012,
+      "date": "2026-06-26T02:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "Sebastian Berhalter",
+      "minute": "49'",
+      "elapsed": 49,
+      "extra": 0,
+      "sortKey": "2026-06-26T02:00:00+00:00|049|049"
     }
   ],
   "long": {
@@ -2762,7 +2773,7 @@
       "Sweden": 1
     },
     "1539012": {
-      "Türkiye": 1,
+      "Türkiye": 2,
       "USA": 2
     },
     "1539016": {
@@ -2819,7 +2830,7 @@
     "Portugal": 1,
     "Czechia": 6,
     "Bosnia & Herzegovina": 6,
-    "Türkiye": 4,
+    "Türkiye": 5,
     "Sweden": 7,
     "Congo DR": 2,
     "Iraq": 7
