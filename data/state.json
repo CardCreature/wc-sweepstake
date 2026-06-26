@@ -108,7 +108,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T19:05:33.170Z"
+      "claimedAt": "2026-06-26T19:10:41.632Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -116,7 +116,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T19:05:33.170Z"
+      "claimedAt": "2026-06-26T19:10:41.632Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -124,7 +124,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T19:05:33.170Z"
+      "claimedAt": "2026-06-26T19:10:41.632Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -162,7 +162,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T19:05:33.170Z"
+      "claimedAt": "2026-06-26T19:10:41.632Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -180,7 +180,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T19:05:33.170Z"
+      "claimedAt": "2026-06-26T19:10:41.632Z"
     }
   },
   "candidates": {
@@ -2428,6 +2428,28 @@
       "elapsed": 98,
       "extra": 0,
       "sortKey": "2026-06-26T02:00:00+00:00|098|098"
+    },
+    {
+      "fixtureId": 1539074,
+      "date": "2026-06-26T19:00:00+00:00",
+      "teamId": 13,
+      "teamName": "Senegal",
+      "player": "H. Diarra",
+      "minute": "4'",
+      "elapsed": 4,
+      "extra": 0,
+      "sortKey": "2026-06-26T19:00:00+00:00|004|004"
+    },
+    {
+      "fixtureId": 1489416,
+      "date": "2026-06-26T19:00:00+00:00",
+      "teamId": 2,
+      "teamName": "France",
+      "player": "O. Dembele",
+      "minute": "7'",
+      "elapsed": 7,
+      "extra": 0,
+      "sortKey": "2026-06-26T19:00:00+00:00|007|007"
     }
   ],
   "long": {
@@ -2734,7 +2756,7 @@
       "Netherlands": 1
     },
     "1489416": {
-      "Norway": 0,
+      "Norway": 1,
       "France": 0
     },
     "1538999": {
@@ -2803,7 +2825,7 @@
     },
     "1539074": {
       "Senegal": 0,
-      "Iraq": 0
+      "Iraq": 1
     }
   },
   "conceded": {
@@ -2847,13 +2869,13 @@
     "South Korea": 3,
     "Australia": 2,
     "Tunisia": 12,
-    "Norway": 3,
+    "Norway": 4,
     "Portugal": 1,
     "Czechia": 6,
     "Bosnia & Herzegovina": 6,
     "Türkiye": 5,
     "Sweden": 7,
     "Congo DR": 2,
-    "Iraq": 7
+    "Iraq": 8
   }
 }
