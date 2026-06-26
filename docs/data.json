@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T11:55:30.581Z",
+  "updatedAt": "2026-06-26T12:00:56.615Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T11:55:30.571Z"
+        "claimedAt": "2026-06-26T12:00:56.600Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T11:55:30.571Z"
+        "claimedAt": "2026-06-26T12:00:56.600Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T11:55:30.571Z"
+        "claimedAt": "2026-06-26T12:00:56.600Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -316,7 +316,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T11:55:30.571Z"
+        "claimedAt": "2026-06-26T12:00:56.600Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -380,7 +380,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T11:55:30.571Z"
+        "claimedAt": "2026-06-26T12:00:56.600Z"
       },
       "owner": "Kate",
       "leader": null
@@ -492,7 +492,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T11:55:30.571Z",
+      "claimedAt": "2026-06-26T12:00:56.600Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -504,7 +504,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T11:55:30.571Z",
+      "claimedAt": "2026-06-26T12:00:56.600Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -516,7 +516,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T11:55:30.571Z",
+      "claimedAt": "2026-06-26T12:00:56.600Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -528,7 +528,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T11:55:30.571Z",
+      "claimedAt": "2026-06-26T12:00:56.600Z",
       "name": "F**king Welly It!",
       "emoji": "🚀",
       "kind": "first",
@@ -540,7 +540,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T11:55:30.571Z",
+      "claimedAt": "2026-06-26T12:00:56.600Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
