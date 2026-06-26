@@ -56,7 +56,8 @@
     1489407,
     1489410,
     1489409,
-    1489412
+    1489412,
+    1539011
   ],
   "claims": {
     "warnock": {
@@ -105,7 +106,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:55:32.083Z"
+      "claimedAt": "2026-06-26T01:01:03.692Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -113,7 +114,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:55:32.083Z"
+      "claimedAt": "2026-06-26T01:01:03.692Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -121,7 +122,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:55:32.083Z"
+      "claimedAt": "2026-06-26T01:01:03.692Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -159,7 +160,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:55:32.083Z"
+      "claimedAt": "2026-06-26T01:01:03.692Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -177,7 +178,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:55:32.083Z"
+      "claimedAt": "2026-06-26T01:01:03.692Z"
     }
   },
   "candidates": {
