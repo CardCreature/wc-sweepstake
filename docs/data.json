@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T00:20:38.154Z",
+  "updatedAt": "2026-06-26T00:25:30.202Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:20:38.152Z"
+        "claimedAt": "2026-06-26T00:25:30.200Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:20:38.152Z"
+        "claimedAt": "2026-06-26T00:25:30.200Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:20:38.152Z"
+        "claimedAt": "2026-06-26T00:25:30.200Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -316,7 +316,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:20:38.152Z"
+        "claimedAt": "2026-06-26T00:25:30.200Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -380,7 +380,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:20:38.152Z"
+        "claimedAt": "2026-06-26T00:25:30.200Z"
       },
       "owner": "Kate",
       "leader": null
@@ -466,7 +466,7 @@
       "owner": null,
       "leader": {
         "team": "Tunisia",
-        "detail": "11 goals conceded so far"
+        "detail": "12 goals conceded so far"
       }
     },
     {
@@ -492,7 +492,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:20:38.152Z",
+      "claimedAt": "2026-06-26T00:25:30.200Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -504,7 +504,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:20:38.152Z",
+      "claimedAt": "2026-06-26T00:25:30.200Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -516,7 +516,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:20:38.152Z",
+      "claimedAt": "2026-06-26T00:25:30.200Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -528,7 +528,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:20:38.152Z",
+      "claimedAt": "2026-06-26T00:25:30.200Z",
       "name": "F**king Welly It!",
       "emoji": "🚀",
       "kind": "first",
@@ -540,7 +540,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:20:38.152Z",
+      "claimedAt": "2026-06-26T00:25:30.200Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
@@ -663,23 +663,49 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 170,
+    "totalGoals": 172,
     "lastGoal": {
-      "fixtureId": 1539011,
+      "fixtureId": 1489412,
       "date": "2026-06-25T23:00:00+00:00",
-      "teamId": 12,
-      "teamName": "Japan",
-      "player": "Daizen Maeda",
-      "minute": "56'",
-      "elapsed": 56,
+      "teamId": 1118,
+      "teamName": "Netherlands",
+      "player": "Jan Paul van Hecke",
+      "minute": "62'",
+      "elapsed": 62,
       "extra": 0,
-      "sortKey": "2026-06-25T23:00:00+00:00|056|056",
-      "goalNumber": 170,
-      "butterflyTeam": "Jordan"
+      "sortKey": "2026-06-25T23:00:00+00:00|062|062",
+      "goalNumber": 172,
+      "butterflyTeam": "Morocco"
     },
-    "nextGoalTeam": "Mexico",
-    "currentWinner": "Jordan",
+    "nextGoalTeam": "Netherlands",
+    "currentWinner": "Morocco",
     "recentGoals": [
+      {
+        "fixtureId": 1489412,
+        "date": "2026-06-25T23:00:00+00:00",
+        "teamId": 1118,
+        "teamName": "Netherlands",
+        "player": "Jan Paul van Hecke",
+        "minute": "62'",
+        "elapsed": 62,
+        "extra": 0,
+        "sortKey": "2026-06-25T23:00:00+00:00|062|062",
+        "goalNumber": 172,
+        "butterflyTeam": "Morocco"
+      },
+      {
+        "fixtureId": 1539011,
+        "date": "2026-06-25T23:00:00+00:00",
+        "teamId": 5,
+        "teamName": "Sweden",
+        "player": "Anthony Elanga",
+        "minute": "62'",
+        "elapsed": 62,
+        "extra": 0,
+        "sortKey": "2026-06-25T23:00:00+00:00|062|062",
+        "goalNumber": 171,
+        "butterflyTeam": "Mexico"
+      },
       {
         "fixtureId": 1539011,
         "date": "2026-06-25T23:00:00+00:00",
@@ -783,32 +809,6 @@
         "sortKey": "2026-06-25T20:00:00+00:00|007|007",
         "goalNumber": 163,
         "butterflyTeam": "Germany"
-      },
-      {
-        "fixtureId": 1489410,
-        "date": "2026-06-25T20:00:00+00:00",
-        "teamId": 25,
-        "teamName": "Germany",
-        "player": "Leroy Sané",
-        "minute": "2'",
-        "elapsed": 2,
-        "extra": 0,
-        "sortKey": "2026-06-25T20:00:00+00:00|002|002",
-        "goalNumber": 162,
-        "butterflyTeam": "France"
-      },
-      {
-        "fixtureId": 1539010,
-        "date": "2026-06-25T01:00:00+00:00",
-        "teamId": 16,
-        "teamName": "Mexico",
-        "player": "A. Fidalgo",
-        "minute": "90+4'",
-        "elapsed": 90,
-        "extra": 4,
-        "sortKey": "2026-06-25T01:00:00+00:00|094|090",
-        "goalNumber": 161,
-        "butterflyTeam": "England"
       }
     ],
     "teamOrder": [
