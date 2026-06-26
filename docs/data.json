@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T00:15:41.338Z",
+  "updatedAt": "2026-06-26T00:20:38.154Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:15:41.336Z"
+        "claimedAt": "2026-06-26T00:20:38.152Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:15:41.336Z"
+        "claimedAt": "2026-06-26T00:20:38.152Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:15:41.336Z"
+        "claimedAt": "2026-06-26T00:20:38.152Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -316,7 +316,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:15:41.336Z"
+        "claimedAt": "2026-06-26T00:20:38.152Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -380,7 +380,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-26T00:15:41.336Z"
+        "claimedAt": "2026-06-26T00:20:38.152Z"
       },
       "owner": "Kate",
       "leader": null
@@ -492,7 +492,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:15:41.336Z",
+      "claimedAt": "2026-06-26T00:20:38.152Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -504,7 +504,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:15:41.336Z",
+      "claimedAt": "2026-06-26T00:20:38.152Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -516,7 +516,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:15:41.336Z",
+      "claimedAt": "2026-06-26T00:20:38.152Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -528,7 +528,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:15:41.336Z",
+      "claimedAt": "2026-06-26T00:20:38.152Z",
       "name": "F**king Welly It!",
       "emoji": "🚀",
       "kind": "first",
@@ -540,7 +540,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-26T00:15:41.336Z",
+      "claimedAt": "2026-06-26T00:20:38.152Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
@@ -663,23 +663,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 169,
+    "totalGoals": 170,
     "lastGoal": {
-      "fixtureId": 1489412,
+      "fixtureId": 1539011,
       "date": "2026-06-25T23:00:00+00:00",
-      "teamId": 28,
-      "teamName": "Tunisia",
-      "player": "Hazem Mastouri",
-      "minute": "54'",
-      "elapsed": 54,
+      "teamId": 12,
+      "teamName": "Japan",
+      "player": "Daizen Maeda",
+      "minute": "56'",
+      "elapsed": 56,
       "extra": 0,
-      "sortKey": "2026-06-25T23:00:00+00:00|054|054",
-      "goalNumber": 169,
-      "butterflyTeam": "Japan"
+      "sortKey": "2026-06-25T23:00:00+00:00|056|056",
+      "goalNumber": 170,
+      "butterflyTeam": "Jordan"
     },
-    "nextGoalTeam": "Jordan",
-    "currentWinner": "Japan",
+    "nextGoalTeam": "Mexico",
+    "currentWinner": "Jordan",
     "recentGoals": [
+      {
+        "fixtureId": 1539011,
+        "date": "2026-06-25T23:00:00+00:00",
+        "teamId": 12,
+        "teamName": "Japan",
+        "player": "Daizen Maeda",
+        "minute": "56'",
+        "elapsed": 56,
+        "extra": 0,
+        "sortKey": "2026-06-25T23:00:00+00:00|056|056",
+        "goalNumber": 170,
+        "butterflyTeam": "Jordan"
+      },
       {
         "fixtureId": 1489412,
         "date": "2026-06-25T23:00:00+00:00",
@@ -796,19 +809,6 @@
         "sortKey": "2026-06-25T01:00:00+00:00|094|090",
         "goalNumber": 161,
         "butterflyTeam": "England"
-      },
-      {
-        "fixtureId": 1489407,
-        "date": "2026-06-25T01:00:00+00:00",
-        "teamId": 1531,
-        "teamName": "South Africa",
-        "player": "T. Maseko",
-        "minute": "63'",
-        "elapsed": 63,
-        "extra": 0,
-        "sortKey": "2026-06-25T01:00:00+00:00|063|063",
-        "goalNumber": 160,
-        "butterflyTeam": "Egypt"
       }
     ],
     "teamOrder": [
