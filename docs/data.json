@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T03:25:31.594Z",
+  "updatedAt": "2026-06-27T03:30:55.358Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T03:25:31.591Z"
+        "claimedAt": "2026-06-27T03:30:55.354Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T03:25:31.591Z"
+        "claimedAt": "2026-06-27T03:30:55.354Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T03:25:31.591Z"
+        "claimedAt": "2026-06-27T03:30:55.354Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -316,7 +316,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T03:25:31.592Z"
+        "claimedAt": "2026-06-27T03:30:55.354Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -380,7 +380,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T03:25:31.591Z"
+        "claimedAt": "2026-06-27T03:30:55.354Z"
       },
       "owner": "Kate",
       "leader": null
@@ -487,24 +487,12 @@
   ],
   "claims": [
     {
-      "achievementId": "welly",
-      "team": "Cape Verde Islands",
-      "detail": "35-yard goal vs Uruguay",
-      "match": "Cape Verde Islands v Uruguay",
-      "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T03:25:31.592Z",
-      "name": "F**king Welly It!",
-      "emoji": "🚀",
-      "kind": "first",
-      "owner": "Wendy"
-    },
-    {
       "achievementId": "check_complete",
       "team": "South Africa",
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T03:25:31.591Z",
+      "claimedAt": "2026-06-27T03:30:55.354Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -516,7 +504,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T03:25:31.591Z",
+      "claimedAt": "2026-06-27T03:30:55.354Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -528,11 +516,23 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T03:25:31.591Z",
+      "claimedAt": "2026-06-27T03:30:55.354Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
       "owner": "Neil"
+    },
+    {
+      "achievementId": "welly",
+      "team": "Cape Verde Islands",
+      "detail": "35-yard goal vs Uruguay",
+      "match": "Cape Verde Islands v Uruguay",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-06-27T03:30:55.354Z",
+      "name": "F**king Welly It!",
+      "emoji": "🚀",
+      "kind": "first",
+      "owner": "Wendy"
     },
     {
       "achievementId": "redemption",
@@ -540,7 +540,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T03:25:31.591Z",
+      "claimedAt": "2026-06-27T03:30:55.354Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
@@ -676,23 +676,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 190,
+    "totalGoals": 191,
     "lastGoal": {
-      "fixtureId": 1489414,
+      "fixtureId": 1489415,
       "date": "2026-06-27T03:00:00+00:00",
-      "teamId": 22,
-      "teamName": "Iran",
-      "player": "R. Rezaeian",
-      "minute": "14'",
-      "elapsed": 14,
+      "teamId": 1,
+      "teamName": "Belgium",
+      "player": "L. Trossard",
+      "minute": "28'",
+      "elapsed": 28,
       "extra": 0,
-      "sortKey": "2026-06-27T03:00:00+00:00|014|014",
-      "goalNumber": 190,
-      "butterflyTeam": "Uruguay"
+      "sortKey": "2026-06-27T03:00:00+00:00|028|028",
+      "goalNumber": 191,
+      "butterflyTeam": "USA"
     },
-    "nextGoalTeam": "USA",
-    "currentWinner": "Uruguay",
+    "nextGoalTeam": "Uzbekistan",
+    "currentWinner": "USA",
     "recentGoals": [
+      {
+        "fixtureId": 1489415,
+        "date": "2026-06-27T03:00:00+00:00",
+        "teamId": 1,
+        "teamName": "Belgium",
+        "player": "L. Trossard",
+        "minute": "28'",
+        "elapsed": 28,
+        "extra": 0,
+        "sortKey": "2026-06-27T03:00:00+00:00|028|028",
+        "goalNumber": 191,
+        "butterflyTeam": "USA"
+      },
       {
         "fixtureId": 1489414,
         "date": "2026-06-27T03:00:00+00:00",
@@ -809,19 +822,6 @@
         "sortKey": "2026-06-26T19:00:00+00:00|032|032",
         "goalNumber": 182,
         "butterflyTeam": "Senegal"
-      },
-      {
-        "fixtureId": 1489416,
-        "date": "2026-06-26T19:00:00+00:00",
-        "teamId": 1090,
-        "teamName": "Norway",
-        "player": "T. Aasgaard",
-        "minute": "21'",
-        "elapsed": 21,
-        "extra": 0,
-        "sortKey": "2026-06-26T19:00:00+00:00|021|021",
-        "goalNumber": 181,
-        "butterflyTeam": "Scotland"
       }
     ],
     "teamOrder": [
