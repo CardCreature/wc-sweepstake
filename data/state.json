@@ -112,7 +112,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:45:39.562Z"
+      "claimedAt": "2026-06-27T04:50:42.231Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -120,7 +120,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:45:39.562Z"
+      "claimedAt": "2026-06-27T04:50:42.231Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -128,7 +128,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:45:39.562Z"
+      "claimedAt": "2026-06-27T04:50:42.231Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -166,7 +166,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:45:39.562Z"
+      "claimedAt": "2026-06-27T04:50:42.231Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -184,7 +184,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:45:39.562Z"
+      "claimedAt": "2026-06-27T04:50:42.231Z"
     }
   },
   "candidates": {
@@ -2634,6 +2634,28 @@
       "elapsed": 66,
       "extra": 0,
       "sortKey": "2026-06-27T03:00:00+00:00|066|066"
+    },
+    {
+      "fixtureId": 1489415,
+      "date": "2026-06-27T03:00:00+00:00",
+      "teamId": 4673,
+      "teamName": "New Zealand",
+      "player": "E. Just",
+      "minute": "84'",
+      "elapsed": 84,
+      "extra": 0,
+      "sortKey": "2026-06-27T03:00:00+00:00|084|084"
+    },
+    {
+      "fixtureId": 1489415,
+      "date": "2026-06-27T03:00:00+00:00",
+      "teamId": 1,
+      "teamName": "Belgium",
+      "player": "R. Lukaku",
+      "minute": "86'",
+      "elapsed": 86,
+      "extra": 0,
+      "sortKey": "2026-06-27T03:00:00+00:00|086|086"
     }
   ],
   "long": {
@@ -2948,8 +2970,8 @@
       "Iran": 1
     },
     "1489415": {
-      "New Zealand": 3,
-      "Belgium": 0
+      "New Zealand": 4,
+      "Belgium": 1
     },
     "1489416": {
       "Norway": 4,
@@ -3045,10 +3067,10 @@
     "Ecuador": 2,
     "Netherlands": 4,
     "Japan": 3,
-    "Belgium": 1,
+    "Belgium": 2,
     "Egypt": 3,
     "Iran": 3,
-    "New Zealand": 8,
+    "New Zealand": 9,
     "Saudi Arabia": 5,
     "Uruguay": 4,
     "Spain": 0,
