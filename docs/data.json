@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T04:25:33.157Z",
+  "updatedAt": "2026-06-27T04:30:52.000Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T04:25:33.154Z"
+        "claimedAt": "2026-06-27T04:30:51.996Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T04:25:33.154Z"
+        "claimedAt": "2026-06-27T04:30:51.996Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T04:25:33.154Z"
+        "claimedAt": "2026-06-27T04:30:51.996Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -316,7 +316,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T04:25:33.154Z"
+        "claimedAt": "2026-06-27T04:30:51.996Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -380,7 +380,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-27T04:25:33.154Z"
+        "claimedAt": "2026-06-27T04:30:51.996Z"
       },
       "owner": "Kate",
       "leader": null
@@ -492,7 +492,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:25:33.154Z",
+      "claimedAt": "2026-06-27T04:30:51.996Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -504,7 +504,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:25:33.154Z",
+      "claimedAt": "2026-06-27T04:30:51.996Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -516,7 +516,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:25:33.154Z",
+      "claimedAt": "2026-06-27T04:30:51.996Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -528,7 +528,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:25:33.154Z",
+      "claimedAt": "2026-06-27T04:30:51.996Z",
       "name": "F**king Welly It!",
       "emoji": "🚀",
       "kind": "first",
@@ -540,7 +540,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T04:25:33.154Z",
+      "claimedAt": "2026-06-27T04:30:51.996Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
@@ -676,23 +676,36 @@
   "butterfly": {
     "potValue": 0,
     "potItems": [],
-    "totalGoals": 192,
+    "totalGoals": 193,
     "lastGoal": {
       "fixtureId": 1489415,
       "date": "2026-06-27T03:00:00+00:00",
       "teamId": 1,
       "teamName": "Belgium",
-      "player": "L. Trossard",
-      "minute": "50'",
-      "elapsed": 50,
+      "player": "K. De Bruyne",
+      "minute": "66'",
+      "elapsed": 66,
       "extra": 0,
-      "sortKey": "2026-06-27T03:00:00+00:00|050|050",
-      "goalNumber": 192,
-      "butterflyTeam": "Uzbekistan"
+      "sortKey": "2026-06-27T03:00:00+00:00|066|066",
+      "goalNumber": 193,
+      "butterflyTeam": "Algeria"
     },
-    "nextGoalTeam": "Algeria",
-    "currentWinner": "Uzbekistan",
+    "nextGoalTeam": "Argentina",
+    "currentWinner": "Algeria",
     "recentGoals": [
+      {
+        "fixtureId": 1489415,
+        "date": "2026-06-27T03:00:00+00:00",
+        "teamId": 1,
+        "teamName": "Belgium",
+        "player": "K. De Bruyne",
+        "minute": "66'",
+        "elapsed": 66,
+        "extra": 0,
+        "sortKey": "2026-06-27T03:00:00+00:00|066|066",
+        "goalNumber": 193,
+        "butterflyTeam": "Algeria"
+      },
       {
         "fixtureId": 1489415,
         "date": "2026-06-27T03:00:00+00:00",
@@ -809,19 +822,6 @@
         "sortKey": "2026-06-26T19:00:00+00:00|059|059",
         "goalNumber": 184,
         "butterflyTeam": "South Korea"
-      },
-      {
-        "fixtureId": 1539074,
-        "date": "2026-06-26T19:00:00+00:00",
-        "teamId": 13,
-        "teamName": "Senegal",
-        "player": "I. Sarr",
-        "minute": "56'",
-        "elapsed": 56,
-        "extra": 0,
-        "sortKey": "2026-06-26T19:00:00+00:00|056|056",
-        "goalNumber": 183,
-        "butterflyTeam": "South Africa"
       }
     ],
     "teamOrder": [
