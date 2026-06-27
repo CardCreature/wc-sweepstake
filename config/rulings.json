@@ -19,7 +19,8 @@
     "leadership|1489403|Panama",
     "leadership|1489408|Switzerland",
     "leadership|1489405|Haiti",
-    "leadership|1539010|Mexico"
+    "leadership|1539010|Mexico",
+    "leadership|1489416|Norway"
   ],
   "unclaim": ["ghost_squad", "redemption"],
   "manualClaims": {
@@ -43,6 +44,11 @@
       "team": "Cape Verde Islands",
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay"
+    },
+    "ghost_squad": {
+      "team": "Spain",
+      "detail": "Won with exactly 1 shot on target vs Uruguay",
+      "match": "Spain v Uruguay"
     }
   },
   "tiebreakers": {
