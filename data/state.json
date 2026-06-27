@@ -114,7 +114,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T22:25:30.810Z"
+      "claimedAt": "2026-06-27T22:30:52.673Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -122,7 +122,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T22:25:30.810Z"
+      "claimedAt": "2026-06-27T22:30:52.673Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -130,7 +130,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T22:25:30.810Z"
+      "claimedAt": "2026-06-27T22:30:52.673Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -168,7 +168,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T22:25:30.810Z"
+      "claimedAt": "2026-06-27T22:30:52.673Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -186,7 +186,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T22:25:30.810Z"
+      "claimedAt": "2026-06-27T22:30:52.673Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -194,7 +194,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-27T22:25:30.810Z"
+      "claimedAt": "2026-06-27T22:30:52.673Z"
     }
   },
   "candidates": {
@@ -2699,6 +2699,17 @@
       "elapsed": 62,
       "extra": 0,
       "sortKey": "2026-06-27T21:00:00+00:00|062|062"
+    },
+    {
+      "fixtureId": 1489422,
+      "date": "2026-06-27T21:00:00+00:00",
+      "teamId": 10,
+      "teamName": "England",
+      "player": "H. Kane",
+      "minute": "67'",
+      "elapsed": 67,
+      "extra": 0,
+      "sortKey": "2026-06-27T21:00:00+00:00|067|067"
     }
   ],
   "long": {
@@ -3029,7 +3040,7 @@
       "Ghana": 1
     },
     "1489422": {
-      "Panama": 1,
+      "Panama": 2,
       "England": 0
     },
     "1538999": {
@@ -3135,7 +3146,7 @@
     "England": 2,
     "Croatia": 4,
     "Ghana": 1,
-    "Panama": 3,
+    "Panama": 4,
     "Uzbekistan": 8,
     "Colombia": 1,
     "Canada": 3,
