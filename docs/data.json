@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:30:53.600Z",
+  "updatedAt": "2026-06-28T01:35:31.958Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-28T01:30:53.597Z"
+        "claimedAt": "2026-06-28T01:35:31.955Z"
       },
       "owner": "Kate",
       "leader": null
@@ -122,7 +122,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-28T01:30:53.597Z"
+        "claimedAt": "2026-06-28T01:35:31.955Z"
       },
       "owner": "Neil",
       "leader": null
@@ -174,7 +174,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-28T01:30:53.597Z"
+        "claimedAt": "2026-06-28T01:35:31.955Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -217,7 +217,7 @@
         "detail": "Won with exactly 1 shot on target vs Uruguay",
         "match": "Spain v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-28T01:30:53.597Z"
+        "claimedAt": "2026-06-28T01:35:31.955Z"
       },
       "owner": "Becky",
       "leader": null
@@ -323,7 +323,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-28T01:30:53.597Z"
+        "claimedAt": "2026-06-28T01:35:31.955Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -387,7 +387,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-28T01:30:53.597Z"
+        "claimedAt": "2026-06-28T01:35:31.955Z"
       },
       "owner": "Kate",
       "leader": null
@@ -499,7 +499,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T01:30:53.597Z",
+      "claimedAt": "2026-06-28T01:35:31.955Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -511,7 +511,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T01:30:53.597Z",
+      "claimedAt": "2026-06-28T01:35:31.955Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -523,7 +523,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T01:30:53.597Z",
+      "claimedAt": "2026-06-28T01:35:31.955Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -535,7 +535,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T01:30:53.597Z",
+      "claimedAt": "2026-06-28T01:35:31.955Z",
       "name": "F**king Welly It!",
       "emoji": "🚀",
       "kind": "first",
@@ -547,7 +547,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T01:30:53.597Z",
+      "claimedAt": "2026-06-28T01:35:31.955Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
@@ -559,7 +559,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T01:30:53.597Z",
+      "claimedAt": "2026-06-28T01:35:31.955Z",
       "name": "Ghost Squad",
       "emoji": "👻",
       "kind": "first",
@@ -1150,12 +1150,6 @@
   ],
   "upcoming": [
     {
-      "match": "Congo DR v Uzbekistan",
-      "date": "2026-06-27T23:30:00+00:00",
-      "round": "Group Stage - 3",
-      "status": "2H"
-    },
-    {
       "match": "Algeria v Austria",
       "date": "2026-06-28T02:00:00+00:00",
       "round": "Group Stage - 3",
@@ -1184,9 +1178,20 @@
       "date": "2026-06-29T20:30:00+00:00",
       "round": "Round of 32",
       "status": "NS"
+    },
+    {
+      "match": "Netherlands v Morocco",
+      "date": "2026-06-30T01:00:00+00:00",
+      "round": "Round of 32",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Congo DR 3-1 Uzbekistan",
+      "round": "Group Stage - 3",
+      "status": "FT"
+    },
     {
       "match": "Colombia 0-0 Portugal",
       "round": "Group Stage - 3",
@@ -1211,12 +1216,7 @@
       "match": "Egypt 1-1 Iran",
       "round": "Group Stage - 3",
       "status": "FT"
-    },
-    {
-      "match": "Cape Verde Islands 0-0 Saudi Arabia",
-      "round": "Group Stage - 3",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 69
+  "matchesProcessed": 70
 }
