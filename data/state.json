@@ -118,7 +118,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T02:30:53.544Z"
+      "claimedAt": "2026-06-28T02:35:34.044Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -126,7 +126,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T02:30:53.544Z"
+      "claimedAt": "2026-06-28T02:35:34.044Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -134,7 +134,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T02:30:53.544Z"
+      "claimedAt": "2026-06-28T02:35:34.044Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -172,7 +172,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T02:30:53.544Z"
+      "claimedAt": "2026-06-28T02:35:34.044Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -190,7 +190,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T02:30:53.544Z"
+      "claimedAt": "2026-06-28T02:35:34.044Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -198,7 +198,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T02:30:53.544Z"
+      "claimedAt": "2026-06-28T02:35:34.044Z"
     }
   },
   "candidates": {
@@ -2802,6 +2802,17 @@
       "elapsed": 28,
       "extra": 0,
       "sortKey": "2026-06-28T02:00:00+00:00|028|028"
+    },
+    {
+      "fixtureId": 1489421,
+      "date": "2026-06-28T02:00:00+00:00",
+      "teamId": 26,
+      "teamName": "Argentina",
+      "player": "L. Martinez",
+      "minute": "31'",
+      "elapsed": 31,
+      "extra": 0,
+      "sortKey": "2026-06-28T02:00:00+00:00|031|031"
     }
   ],
   "long": {
@@ -3140,7 +3151,7 @@
       "Ghana": 2
     },
     "1489421": {
-      "Jordan": 1,
+      "Jordan": 2,
       "Argentina": 0
     },
     "1489422": {
@@ -3248,7 +3259,7 @@
     "Argentina": 0,
     "Algeria": 5,
     "Austria": 3,
-    "Jordan": 6,
+    "Jordan": 7,
     "France": 2,
     "Senegal": 6,
     "England": 2,
