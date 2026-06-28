@@ -118,7 +118,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T03:20:42.504Z"
+      "claimedAt": "2026-06-28T03:25:39.003Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -126,7 +126,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T03:20:42.504Z"
+      "claimedAt": "2026-06-28T03:25:39.003Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -134,7 +134,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T03:20:42.504Z"
+      "claimedAt": "2026-06-28T03:25:39.003Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -172,7 +172,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T03:20:42.504Z"
+      "claimedAt": "2026-06-28T03:25:39.003Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -190,7 +190,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T03:20:42.504Z"
+      "claimedAt": "2026-06-28T03:25:39.003Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -198,7 +198,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-28T03:20:42.504Z"
+      "claimedAt": "2026-06-28T03:25:39.003Z"
     }
   },
   "candidates": {
@@ -2846,6 +2846,17 @@
       "elapsed": 55,
       "extra": 0,
       "sortKey": "2026-06-28T02:00:00+00:00|055|055"
+    },
+    {
+      "fixtureId": 1489418,
+      "date": "2026-06-28T02:00:00+00:00",
+      "teamId": 1532,
+      "teamName": "Algeria",
+      "player": "R. Mahrez",
+      "minute": "60'",
+      "elapsed": 60,
+      "extra": 0,
+      "sortKey": "2026-06-28T02:00:00+00:00|060|060"
     }
   ],
   "long": {
@@ -3173,7 +3184,7 @@
     },
     "1489418": {
       "Algeria": 2,
-      "Austria": 1
+      "Austria": 2
     },
     "1489419": {
       "Colombia": 0,
@@ -3291,7 +3302,7 @@
     "Cape Verde Islands": 2,
     "Argentina": 1,
     "Algeria": 6,
-    "Austria": 4,
+    "Austria": 5,
     "Jordan": 7,
     "France": 2,
     "Senegal": 6,
