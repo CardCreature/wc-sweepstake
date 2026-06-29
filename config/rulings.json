@@ -49,6 +49,15 @@
       "team": "Spain",
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay"
+    },
+    "great_escape": {
+      "team": "Austria",
+      "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
+      "match": "Austria v Algeria"
+    },
+    "giant_killer": {
+      "team": "Ghana",
+      "detail": "Lowest FIFA-ranked nation to reach the knockouts"
     }
   },
   "tiebreakers": {
