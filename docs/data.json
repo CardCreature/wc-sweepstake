@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T19:01:05.155Z",
+  "updatedAt": "2026-06-29T19:05:34.308Z",
   "tournamentComplete": false,
   "board": [
     {
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "Kate",
       "leader": null
@@ -91,9 +91,18 @@
       "emoji": "🧊",
       "name": "Clutch Gene",
       "desc": "First team to win a knockout match after trailing.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
+      "status": "claimed",
+      "claim": {
+        "achievementId": "clutch",
+        "team": "Brazil",
+        "detail": "Won a knockout tie after trailing",
+        "match": "Brazil v Japan",
+        "fixtureId": 1562344,
+        "date": "2026-06-29T17:00:00+00:00",
+        "awardedBy": "auto",
+        "claimedAt": "2026-06-29T19:05:34.304Z"
+      },
+      "owner": "Gail",
       "leader": null
     },
     {
@@ -110,7 +119,7 @@
         "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
         "match": "Austria v Algeria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "Michelle C",
       "leader": null
@@ -129,7 +138,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "Neil",
       "leader": null
@@ -181,7 +190,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -224,7 +233,7 @@
         "detail": "Won with exactly 1 shot on target vs Uruguay",
         "match": "Spain v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "Becky",
       "leader": null
@@ -330,7 +339,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -394,7 +403,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "Kate",
       "leader": null
@@ -425,7 +434,7 @@
         "detail": "Lowest FIFA-ranked nation to reach the knockouts",
         "match": "",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-06-29T19:01:05.152Z"
+        "claimedAt": "2026-06-29T19:05:34.305Z"
       },
       "owner": "John",
       "leader": null
@@ -513,7 +522,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -525,7 +534,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -537,7 +546,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -549,7 +558,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "F**king Welly It!",
       "emoji": "🚀",
       "kind": "first",
@@ -561,7 +570,7 @@
       "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
       "match": "Austria v Algeria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "The Great Escape",
       "emoji": "🪂",
       "kind": "first",
@@ -573,7 +582,7 @@
       "detail": "Lowest FIFA-ranked nation to reach the knockouts",
       "match": "",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "Giant Killer",
       "emoji": "🗡️",
       "kind": "long",
@@ -585,7 +594,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
@@ -597,11 +606,25 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-06-29T19:01:05.152Z",
+      "claimedAt": "2026-06-29T19:05:34.305Z",
       "name": "Ghost Squad",
       "emoji": "👻",
       "kind": "first",
       "owner": "Becky"
+    },
+    {
+      "achievementId": "clutch",
+      "team": "Brazil",
+      "detail": "Won a knockout tie after trailing",
+      "match": "Brazil v Japan",
+      "fixtureId": 1562344,
+      "date": "2026-06-29T17:00:00+00:00",
+      "awardedBy": "auto",
+      "claimedAt": "2026-06-29T19:05:34.304Z",
+      "name": "Clutch Gene",
+      "emoji": "🧊",
+      "kind": "first",
+      "owner": "Gail"
     },
     {
       "achievementId": "beach",
@@ -984,6 +1007,15 @@
       "achievements": 1
     },
     {
+      "person": "Gail",
+      "teams": [
+        "Brazil",
+        "Haiti"
+      ],
+      "winnings": 10,
+      "achievements": 1
+    },
+    {
       "person": "Josh",
       "teams": [
         "Australia"
@@ -1047,15 +1079,6 @@
       "teams": [
         "Switzerland",
         "Croatia"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
-      "person": "Gail",
-      "teams": [
-        "Brazil",
-        "Haiti"
       ],
       "winnings": 0,
       "achievements": 0
@@ -1188,12 +1211,6 @@
   ],
   "upcoming": [
     {
-      "match": "Brazil v Japan",
-      "date": "2026-06-29T17:00:00+00:00",
-      "round": "Round of 32",
-      "status": "2H"
-    },
-    {
       "match": "Germany v Paraguay",
       "date": "2026-06-29T20:30:00+00:00",
       "round": "Round of 32",
@@ -1222,9 +1239,20 @@
       "date": "2026-07-01T01:00:00+00:00",
       "round": "Round of 32",
       "status": "NS"
+    },
+    {
+      "match": "England v Congo DR",
+      "date": "2026-07-01T16:00:00+00:00",
+      "round": "Round of 32",
+      "status": "NS"
     }
   ],
   "results": [
+    {
+      "match": "Brazil 2-1 Japan",
+      "round": "Round of 32",
+      "status": "FT"
+    },
     {
       "match": "South Africa 0-1 Canada",
       "round": "Round of 32",
@@ -1249,12 +1277,7 @@
       "match": "Colombia 0-0 Portugal",
       "round": "Group Stage - 3",
       "status": "FT"
-    },
-    {
-      "match": "Panama 0-2 England",
-      "round": "Group Stage - 3",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 73
+  "matchesProcessed": 74
 }
