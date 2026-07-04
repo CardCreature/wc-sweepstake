@@ -134,7 +134,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -142,7 +142,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -150,7 +150,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -188,7 +188,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -206,7 +206,7 @@
       "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
       "match": "Austria v Algeria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     },
     "giant_killer": {
       "achievementId": "giant_killer",
@@ -214,7 +214,7 @@
       "detail": "Lowest FIFA-ranked nation to reach the knockouts",
       "match": "",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     },
     "clutch": {
       "achievementId": "clutch",
@@ -232,7 +232,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -240,7 +240,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T00:31:07.604Z"
+      "claimedAt": "2026-07-04T00:35:32.884Z"
     }
   },
   "candidates": {
@@ -683,6 +683,13 @@
       "team": "Tunisia",
       "fixtureId": 1489412,
       "date": "2026-06-25T23:00:00+00:00"
+    },
+    {
+      "playerId": 41608,
+      "playerName": "D. Borges",
+      "team": "Cape Verde Islands",
+      "fixtureId": 1565179,
+      "date": "2026-07-03T22:00:00+00:00"
     }
   ],
   "goals": [
@@ -3490,6 +3497,17 @@
       "elapsed": 103,
       "extra": 0,
       "sortKey": "2026-07-03T22:00:00+00:00|103|103"
+    },
+    {
+      "fixtureId": 1565179,
+      "date": "2026-07-03T22:00:00+00:00",
+      "teamId": 26,
+      "teamName": "Argentina",
+      "player": "D. Borges",
+      "minute": "111'",
+      "elapsed": 111,
+      "extra": 0,
+      "sortKey": "2026-07-03T22:00:00+00:00|111|111"
     }
   ],
   "long": {
@@ -3946,7 +3964,7 @@
     },
     "1565179": {
       "Argentina": 2,
-      "Cape Verde Islands": 2
+      "Cape Verde Islands": 3
     },
     "1567306": {
       "Mexico": 0,
@@ -3997,7 +4015,7 @@
     "Saudi Arabia": 5,
     "Uruguay": 4,
     "Spain": 0,
-    "Cape Verde Islands": 4,
+    "Cape Verde Islands": 5,
     "Argentina": 3,
     "Algeria": 9,
     "Austria": 9,
