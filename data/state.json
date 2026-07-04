@@ -87,7 +87,8 @@
     1567312,
     1565178,
     1565179,
-    1567310
+    1567310,
+    1567824
   ],
   "claims": {
     "warnock": {
@@ -136,7 +137,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -144,7 +145,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -152,7 +153,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -190,7 +191,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -208,7 +209,7 @@
       "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
       "match": "Austria v Algeria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     },
     "giant_killer": {
       "achievementId": "giant_killer",
@@ -216,7 +217,7 @@
       "detail": "Lowest FIFA-ranked nation to reach the knockouts",
       "match": "",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     },
     "clutch": {
       "achievementId": "clutch",
@@ -234,7 +235,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -242,7 +243,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-04T19:01:14.956Z"
+      "claimedAt": "2026-07-04T19:05:30.265Z"
     }
   },
   "candidates": {
@@ -3537,7 +3538,7 @@
       "date": "2026-07-04T17:00:00+00:00",
       "teamId": 31,
       "teamName": "Morocco",
-      "player": "Azzedine Ounahi",
+      "player": "A. Ounahi",
       "minute": "50'",
       "elapsed": 50,
       "extra": 0,
@@ -3548,11 +3549,22 @@
       "date": "2026-07-04T17:00:00+00:00",
       "teamId": 31,
       "teamName": "Morocco",
-      "player": "Azzedine Ounahi",
+      "player": "A. Ounahi",
       "minute": "82'",
       "elapsed": 82,
       "extra": 0,
       "sortKey": "2026-07-04T17:00:00+00:00|082|082"
+    },
+    {
+      "fixtureId": 1567824,
+      "date": "2026-07-04T17:00:00+00:00",
+      "teamId": 31,
+      "teamName": "Morocco",
+      "player": "S. Rahimi",
+      "minute": "90+8'",
+      "elapsed": 90,
+      "extra": 8,
+      "sortKey": "2026-07-04T17:00:00+00:00|098|090"
     }
   ],
   "long": {
@@ -4047,7 +4059,7 @@
       "Algeria": 2
     },
     "1567824": {
-      "Canada": 2,
+      "Canada": 3,
       "Morocco": 0
     }
   },
@@ -4088,7 +4100,7 @@
     "Panama": 4,
     "Uzbekistan": 11,
     "Colombia": 1,
-    "Canada": 5,
+    "Canada": 6,
     "South Korea": 3,
     "Australia": 3,
     "Tunisia": 12,
