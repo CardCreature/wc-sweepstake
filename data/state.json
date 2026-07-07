@@ -142,7 +142,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -150,7 +150,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -158,7 +158,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -196,7 +196,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -214,7 +214,7 @@
       "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
       "match": "Austria v Algeria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     },
     "giant_killer": {
       "achievementId": "giant_killer",
@@ -222,7 +222,7 @@
       "detail": "Lowest FIFA-ranked nation to reach the knockouts",
       "match": "",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     },
     "clutch": {
       "achievementId": "clutch",
@@ -240,7 +240,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -248,7 +248,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T02:31:12.668Z"
+      "claimedAt": "2026-07-07T02:35:32.079Z"
     }
   },
   "candidates": {
