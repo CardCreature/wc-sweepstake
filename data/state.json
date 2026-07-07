@@ -141,7 +141,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -149,7 +149,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -157,7 +157,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -195,7 +195,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -213,7 +213,7 @@
       "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
       "match": "Austria v Algeria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     },
     "giant_killer": {
       "achievementId": "giant_killer",
@@ -221,7 +221,7 @@
       "detail": "Lowest FIFA-ranked nation to reach the knockouts",
       "match": "",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     },
     "clutch": {
       "achievementId": "clutch",
@@ -239,7 +239,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -247,7 +247,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-07T00:31:13.504Z"
+      "claimedAt": "2026-07-07T00:35:34.514Z"
     }
   },
   "candidates": {
@@ -3708,6 +3708,28 @@
       "elapsed": 9,
       "extra": 0,
       "sortKey": "2026-07-07T00:00:00+00:00|009|009"
+    },
+    {
+      "fixtureId": 1570715,
+      "date": "2026-07-07T00:00:00+00:00",
+      "teamId": 2384,
+      "teamName": "USA",
+      "player": "M. Tillman",
+      "minute": "31'",
+      "elapsed": 31,
+      "extra": 0,
+      "sortKey": "2026-07-07T00:00:00+00:00|031|031"
+    },
+    {
+      "fixtureId": 1570715,
+      "date": "2026-07-07T00:00:00+00:00",
+      "teamId": 1,
+      "teamName": "Belgium",
+      "player": "C. De Ketelaere",
+      "minute": "33'",
+      "elapsed": 33,
+      "extra": 0,
+      "sortKey": "2026-07-07T00:00:00+00:00|033|033"
     }
   ],
   "long": {
@@ -4218,8 +4240,8 @@
       "England": 2
     },
     "1570715": {
-      "USA": 1,
-      "Belgium": 0
+      "USA": 2,
+      "Belgium": 1
     },
     "1576756": {
       "Portugal": 1,
@@ -4229,7 +4251,7 @@
   "conceded": {
     "Mexico": 3,
     "South Africa": 4,
-    "USA": 5,
+    "USA": 6,
     "Paraguay": 6,
     "Brazil": 4,
     "Morocco": 4,
@@ -4243,7 +4265,7 @@
     "Ecuador": 4,
     "Netherlands": 5,
     "Japan": 5,
-    "Belgium": 4,
+    "Belgium": 5,
     "Egypt": 4,
     "Iran": 3,
     "New Zealand": 10,
