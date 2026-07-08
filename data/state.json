@@ -144,7 +144,7 @@
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     },
     "fergie": {
       "achievementId": "fergie",
@@ -152,7 +152,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     },
     "streets": {
       "achievementId": "streets",
@@ -160,7 +160,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     },
     "hat_trick": {
       "achievementId": "hat_trick",
@@ -198,7 +198,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     },
     "beach": {
       "achievementId": "beach",
@@ -216,7 +216,7 @@
       "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
       "match": "Austria v Algeria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     },
     "giant_killer": {
       "achievementId": "giant_killer",
@@ -224,7 +224,7 @@
       "detail": "Lowest FIFA-ranked nation to reach the knockouts",
       "match": "",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     },
     "clutch": {
       "achievementId": "clutch",
@@ -252,7 +252,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     },
     "ghost_squad": {
       "achievementId": "ghost_squad",
@@ -260,7 +260,15 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-08T22:45:38.476Z"
+      "claimedAt": "2026-07-08T22:46:45.934Z"
+    },
+    "early_bath": {
+      "achievementId": "early_bath",
+      "team": "Egypt",
+      "detail": "Coach sent off vs Argentina",
+      "match": "Egypt v Argentina",
+      "awardedBy": "Tom's ruling",
+      "claimedAt": "2026-07-08T22:46:45.934Z"
     }
   },
   "candidates": {
@@ -462,7 +470,7 @@
       "match": "Canada v Morocco",
       "fixtureId": 1567824,
       "date": "2026-07-04T17:00:00+00:00",
-      "status": "pending"
+      "status": "rejected"
     },
     "leadership|1570714|England": {
       "key": "leadership|1570714|England",
@@ -472,7 +480,7 @@
       "match": "Mexico v England",
       "fixtureId": 1570714,
       "date": "2026-07-06T01:00:00+00:00",
-      "status": "pending"
+      "status": "rejected"
     },
     "leadership|1576805|Switzerland": {
       "key": "leadership|1576805|Switzerland",
@@ -482,7 +490,7 @@
       "match": "Switzerland v Colombia",
       "fixtureId": 1576805,
       "date": "2026-07-07T20:00:00+00:00",
-      "status": "pending"
+      "status": "rejected"
     }
   },
   "playerAges": {
