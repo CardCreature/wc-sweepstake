@@ -23,7 +23,10 @@
     "leadership|1489416|Norway",
     "great_escape|1561329|Canada",
     "leadership|1567306|Ecuador",
-    "leadership|1567309|Croatia"
+    "leadership|1567309|Croatia",
+    "leadership|1567824|Morocco",
+    "leadership|1570714|England",
+    "leadership|1576805|Switzerland"
   ],
   "unclaim": ["ghost_squad", "redemption"],
   "manualClaims": {
@@ -61,6 +64,11 @@
     "giant_killer": {
       "team": "Ghana",
       "detail": "Lowest FIFA-ranked nation to reach the knockouts"
+    },
+    "early_bath": {
+      "team": "Egypt",
+      "detail": "Coach sent off vs Argentina",
+      "match": "Egypt v Argentina"
     }
   },
   "tiebreakers": {
