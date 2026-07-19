@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-19T22:01:00.677Z",
-  "tournamentComplete": false,
+  "updatedAt": "2026-07-19T22:05:31.511Z",
+  "tournamentComplete": true,
   "board": [
     {
       "id": "masterclass",
@@ -58,7 +58,7 @@
         "detail": "Scored 45+5 and 90+8 vs Paraguay",
         "match": "USA v Paraguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Kate",
       "leader": null
@@ -119,7 +119,7 @@
         "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
         "match": "Austria v Algeria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Michelle C",
       "leader": null
@@ -138,7 +138,7 @@
         "detail": "R. Jimenez scored aged 35+ vs South Africa",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Neil",
       "leader": null
@@ -178,7 +178,7 @@
         "detail": "Coach sent off vs Argentina",
         "match": "Egypt v Argentina",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Emma C",
       "leader": null
@@ -197,7 +197,7 @@
         "detail": "Player sent off after VAR review vs Mexico",
         "match": "Mexico v South Africa",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Nick Lunn",
       "leader": null
@@ -216,7 +216,7 @@
         "detail": "B. Embolo sent off for two yellows vs Argentina",
         "match": "Switzerland v Argentina",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Billy",
       "leader": null
@@ -247,7 +247,7 @@
         "detail": "Won with exactly 1 shot on target vs Uruguay",
         "match": "Spain v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Becky",
       "leader": null
@@ -362,7 +362,7 @@
         "detail": "35-yard goal vs Uruguay",
         "match": "Cape Verde Islands v Uruguay",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Wendy",
       "leader": null
@@ -426,7 +426,7 @@
         "detail": "L. Messi scored after missing a penalty vs Austria",
         "match": "Argentina v Austria",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "Kate",
       "leader": null
@@ -457,7 +457,7 @@
         "detail": "Lowest FIFA-ranked nation to reach the knockouts",
         "match": "",
         "awardedBy": "Tom's ruling",
-        "claimedAt": "2026-07-19T22:01:00.673Z"
+        "claimedAt": "2026-07-19T22:05:31.507Z"
       },
       "owner": "John",
       "leader": null
@@ -469,13 +469,16 @@
       "emoji": "🤡",
       "name": "Agent Chaos",
       "desc": "Team involved in the most own goals.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
-      "leader": {
+      "status": "claimed",
+      "claim": {
+        "achievementId": "agent_chaos",
         "team": "Qatar",
-        "detail": "3 own goal(s) involved in"
-      }
+        "detail": "Involved in 3 own goals",
+        "awardedBy": "auto",
+        "claimedAt": "2026-07-19T22:05:31.508Z"
+      },
+      "owner": "Luke",
+      "leader": null
     },
     {
       "id": "blink",
@@ -484,13 +487,16 @@
       "emoji": "⚡",
       "name": "Blink And You'll Miss It",
       "desc": "Fastest goal of the tournament.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
-      "leader": {
+      "status": "claimed",
+      "claim": {
+        "achievementId": "blink",
         "team": "Paraguay",
-        "detail": "M. Galarza 2' (Türkiye v Paraguay)"
-      }
+        "detail": "M. Galarza 2' (Türkiye v Paraguay)",
+        "awardedBy": "auto",
+        "claimedAt": "2026-07-19T22:05:31.508Z"
+      },
+      "owner": "Ant",
+      "leader": null
     },
     {
       "id": "better_late",
@@ -499,13 +505,16 @@
       "emoji": "🌙",
       "name": "Better Late Than Never",
       "desc": "Latest normal-time goal of the tournament.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
-      "leader": {
+      "status": "claimed",
+      "claim": {
+        "achievementId": "better_late",
         "team": "Austria",
-        "detail": "M. Arnautovic 90+12' (Austria v Jordan)"
-      }
+        "detail": "M. Arnautovic 90+12' (Austria v Jordan)",
+        "awardedBy": "auto",
+        "claimedAt": "2026-07-19T22:05:31.508Z"
+      },
+      "owner": "Michelle C",
+      "leader": null
     },
     {
       "id": "sieve",
@@ -529,23 +538,70 @@
       "emoji": "🚪",
       "name": "It's Nice To See You Here, Now F*** Off",
       "desc": "Earliest substitution of the tournament.",
-      "status": "open",
-      "claim": null,
-      "owner": null,
-      "leader": {
+      "status": "claimed",
+      "claim": {
+        "achievementId": "nice_to_see_you",
         "team": "Colombia",
-        "detail": "J. Cordoba off 8' (Colombia v Ghana)"
-      }
+        "detail": "J. Cordoba off 8' (Colombia v Ghana)",
+        "awardedBy": "auto",
+        "claimedAt": "2026-07-19T22:05:31.508Z"
+      },
+      "owner": "Lo",
+      "leader": null
     }
   ],
   "claims": [
+    {
+      "achievementId": "agent_chaos",
+      "team": "Qatar",
+      "detail": "Involved in 3 own goals",
+      "awardedBy": "auto",
+      "claimedAt": "2026-07-19T22:05:31.508Z",
+      "name": "Agent Chaos",
+      "emoji": "🤡",
+      "kind": "long",
+      "owner": "Luke"
+    },
+    {
+      "achievementId": "blink",
+      "team": "Paraguay",
+      "detail": "M. Galarza 2' (Türkiye v Paraguay)",
+      "awardedBy": "auto",
+      "claimedAt": "2026-07-19T22:05:31.508Z",
+      "name": "Blink And You'll Miss It",
+      "emoji": "⚡",
+      "kind": "long",
+      "owner": "Ant"
+    },
+    {
+      "achievementId": "better_late",
+      "team": "Austria",
+      "detail": "M. Arnautovic 90+12' (Austria v Jordan)",
+      "awardedBy": "auto",
+      "claimedAt": "2026-07-19T22:05:31.508Z",
+      "name": "Better Late Than Never",
+      "emoji": "🌙",
+      "kind": "long",
+      "owner": "Michelle C"
+    },
+    {
+      "achievementId": "nice_to_see_you",
+      "team": "Colombia",
+      "detail": "J. Cordoba off 8' (Colombia v Ghana)",
+      "awardedBy": "auto",
+      "claimedAt": "2026-07-19T22:05:31.508Z",
+      "name": "It's Nice To See You Here, Now F*** Off",
+      "emoji": "🚪",
+      "kind": "long",
+      "owner": "Lo"
+    },
     {
       "achievementId": "check_complete",
       "team": "South Africa",
       "detail": "Player sent off after VAR review vs Mexico",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "Check Complete",
       "emoji": "📺",
       "kind": "first",
@@ -557,7 +613,7 @@
       "detail": "Scored 45+5 and 90+8 vs Paraguay",
       "match": "USA v Paraguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "The Fergie Sandwich",
       "emoji": "⏱️",
       "kind": "first",
@@ -569,7 +625,7 @@
       "detail": "R. Jimenez scored aged 35+ vs South Africa",
       "match": "Mexico v South Africa",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "The Streets Won't Forget",
       "emoji": "👴",
       "kind": "first",
@@ -581,7 +637,7 @@
       "detail": "35-yard goal vs Uruguay",
       "match": "Cape Verde Islands v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "F**king Welly It!",
       "emoji": "🚀",
       "kind": "first",
@@ -593,7 +649,7 @@
       "detail": "Scored in the 96th minute vs Algeria to avoid elimination",
       "match": "Austria v Algeria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "The Great Escape",
       "emoji": "🪂",
       "kind": "first",
@@ -605,7 +661,7 @@
       "detail": "Lowest FIFA-ranked nation to reach the knockouts",
       "match": "",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "Giant Killer",
       "emoji": "🗡️",
       "kind": "long",
@@ -617,7 +673,7 @@
       "detail": "Coach sent off vs Argentina",
       "match": "Egypt v Argentina",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "Early Bath (Suit Edition)",
       "emoji": "👔",
       "kind": "first",
@@ -629,7 +685,7 @@
       "detail": "B. Embolo sent off for two yellows vs Argentina",
       "match": "Switzerland v Argentina",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "Double Trouble",
       "emoji": "🟨🟨",
       "kind": "first",
@@ -641,7 +697,7 @@
       "detail": "L. Messi scored after missing a penalty vs Austria",
       "match": "Argentina v Austria",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "Redemption Arc",
       "emoji": "📈",
       "kind": "first",
@@ -653,7 +709,7 @@
       "detail": "Won with exactly 1 shot on target vs Uruguay",
       "match": "Spain v Uruguay",
       "awardedBy": "Tom's ruling",
-      "claimedAt": "2026-07-19T22:01:00.673Z",
+      "claimedAt": "2026-07-19T22:05:31.507Z",
       "name": "Ghost Squad",
       "emoji": "👻",
       "kind": "first",
@@ -802,8 +858,15 @@
   ],
   "pending": [],
   "butterfly": {
-    "potValue": 0,
-    "potItems": [],
+    "potValue": 60,
+    "potItems": [
+      "leadership",
+      "barclays",
+      "hows_your_luck",
+      "thrones",
+      "sorry",
+      "sieve"
+    ],
     "totalGoals": 308,
     "lastGoal": {
       "fixtureId": 1591866,
@@ -1023,19 +1086,36 @@
       "achievements": 2
     },
     {
-      "person": "Nick Lunn",
-      "teams": [
-        "South Africa",
-        "Sweden"
-      ],
-      "winnings": 10,
-      "achievements": 1
-    },
-    {
       "person": "Luke",
       "teams": [
         "Czech Republic",
         "Qatar"
+      ],
+      "winnings": 20,
+      "achievements": 2
+    },
+    {
+      "person": "Ant",
+      "teams": [
+        "Paraguay",
+        "Saudi Arabia"
+      ],
+      "winnings": 20,
+      "achievements": 2
+    },
+    {
+      "person": "Michelle C",
+      "teams": [
+        "Austria"
+      ],
+      "winnings": 20,
+      "achievements": 2
+    },
+    {
+      "person": "Nick Lunn",
+      "teams": [
+        "South Africa",
+        "Sweden"
       ],
       "winnings": 10,
       "achievements": 1
@@ -1054,15 +1134,6 @@
       "teams": [
         "Bosnia & Herzegovina",
         "Netherlands"
-      ],
-      "winnings": 10,
-      "achievements": 1
-    },
-    {
-      "person": "Ant",
-      "teams": [
-        "Paraguay",
-        "Saudi Arabia"
       ],
       "winnings": 10,
       "achievements": 1
@@ -1137,9 +1208,10 @@
       "achievements": 1
     },
     {
-      "person": "Michelle C",
+      "person": "Lo",
       "teams": [
-        "Austria"
+        "Portugal",
+        "Colombia"
       ],
       "winnings": 10,
       "achievements": 1
@@ -1245,15 +1317,6 @@
       "achievements": 0
     },
     {
-      "person": "Lo",
-      "teams": [
-        "Portugal",
-        "Colombia"
-      ],
-      "winnings": 0,
-      "achievements": 0
-    },
-    {
       "person": "Natalie",
       "teams": [
         "England"
@@ -1270,15 +1333,13 @@
       "achievements": 0
     }
   ],
-  "upcoming": [
-    {
-      "match": "Spain v Argentina",
-      "date": "2026-07-19T19:00:00+00:00",
-      "round": "Final",
-      "status": "ET"
-    }
-  ],
+  "upcoming": [],
   "results": [
+    {
+      "match": "Spain 1-0 Argentina",
+      "round": "Final",
+      "status": "AET"
+    },
     {
       "match": "France 4-6 England",
       "round": "3rd Place Final",
@@ -1303,12 +1364,7 @@
       "match": "Norway 1-2 England",
       "round": "Quarter-finals",
       "status": "AET"
-    },
-    {
-      "match": "Spain 2-1 Belgium",
-      "round": "Quarter-finals",
-      "status": "FT"
     }
   ],
-  "matchesProcessed": 103
+  "matchesProcessed": 104
 }
